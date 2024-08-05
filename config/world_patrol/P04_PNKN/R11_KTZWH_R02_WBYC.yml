@@ -1,0 +1,60 @@
+author: ['DoctorReid']
+planet: '匹诺康尼'
+region: '开拓之尾号'
+floor: 1
+tp: '艉部泳池'
+route:
+  - idx: 1
+    op: 'move'
+    data: [539, 940]
+  - idx: 2
+    op: 'move'
+    data: [535, 895]
+  - idx: 3
+    op: 'disposable'
+  - idx: 4
+    op: 'move'
+    data: [535, 890]
+  - idx: 5
+    op: 'disposable'
+  - idx: 6
+    op: 'move'
+    data: [569, 885]
+  - idx: 7
+    op: 'move'
+    data: [567, 900]
+  - idx: 8
+    op: 'disposable'
+  - idx: 9
+    op: 'move'
+    data: [567, 901]
+  - idx: 10
+    op: 'disposable'
+  - idx: 11
+    op: 'move'
+    data: [598, 845]
+  - idx: 12
+    op: 'move'
+    data: [607, 849]
+  - idx: 13
+    op: 'disposable'
+  - idx: 14
+    op: 'move'
+    data: [542, 854]
+  - idx: 15
+    op: 'disposable'
+  - idx: 16
+    op: 'move'
+    data: [507, 841]
+  - idx: 17
+    op: 'disposable'
+  - idx: 18
+    op: 'move'
+    data: [503, 838]
+  - idx: 19
+    op: 'disposable'
+  - idx: 20
+    op: 'move'
+    data: [548, 793]
+  - idx: 21
+    op: 'disposable'

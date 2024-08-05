@@ -1,6 +1,8 @@
 name: Package into exe
 
 on:
+  workflow_dispatch:
+
   release:
     types:
       - published
