@@ -197,7 +197,9 @@ P03_R11_B1 = Region(11, "YQY", "幽囚狱", P03, floor=-1)
 P03_R11_B2 = Region(11, "YQY", "幽囚狱", P03, floor=-2)
 P03_R11_B3 = Region(11, "YQY", "幽囚狱", P03, floor=-3)
 P03_R11_B4 = Region(11, "YQY", "幽囚狱", P03, floor=-4)
-
+P03_R11_SUB_01 = Region(11, "YQY", "幽囚狱", P03, floor=-4,
+                           parent=P03_R11_B4, enter_template_id='mm_sp_05', enter_lm_pos=Point(1300, 943),
+                           large_map_scale=0)
 # 匹诺康尼
 P04_R01_F1 = Region(1, "BRMJDXS", "「白日梦」酒店-现实", P04, floor=1)
 P04_R01_F2 = Region(1, "BRMJDXS", "「白日梦」酒店-现实", P04, floor=2)
@@ -261,7 +263,7 @@ PLANET_2_REGION: Dict[str, List[Region]] = {
     P02.np_id: [P02_R01_F1, P02_R01_B1, P02_R02, P02_R03, P02_R04, P02_R05, P02_R06, P02_R07, P02_R08_F2, P02_R09, P02_R10,
                 P02_R11_F1, P02_R11_F2, P02_R12_F1, P02_R12_F2],
     P03.np_id: [P03_R01, P03_R02_F1, P03_R02_F2, P03_R03_F1, P03_R03_F2, P03_R04, P03_R05, P03_R06_F1, P03_R06_F2,
-                P03_R07, P03_R08_F1, P03_R08_F2, P03_R09, P03_R10, P03_R11_F1, P03_R11_B1, P03_R11_B2, P03_R11_B3, P03_R11_B4],
+                P03_R07, P03_R08_F1, P03_R08_F2, P03_R09, P03_R10, P03_R11_F1, P03_R11_B1, P03_R11_B2, P03_R11_B3, P03_R11_B4, P03_R11_SUB_01],
     P04.np_id: [P04_R01_F1, P04_R01_F2, P04_R01_F3, P04_R02_F1, P04_R02_F2, P04_R02_F3, P04_R03, P04_R04, P04_R05_F1, P04_R05_F2, P04_R05_F3,
                 P04_R06_F1, P04_R06_F2, P04_R06_SUB_01, P04_R07_F1, P04_R07_F2, P04_R08_F1, P04_R08_F2,
                 P04_R09, P04_R09_SUB_01, P04_R09_SUB_02, P04_R09_SUB_03_B2, P04_R09_SUB_03_B1, P04_R09_SUB_03_F1, P04_R09_SUB_03_F2, P04_R09_SUB_04, P04_R09_SUB_05, P04_R09_SUB_06,
