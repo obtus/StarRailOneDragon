@@ -433,7 +433,7 @@ class WorldPatrolRoute:
         return op
 
 
-def load_all_route_id(whitelist: WorldPatrolWhitelist = None, finished: List[str] = None) -> List[WorldPatrolRouteId]:
+def load_all_route_id(whitelist: WorldPatrolWhitelist = None, finished: List[str] = None, work_dir: str = 'world_patrol') -> List[WorldPatrolRouteId]:
     """
     加载所有路线
     :param whitelist: 白名单
@@ -441,7 +441,7 @@ def load_all_route_id(whitelist: WorldPatrolWhitelist = None, finished: List[str
     :return:
     """
     route_id_arr: List[WorldPatrolRouteId] = []
-    dir_path = os_utils.get_path_under_work_dir('config', 'world_patrol')
+    dir_path = os_utils.get_path_under_work_dir('config', work_dir)
 
     finished_unique_id = [] if finished is None else finished
 

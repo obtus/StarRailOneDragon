@@ -65,7 +65,8 @@ class WorldPatrol(Application):
         - 不返回时正常运行本指令
         """
         self.route_id_list = load_all_route_id(self.whitelist,
-                                               None if self.ignore_record else self.ctx.world_patrol_run_record.finished)
+                                               None if self.ignore_record else self.ctx.world_patrol_run_record.finished,
+                                               self.config.work_dir)
 
         self.current_route_idx = 0
 

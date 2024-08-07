@@ -53,3 +53,11 @@ class WorldPatrolConfig(ConfigHolder):
     @max_consumable_cnt.setter
     def max_consumable_cnt(self, new_value: int):
         self.update('max_consumable_cnt', new_value)
+
+    @property
+    def work_dir(self) -> str:
+        return self.get('work_dir', 'world_patrol')
+
+    @work_dir.setter
+    def work_dir(self, new_value: str):
+        self.update('work_dir', new_value)
