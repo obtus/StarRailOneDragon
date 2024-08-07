@@ -1,4 +1,4 @@
-author: ['DoctorReid']
+author: ['朗加', 'DoctorReid']
 planet: '匹诺康尼'
 region: '朝露公馆'
 floor: 1
@@ -8,54 +8,83 @@ route:
     op: 'move'
     data: [555, 462]
   - idx: 2
-    op: 'disposable'
-  - idx: 3
     op: 'move'
-    data: [543, 357]
+    data: [542, 453]
+  - idx: 3
+    op: 'disposable'
   - idx: 4
     op: 'move'
-    data: [520, 339]
+    data: [545, 328]
   - idx: 5
-    op: 'move'
-    data: [521, 294]
+    op: 'disposable'
   - idx: 6
     op: 'move'
-    data: [495, 289]
+    data: [543, 357]
   - idx: 7
     op: 'move'
-    data: [499, 323]
+    data: [500, 354]
   - idx: 8
-    op: 'slow_move'
-    data: [502, 348, 2]
+    op: 'disposable'
   - idx: 9
     op: 'move'
-    data: [504, 433]
+    data: [519, 348]
   - idx: 10
-    op: 'patrol'
+    op: 'move'
+    data: [521, 294]
   - idx: 11
     op: 'move'
-    data: [509, 462]
+    data: [495, 289]
   - idx: 12
-    op: 'patrol'
-  - idx: 13
     op: 'move'
-    data: [506, 479]
+    data: [499, 323]
+  - idx: 13
+    op: 'slow_move'
+    data: [502, 348, 2]
   - idx: 14
     op: 'move'
-    data: [553, 502]
+    data: [499, 416]
   - idx: 15
-    op: 'move'
-    data: [598, 503]
+    op: 'patrol'
   - idx: 16
-    op: 'move'
-    data: [641, 476]
+    op: 'slow_move'
+    data: [498, 450]
   - idx: 17
-    op: 'disposable'
+    op: 'patrol'
   - idx: 18
     op: 'move'
-    data: [647, 400]
+    data: [498, 469]
   - idx: 19
     op: 'move'
-    data: [626, 399]
+    data: [512, 460]
   - idx: 20
     op: 'patrol'
+  - idx: 21
+    op: 'move'
+    data: [505, 473]
+  - idx: 22
+    op: 'move'
+    data: [551, 505]
+  - idx: 23
+    op: 'move'
+    data: [590, 506]
+  - idx: 24
+    op: 'move'
+    data: [640, 470]
+  - idx: 25
+    op: 'disposable'
+  - idx: 26
+    op: 'move'
+    data: [643, 395]
+  - idx: 27
+    op: 'move'
+    data: [632, 398]
+  - idx: 28
+    op: 'patrol'
+  - idx: 29
+    op: 'move'
+    data: [646, 394]
+  - idx: 30
+    op: 'move'
+    data: [647, 344]
+  - idx: 31
+    op: 'disposable'

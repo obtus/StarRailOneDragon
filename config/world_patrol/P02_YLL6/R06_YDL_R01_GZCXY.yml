@@ -1,4 +1,4 @@
-author: ['DoctorReid']
+author: ['朗加', 'DoctorReid']
 planet: '雅利洛-VI'
 region: '永冬岭'
 floor: 0
@@ -17,9 +17,21 @@ route:
     data: [485, 663]
   - idx: 5
     op: 'move'
-    data: [462, 609]
+    data: [468, 635]
   - idx: 6
-    op: 'move'
-    data: [482, 540]
+    op: 'patrol'
   - idx: 7
+    op: 'move'
+    data: [467, 588]
+  - idx: 8
+    op: 'patrol'
+  - idx: 9
+    op: 'slow_move'
+    data: [483, 548]
+  - idx: 10
+    op: 'patrol'
+  - idx: 11
+    op: 'slow_move'
+    data: [506, 505]
+  - idx: 12
     op: 'patrol'

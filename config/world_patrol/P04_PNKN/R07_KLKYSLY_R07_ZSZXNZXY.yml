@@ -1,0 +1,13 @@
+author: ['DoctorReid']
+planet: '匹诺康尼'
+region: '克劳克影视乐园'
+floor: 1
+tp: '职司之形·凝滞虚影'
+route:
+  - idx: 1
+    op: 'move'
+    data: [881, 1028]
+  - idx: 2
+    op: 'disposable'
+  - idx: 3
+    op: 'patrol'

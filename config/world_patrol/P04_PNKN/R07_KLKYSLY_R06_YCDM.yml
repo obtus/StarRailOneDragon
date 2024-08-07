@@ -1,0 +1,144 @@
+author: ['DoctorReid']
+planet: '匹诺康尼'
+region: '克劳克影视乐园'
+floor: 1
+tp: '影城大门'
+route:
+  - idx: 1
+    op: 'move'
+    data: [1182, 914]
+  - idx: 2
+    op: 'move'
+    data: [1141, 893]
+  - idx: 3
+    op: 'disposable'
+  - idx: 4
+    op: 'move'
+    data: [1131, 893]
+  - idx: 5
+    op: 'disposable'
+  - idx: 6
+    op: 'move'
+    data: [1141, 931]
+  - idx: 7
+    op: 'disposable'
+  - idx: 8
+    op: 'move'
+    data: [1131, 931]
+  - idx: 9
+    op: 'disposable'
+  - idx: 10
+    op: 'move'
+    data: [1067, 929]
+  - idx: 11
+    op: 'move'
+    data: [1023, 957]
+  - idx: 12
+    op: 'disposable'
+  - idx: 13
+    op: 'move'
+    data: [1032, 957]
+  - idx: 14
+    op: 'disposable'
+  - idx: 15
+    op: 'move'
+    data: [1041, 957]
+  - idx: 16
+    op: 'disposable'
+  - idx: 17
+    op: 'move'
+    data: [1041, 863]
+  - idx: 18
+    op: 'disposable'
+  - idx: 19
+    op: 'move'
+    data: [1032, 863]
+  - idx: 20
+    op: 'disposable'
+  - idx: 21
+    op: 'move'
+    data: [1023, 863]
+  - idx: 22
+    op: 'disposable'
+  - idx: 23
+    op: 'move'
+    data: [1035, 824]
+  - idx: 24
+    op: 'move'
+    data: [980, 824]
+  - idx: 25
+    op: 'move'
+    data: [935, 824]
+  - idx: 26
+    op: 'move'
+    data: [907, 820]
+  - idx: 27
+    op: 'move'
+    data: [873, 803]
+  - idx: 28
+    op: 'move'
+    data: [848, 784]
+  - idx: 29
+    op: 'move'
+    data: [829, 785]
+  - idx: 30
+    op: 'move'
+    data: [806, 771]
+  - idx: 31
+    op: 'move'
+    data: [776, 769]
+  - idx: 32
+    op: 'move'
+    data: [750, 791]
+  - idx: 33
+    op: 'move'
+    data: [743, 825]
+  - idx: 34
+    op: 'move'
+    data: [744, 841]
+  - idx: 35
+    op: 'move'
+    data: [708, 853]
+  - idx: 36
+    op: 'move'
+    data: [681, 891]
+  - idx: 37
+    op: 'move'
+    data: [707, 898]
+  - idx: 38
+    op: 'move'
+    data: [724, 874]
+  - idx: 39
+    op: 'move'
+    data: [748, 875]
+  - idx: 40
+    op: 'patrol'
+  - idx: 41
+    op: 'move'
+    data: [724, 874]
+  - idx: 42
+    op: 'move'
+    data: [707, 898]
+  - idx: 43
+    op: 'move'
+    data: [731, 943]
+  - idx: 44
+    op: 'move'
+    data: [771, 945]
+  - idx: 45
+    op: 'move'
+    data: [779, 927]
+  - idx: 46
+    op: 'move'
+    data: [807, 932]
+  - idx: 47
+    op: 'move'
+    data: [798, 959]
+  - idx: 48
+    op: 'move'
+    data: [753, 985]
+  - idx: 49
+    op: 'move'
+    data: [715, 970]
+  - idx: 50
+    op: 'patrol'

@@ -1,0 +1,19 @@
+author: ['朗加', 'DoctorReid']
+planet: '匹诺康尼'
+region: '匹诺康尼大剧院'
+floor: 0
+tp: '上行长廊'
+route:
+  - idx: 1
+    op: 'move'
+    data: [770, 1263]
+  - idx: 2
+    op: 'disposable'
+  - idx: 3
+    op: 'move'
+    data: [785, 1241]
+  - idx: 4
+    op: 'move'
+    data: [770, 1198]
+  - idx: 5
+    op: 'disposable'

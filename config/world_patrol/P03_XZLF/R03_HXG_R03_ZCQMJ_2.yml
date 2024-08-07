@@ -6,36 +6,39 @@ tp: '植船区萌甲'
 route:
   - idx: 1
     op: 'move'
-    data: [465, 450]
+    data: [458, 474]
   - idx: 2
     op: 'move'
-    data: [438, 445]
+    data: [459, 438]
   - idx: 3
-    op: 'disposable'
-  - idx: 4
     op: 'move'
-    data: [465, 423]
+    data: [442, 440]
+  - idx: 4
+    op: 'disposable'
   - idx: 5
     op: 'move'
-    data: [458, 401]
+    data: [465, 423]
   - idx: 6
     op: 'move'
-    data: [457, 352]
+    data: [458, 401]
   - idx: 7
     op: 'move'
-    data: [459, 305]
+    data: [457, 352]
   - idx: 8
     op: 'move'
-    data: [460, 284]
+    data: [459, 305]
   - idx: 9
-    op: 'patrol'
+    op: 'move'
+    data: [460, 284]
   - idx: 10
-    op: 'move'
-    data: [492, 281]
-  - idx: 11
     op: 'patrol'
-  - idx: 12
-    op: 'move'
+  - idx: 11
+    op: 'slow_move'
     data: [513, 285]
+  - idx: 12
+    op: 'patrol'
   - idx: 13
+    op: 'move'
+    data: [531, 286]
+  - idx: 14
     op: 'patrol'

@@ -1,0 +1,27 @@
+author: ['DoctorReid']
+planet: '雅利洛-VI'
+region: '铆钉镇'
+floor: 1
+tp: '巽风之形·凝滞虚影'
+route:
+  - idx: 1
+    op: 'move'
+    data: [531, 397]
+  - idx: 2
+    op: 'disposable'
+  - idx: 3
+    op: 'move'
+    data: [521, 427]
+  - idx: 4
+    op: 'move'
+    data: [497, 481]
+  - idx: 5
+    op: 'disposable'
+  - idx: 6
+    op: 'move'
+    data: [504, 501]
+  - idx: 7
+    op: 'move'
+    data: [494, 516]
+  - idx: 8
+    op: 'disposable'

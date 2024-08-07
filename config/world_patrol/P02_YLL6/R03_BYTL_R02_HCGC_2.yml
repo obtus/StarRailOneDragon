@@ -1,0 +1,44 @@
+author: ['朗加', 'DoctorReid']
+planet: '雅利洛-VI'
+region: '边缘通路'
+floor: 0
+tp: '候车广场'
+route:
+  - idx: 1
+    op: 'disposable'
+  - idx: 2
+    op: 'slow_move'
+    data: [576, 855]
+  - idx: 3
+    op: 'disposable'
+  - idx: 4
+    op: 'move'
+    data: [625, 843]
+  - idx: 5
+    op: 'move'
+    data: [685, 841]
+  - idx: 6
+    op: 'move'
+    data: [740, 800]
+  - idx: 7
+    op: 'patrol'
+  - idx: 8
+    op: 'move'
+    data: [729, 797]
+  - idx: 9
+    op: 'disposable'
+  - idx: 10
+    op: 'move'
+    data: [740, 766]
+  - idx: 11
+    op: 'patrol'
+  - idx: 12
+    op: 'slow_move'
+    data: [745, 698]
+  - idx: 13
+    op: 'patrol'
+  - idx: 14
+    op: 'move'
+    data: [731, 712]
+  - idx: 15
+    op: 'disposable'

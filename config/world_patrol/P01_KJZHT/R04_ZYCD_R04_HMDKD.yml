@@ -1,0 +1,13 @@
+author: ['朗加', 'DoctorReid']
+planet: '空间站黑塔'
+region: '支援舱段'
+floor: 2
+tp: '毁灭的开端·历战余响'
+route:
+  - idx: 1
+    op: 'disposable'
+  - idx: 2
+    op: 'move'
+    data: [1014, 292]
+  - idx: 3
+    op: 'disposable'

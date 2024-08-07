@@ -6,84 +6,128 @@ tp: '界寰阵'
 route:
   - idx: 1
     op: 'move'
-    data: [320, 297]
+    data: [409, 243]
   - idx: 2
-    op: 'move'
-    data: [294, 324]
+    op: 'disposable'
   - idx: 3
     op: 'move'
-    data: [288, 405]
+    data: [377, 229]
   - idx: 4
-    op: 'move'
-    data: [313, 404]
-  - idx: 5
-    op: 'patrol'
-  - idx: 6
-    op: 'move'
-    data: [315, 457]
-  - idx: 7
     op: 'disposable'
+  - idx: 5
+    op: 'slow_move'
+    data: [399, 220]
+  - idx: 6
+    op: 'slow_move'
+    data: [417, 203]
+  - idx: 7
+    op: 'move'
+    data: [432, 185]
   - idx: 8
     op: 'move'
-    data: [286, 435]
+    data: [490, 186]
   - idx: 9
-    op: 'patrol'
+    op: 'move'
+    data: [520, 171]
   - idx: 10
     op: 'move'
-    data: [230, 435]
+    data: [542, 183]
   - idx: 11
-    op: 'move'
-    data: [231, 422]
+    op: 'slow_move'
+    data: [587, 184]
   - idx: 12
-    op: 'patrol'
+    op: 'interact'
+    data: '入画'
   - idx: 13
-    op: 'move'
-    data: [229, 404]
+    op: 'wait'
+    data: ['seconds', '10']
   - idx: 14
-    op: 'patrol'
+    op: 'update_pos'
+    data: [690, 239]
   - idx: 15
     op: 'move'
-    data: [186, 400]
+    data: [724, 264]
   - idx: 16
-    op: 'disposable'
+    op: 'move'
+    data: [705, 279]
   - idx: 17
-    op: 'move'
-    data: [192, 435]
+    op: 'disposable'
   - idx: 18
-    op: 'patrol'
+    op: 'move'
+    data: [736, 286]
   - idx: 19
-    op: 'move'
-    data: [230, 435]
+    op: 'patrol'
   - idx: 20
-    op: 'move'
-    data: [288, 435]
+    op: 'slow_move'
+    data: [780, 330]
   - idx: 21
-    op: 'move'
-    data: [285, 535]
+    op: 'slow_move'
+    data: [779, 394]
   - idx: 22
     op: 'move'
-    data: [330, 578]
+    data: [695, 394]
   - idx: 23
     op: 'move'
-    data: [350, 573]
+    data: [653, 432]
   - idx: 24
     op: 'disposable'
   - idx: 25
     op: 'move'
-    data: [378, 595]
+    data: [701, 471]
   - idx: 26
     op: 'move'
-    data: [403, 650]
+    data: [761, 474]
   - idx: 27
     op: 'move'
-    data: [436, 681]
+    data: [794, 448]
   - idx: 28
-    op: 'move'
-    data: [522, 683]
-  - idx: 29
-    op: 'patrol'
-  - idx: 30
-    op: 'move'
-    data: [552, 704]
-  - idx: 31
     op: 'disposable'
+  - idx: 29
+    op: 'move'
+    data: [765, 452]
+  - idx: 30
+    op: 'slow_move'
+    data: [761, 430]
+  - idx: 31
+    op: 'move'
+    data: [835, 430]
+  - idx: 32
+    op: 'slow_move'
+    data: [871, 409]
+  - idx: 33
+    op: 'move'
+    data: [907, 410]
+  - idx: 34
+    op: 'move'
+    data: [930, 383]
+  - idx: 35
+    op: 'patrol'
+  - idx: 36
+    op: 'move'
+    data: [873, 376]
+  - idx: 37
+    op: 'disposable'
+  - idx: 38
+    op: 'move'
+    data: [930, 383]
+  - idx: 39
+    op: 'slow_move'
+    data: [931, 431]
+  - idx: 40
+    op: 'move'
+    data: [986, 432]
+  - idx: 41
+    op: 'move'
+    data: [1010, 465]
+  - idx: 42
+    op: 'patrol'
+  - idx: 43
+    op: 'slow_move'
+    data: [1010, 400]
+  - idx: 44
+    op: 'patrol'
+  - idx: 45
+    op: 'move'
+    data: [1029, 376]
+  - idx: 46
+    op: 'patrol'

@@ -1,0 +1,55 @@
+author: ['朗加', 'DoctorReid']
+planet: '仙舟「罗浮」'
+region: '太卜司'
+floor: 2
+tp: '太衍穷观阵'
+route:
+  - idx: 1
+    op: 'move'
+    data: [520, 603]
+  - idx: 2
+    op: 'disposable'
+  - idx: 3
+    op: 'move'
+    data: [534, 625]
+  - idx: 4
+    op: 'move'
+    data: [535, 778]
+  - idx: 5
+    op: 'move'
+    data: [578, 803]
+  - idx: 6
+    op: 'disposable'
+  - idx: 7
+    op: 'move'
+    data: [535, 848]
+  - idx: 8
+    op: 'move'
+    data: [509, 867]
+  - idx: 9
+    op: 'patrol'
+  - idx: 10
+    op: 'slow_move'
+    data: [507, 920]
+  - idx: 11
+    op: 'patrol'
+  - idx: 12
+    op: 'slow_move'
+    data: [560, 926]
+  - idx: 13
+    op: 'patrol'
+  - idx: 14
+    op: 'slow_move'
+    data: [563, 867]
+  - idx: 15
+    op: 'patrol'
+  - idx: 16
+    op: 'slow_move'
+    data: [507, 870]
+  - idx: 17
+    op: 'patrol'
+  - idx: 18
+    op: 'move'
+    data: [487, 938]
+  - idx: 19
+    op: 'disposable'

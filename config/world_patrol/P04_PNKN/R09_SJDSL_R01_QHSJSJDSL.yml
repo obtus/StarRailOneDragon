@@ -1,4 +1,4 @@
-author: ['DoctorReid']
+author: ['朗加', 'DoctorReid']
 planet: '匹诺康尼'
 region: '时间的试炼入口'
 floor: 0
@@ -11,9 +11,9 @@ route:
     op: 'patrol'
   - idx: 3
     op: 'move'
-    data: [414, 550]
+    data: [415, 538]
   - idx: 4
-    op: 'move'
+    op: 'slow_move'
     data: [406, 521]
   - idx: 5
     op: 'disposable'
@@ -22,26 +22,70 @@ route:
     data: [420, 505]
   - idx: 7
     op: 'move'
-    data: [403, 418]
+    data: [414, 448]
   - idx: 8
     op: 'move'
-    data: [377, 299]
+    data: [335, 454]
   - idx: 9
-    op: 'disposable'
-  - idx: 10
     op: 'move'
-    data: [462, 356]
+    data: [335, 472]
+  - idx: 10
+    op: 'disposable'
   - idx: 11
     op: 'move'
-    data: [507, 361]
+    data: [399, 401]
   - idx: 12
     op: 'move'
-    data: [518, 382]
+    data: [377, 299]
   - idx: 13
-    op: 'move'
-    data: [558, 381]
+    op: 'disposable'
   - idx: 14
     op: 'move'
-    data: [574, 364]
+    data: [428, 316]
   - idx: 15
+    op: 'disposable'
+  - idx: 16
+    op: 'move'
+    data: [408, 345]
+  - idx: 17
+    op: 'move'
+    data: [462, 356]
+  - idx: 18
+    op: 'move'
+    data: [507, 361]
+  - idx: 19
+    op: 'move'
+    data: [516, 355]
+  - idx: 20
+    op: 'disposable'
+  - idx: 21
+    op: 'move'
+    data: [511, 425]
+  - idx: 22
+    op: 'disposable'
+  - idx: 23
+    op: 'move'
+    data: [518, 382]
+  - idx: 24
+    op: 'move'
+    data: [558, 381]
+  - idx: 25
+    op: 'move'
+    data: [574, 364]
+  - idx: 26
     op: 'patrol'
+  - idx: 27
+    op: 'move'
+    data: [559, 364]
+  - idx: 28
+    op: 'disposable'
+  - idx: 29
+    op: 'move'
+    data: [559, 425]
+  - idx: 30
+    op: 'disposable'
+  - idx: 31
+    op: 'move'
+    data: [574, 425]
+  - idx: 32
+    op: 'disposable'

@@ -1,4 +1,4 @@
-author: ['DoctorReid', 'nyehueh']
+author: ['朗加', 'DoctorReid']
 planet: '雅利洛-VI'
 region: '残响回廊'
 floor: 0
@@ -9,12 +9,28 @@ route:
     data: [485, 617]
   - idx: 2
     op: 'move'
-    data: [486, 490]
+    data: [479, 486]
   - idx: 3
-    op: 'move'
-    data: [487, 452]
+    op: 'disposable'
   - idx: 4
     op: 'move'
-    data: [499, 441]
+    data: [481, 500]
   - idx: 5
+    op: 'slow_move'
+    data: [489, 501]
+  - idx: 6
+    op: 'slow_move'
+    data: [486, 490]
+  - idx: 7
+    op: 'move'
+    data: [487, 452]
+  - idx: 8
+    op: 'patrol'
+  - idx: 9
+    op: 'slow_move'
+    data: [499, 441]
+  - idx: 10
+    op: 'slow_move'
+    data: [530, 413]
+  - idx: 11
     op: 'patrol'

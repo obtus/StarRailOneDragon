@@ -1,4 +1,4 @@
-author: ['DoctorReid']
+author: ['朗加', 'DoctorReid']
 planet: '雅利洛-VI'
 region: '机械聚落'
 floor: 1
@@ -11,10 +11,10 @@ route:
     op: 'patrol'
   - idx: 3
     op: 'move'
-    data: [347, 548]
+    data: [342, 554]
   - idx: 4
     op: 'move'
-    data: [402, 533]
+    data: [404, 529]
   - idx: 5
     op: 'move'
     data: [404, 496]
@@ -22,77 +22,29 @@ route:
     op: 'disposable'
   - idx: 7
     op: 'move'
-    data: [410, 420]
+    data: [410, 422]
   - idx: 8
     op: 'patrol'
   - idx: 9
-    op: 'move'
-    data: [415, 482]
+    op: 'slow_move'
+    data: [442, 411]
   - idx: 10
-    op: 'move'
-    data: [433, 482]
+    op: 'patrol'
   - idx: 11
     op: 'move'
-    data: [475, 483]
+    data: [462, 412]
   - idx: 12
-    op: 'move'
-    data: [503, 497]
-  - idx: 13
     op: 'disposable'
-  - idx: 14
+  - idx: 13
     op: 'move'
-    data: [612, 487]
+    data: [411, 410]
+  - idx: 14
+    op: 'disposable'
   - idx: 15
     op: 'move'
-    data: [635, 486]
+    data: [360, 407]
   - idx: 16
     op: 'move'
-    data: [678, 496]
+    data: [286, 364]
   - idx: 17
     op: 'disposable'
-  - idx: 18
-    op: 'move'
-    data: [724, 451]
-  - idx: 19
-    op: 'move'
-    data: [715, 423]
-  - idx: 20
-    op: 'patrol'
-  - idx: 21
-    op: 'move'
-    data: [674, 425]
-  - idx: 22
-    op: 'patrol'
-  - idx: 23
-    op: 'move'
-    data: [737, 425]
-  - idx: 24
-    op: 'move'
-    data: [752, 415]
-  - idx: 25
-    op: 'move'
-    data: [751, 393]
-  - idx: 26
-    op: 'disposable'
-  - idx: 27
-    op: 'move'
-    data: [796, 393]
-  - idx: 28
-    op: 'disposable'
-  - idx: 29
-    op: 'move'
-    data: [751, 393]
-  - idx: 30
-    op: 'move'
-    data: [720, 465]
-  - idx: 31
-    op: 'move'
-    data: [737, 477]
-  - idx: 32
-    op: 'move'
-    data: [771, 500]
-  - idx: 33
-    op: 'move'
-    data: [784, 496]
-  - idx: 34
-    op: 'patrol'

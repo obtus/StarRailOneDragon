@@ -1,0 +1,80 @@
+author: ['朗加', 'DoctorReid']
+planet: '仙舟「罗浮」'
+region: '鳞渊境'
+floor: 0
+tp: '古海宫墟'
+route:
+  - idx: 1
+    op: 'move'
+    data: [1127, 505]
+  - idx: 2
+    op: 'move'
+    data: [1147, 505]
+  - idx: 3
+    op: 'disposable'
+  - idx: 4
+    op: 'move'
+    data: [1136, 540]
+  - idx: 5
+    op: 'move'
+    data: [1145, 563]
+  - idx: 6
+    op: 'move'
+    data: [1122, 579]
+  - idx: 7
+    op: 'patrol'
+  - idx: 8
+    op: 'move'
+    data: [1097, 608]
+  - idx: 9
+    op: 'patrol'
+  - idx: 10
+    op: 'move'
+    data: [1045, 610]
+  - idx: 11
+    op: 'patrol'
+  - idx: 12
+    op: 'move'
+    data: [1037, 610]
+  - idx: 13
+    op: 'move'
+    data: [1037, 594]
+  - idx: 14
+    op: 'move'
+    data: [1041, 590]
+  - idx: 15
+    op: 'disposable'
+  - idx: 16
+    op: 'move'
+    data: [1033, 594]
+  - idx: 17
+    op: 'move'
+    data: [1029, 608]
+  - idx: 18
+    op: 'patrol'
+  - idx: 19
+    op: 'slow_move'
+    data: [995, 610]
+  - idx: 20
+    op: 'patrol'
+  - idx: 21
+    op: 'slow_move'
+    data: [960, 610]
+  - idx: 22
+    op: 'patrol'
+  - idx: 23
+    op: 'move'
+    data: [898, 610]
+  - idx: 24
+    op: 'disposable'
+  - idx: 25
+    op: 'move'
+    data: [919, 610]
+  - idx: 26
+    op: 'move'
+    data: [917, 569]
+  - idx: 27
+    op: 'move'
+    data: [900, 570]
+  - idx: 28
+    op: 'patrol'

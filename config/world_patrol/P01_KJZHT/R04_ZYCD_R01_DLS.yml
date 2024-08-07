@@ -1,4 +1,4 @@
-author: ['DoctorReid', 'nyehueh']
+author: ['DoctorReid', 'nyehueh', '朗加']
 planet: '空间站黑塔'
 region: '支援舱段'
 floor: 2
@@ -24,34 +24,41 @@ route:
     op: 'patrol'
   - idx: 8
     op: 'move'
-    data: [247, 382]
+    data: [204, 388]
   - idx: 9
-    op: 'move'
-    data: [265, 381]
+    op: 'disposable'
   - idx: 10
     op: 'move'
-    data: [273, 314]
+    data: [247, 382]
   - idx: 11
     op: 'move'
-    data: [314, 314]
+    data: [265, 381]
   - idx: 12
-    op: 'patrol'
+    op: 'move'
+    data: [273, 314]
   - idx: 13
+    op: 'patrol'
+  - idx: 14
+    op: 'slow_move'
+    data: [339, 315]
+  - idx: 15
+    op: 'patrol'
+  - idx: 16
     op: 'move'
     data: [436, 313]
-  - idx: 14
-    op: 'move'
-    data: [440, 234]
-  - idx: 15
-    op: 'move'
-    data: [406, 237]
-  - idx: 16
-    op: 'disposable'
   - idx: 17
     op: 'move'
-    data: [490, 226]
+    data: [440, 234]
   - idx: 18
     op: 'move'
-    data: [563, 235]
+    data: [406, 237]
   - idx: 19
+    op: 'disposable'
+  - idx: 20
+    op: 'move'
+    data: [490, 232]
+  - idx: 21
+    op: 'move'
+    data: [563, 235]
+  - idx: 22
     op: 'patrol'

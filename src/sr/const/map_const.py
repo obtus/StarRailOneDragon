@@ -256,7 +256,9 @@ P04_R10_SUB_01_F2 = Region(10, "MJKJ1", "梦境空间1", P04, floor=2,
 P04_R10_SUB_01_F3 = Region(10, "MJKJ1", "梦境空间1", P04, floor=3,
                            parent=P04_R10, enter_template_id='mm_sp_05', enter_lm_pos=Point(387, 755),
                            large_map_scale=0)
-
+P04_R11_B1 = Region(11, "HCSH", "晖长石号", P04, floor=-1)
+P04_R11_F1 = Region(11, "HCSH", "晖长石号", P04, floor=1)
+P04_R11_F2 = Region(11, "HCSH", "晖长石号", P04, floor=2)
 
 # 这里的顺序需要保持和界面上的区域顺序一致
 PLANET_2_REGION: Dict[str, List[Region]] = {
@@ -269,7 +271,8 @@ PLANET_2_REGION: Dict[str, List[Region]] = {
     P04.np_id: [P04_R01_F1, P04_R01_F2, P04_R01_F3, P04_R02_F1, P04_R02_F2, P04_R02_F3, P04_R03, P04_R04, P04_R05_F1, P04_R05_F2, P04_R05_F3,
                 P04_R06_F1, P04_R06_F2, P04_R06_SUB_01, P04_R07_F1, P04_R07_F2, P04_R08_F1, P04_R08_F2,
                 P04_R09, P04_R09_SUB_01, P04_R09_SUB_02, P04_R09_SUB_03_B2, P04_R09_SUB_03_B1, P04_R09_SUB_03_F1, P04_R09_SUB_03_F2, P04_R09_SUB_04, P04_R09_SUB_05, P04_R09_SUB_06,
-                P04_R10, P04_R10_SUB_01_F2, P04_R10_SUB_01_F3]
+                P04_R10, P04_R10_SUB_01_F2, P04_R10_SUB_01_F3,
+                P04_R11_B1, P04_R11_F1, P04_R11_F2]
 }
 
 
@@ -826,19 +829,24 @@ P04_R09_SUB_06_SP01 = TransportPoint('XMQZDZPTZ', '戏梦奇战·动作派挑战
 P04_R09_SUB_06_SP02 = TransportPoint('HXTK', '海选特快', P04_R09_SUB_06, 'mm_sp_18', (716, 89))
 P04_R09_SUB_06_SP03 = TransportPoint('FCTK', '返程特快', P04_R09_SUB_06, 'mm_sp_18', (718, 686))
 
+
 P04_R10_SP01 = TransportPoint('TXDT', '调弦大厅', P04_R10, 'mm_tp_03', (796, 770), tp_pos=(796, 756))
 P04_R10_SP02 = TransportPoint('JYT', '交谊厅', P04_R10, 'mm_tp_03', (1306, 790), tp_pos=(1282, 767))
 P04_R10_SP03 = TransportPoint('FYSL', '福音沙龙', P04_R10, 'mm_tp_03', (283, 792), tp_pos=(319, 782))
 P04_R10_SP04 = TransportPoint('SXCL', '上行长廊', P04_R10, 'mm_tp_03', (813, 1306), tp_pos=(796, 1308))
-P04_R10_SP05 = TransportPoint('', '梦境空间', P04_R10, 'mm_sp_05', (385, 749))
-P04_R10_SP06 = TransportPoint('XXHNXD', '小小哈努行动', P04_R10, 'mm_sp_11', (1267, 882))
-P04_R10_SP07 = TransportPoint('FSFRDDS', '妃色夫人的「大树」', P04_R10, 'mm_sp_14', (322, 891))
-P04_R10_SP08 = TransportPoint('CMDZLLZYX', '尘梦的赞礼·历战余响', P04_R10, 'mm_boss_05', (793, 298), tp_pos=(796, 309))
-P04_R10_SP09 = TransportPoint('ZSZLNZHEC', '智识之蕾·拟造花萼（赤）', P04_R10, 'mm_tp_07', (1022, 383), tp_pos=(1028, 381))
-P04_R10_SP10 = TransportPoint('YQZJQSCD', '勇骑之径·侵蚀隧洞', P04_R10, 'mm_tp_09', (222, 627), tp_pos=(228, 631))
-P04_R10_SP11 = TransportPoint('JXZXNZXY', '今宵之形·凝滞虚影', P04_R10, 'mm_tp_06', (973, 1291), tp_pos=(952, 1292))
+P04_R10_SP05 = TransportPoint('XYZXNZXY', '弦音之形·凝滞虚影', P04_R10, 'mm_tp_06', (1118, 980), tp_pos=(1118, 962))
+P04_R10_SP06 = TransportPoint('JXZXNZXY', '今宵之形·凝滞虚影', P04_R10, 'mm_tp_06', (973, 1291), tp_pos=(952, 1292))
+P04_R10_SP07 = TransportPoint('ZSZLNZHEC', '智识之蕾·拟造花萼（赤）', P04_R10, 'mm_tp_07', (1022, 383), tp_pos=(1028, 381))
+P04_R10_SP08 = TransportPoint('YQZJQSCD', '勇骑之径·侵蚀隧洞', P04_R10, 'mm_tp_09', (222, 627), tp_pos=(228, 631))
+P04_R10_SP09 = TransportPoint('MJKJ', '梦境空间', P04_R10, 'mm_sp_05', (385, 749))
+P04_R10_SP10 = TransportPoint('XXHNXD', '小小哈努行动', P04_R10, 'mm_sp_11', (1267, 882))
+P04_R10_SP11 = TransportPoint('FSFRDDS', '妃色夫人的「大树」', P04_R10, 'mm_sp_14', (322, 891))
+P04_R10_SP12 = TransportPoint('CMDZLLZYX', '尘梦的赞礼·历战余响', P04_R10, 'mm_boss_05', (793, 298), tp_pos=(796, 309))
 
-
+P04_R11_SP01 = TransportPoint('ZYHC', '主宴会舱', P04_R11_F1, 'mm_tp_03', (499, 649), tp_pos=(521, 663))
+P04_R11_SP02 = TransportPoint('ZCXXS', '中舱休息室', P04_R11_B1, 'mm_tp_03', (595, 560), tp_pos=(573, 575))
+P04_R11_SP03 = TransportPoint('WBYC', '艉部泳池', P04_R11_F1, 'mm_tp_03', (543, 956), tp_pos=(573, 975))
+P04_R11_SP04 = TransportPoint('JSC', '驾驶舱', P04_R11_F1, 'mm_tp_03', (586, 169), tp_pos=(571, 167))
 
 REGION_2_SP = {
     P01_R01.pr_id: [P01_R01_SP03],
@@ -899,8 +907,8 @@ REGION_2_SP = {
     P04_R09_SUB_04.pr_id: [P04_R09_SUB_04_SP01, P04_R09_SUB_04_SP02, P04_R09_SUB_04_SP03, P04_R09_SUB_04_SP04],
     P04_R09_SUB_05.pr_id: [P04_R09_SUB_05_SP01, P04_R09_SUB_05_SP02, P04_R09_SUB_05_SP03],
     P04_R09_SUB_06.pr_id: [P04_R09_SUB_06_SP01, P04_R09_SUB_06_SP02, P04_R09_SUB_06_SP03],
-    P04_R10.pr_id: [P04_R10_SP01, P04_R10_SP02, P04_R10_SP03, P04_R10_SP04, P04_R10_SP05, P04_R10_SP06, P04_R10_SP07, P04_R10_SP08, P04_R10_SP09,
-                    P04_R10_SP10, P04_R10_SP11],
+    P04_R10.pr_id: [P04_R10_SP01, P04_R10_SP02, P04_R10_SP03, P04_R10_SP04, P04_R10_SP05, P04_R10_SP06, P04_R10_SP07, P04_R10_SP08, P04_R10_SP09, P04_R10_SP10, P04_R10_SP11,P04_R10_SP12],
+    P04_R11_F1.pr_id: [P04_R11_SP01, P04_R11_SP02, P04_R11_SP03, P04_R11_SP04],
 }
 
 def get_sp_by_cn(planet_cn: str, region_cn: str, floor: int, tp_cn: str) -> TransportPoint:

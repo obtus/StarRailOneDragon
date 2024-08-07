@@ -1,0 +1,25 @@
+author: ['DoctorReid']
+planet: '匹诺康尼'
+region: '匹诺康尼大剧院'
+floor: 0
+tp: '弦音之形·凝滞虚影'
+route:
+  - idx: 1
+    op: 'move'
+    data: [1075, 904]
+  - idx: 2
+    op: 'move'
+    data: [1027, 834]
+  - idx: 3
+    op: 'wait'
+    data: ['seconds', '2']
+  - idx: 4
+    op: 'move'
+    data: [1005, 808]
+  - idx: 5
+    op: 'patrol'
+  - idx: 6
+    op: 'move'
+    data: [1014, 793]
+  - idx: 7
+    op: 'patrol'

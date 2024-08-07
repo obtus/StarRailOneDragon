@@ -1,56 +1,125 @@
-author: ['DoctorReid']
+author: ['朗加', 'DoctorReid']
 planet: '匹诺康尼'
 region: '动作派挑战'
 floor: 0
 tp: '戏梦奇战·动作派挑战'
 route:
   - idx: 1
-    op: 'move'
-    data: [741, 522]
+    op: 'slow_move'
+    data: [744, 524]
   - idx: 2
     op: 'disposable'
   - idx: 3
     op: 'move'
-    data: [758, 484]
+    data: [734, 514]
   - idx: 4
-    op: 'patrol'
-  - idx: 5
     op: 'move'
-    data: [741, 451]
+    data: [758, 482]
+  - idx: 5
+    op: 'patrol'
   - idx: 6
     op: 'move'
-    data: [720, 437]
+    data: [720, 469]
   - idx: 7
-    op: 'move'
-    data: [684, 432]
+    op: 'disposable'
   - idx: 8
-    op: 'patrol'
-  - idx: 9
     op: 'move'
-    data: [674, 395]
+    data: [721, 465]
+  - idx: 9
+    op: 'disposable'
   - idx: 10
     op: 'move'
-    data: [687, 355]
+    data: [745, 461]
   - idx: 11
     op: 'move'
-    data: [716, 290]
+    data: [714, 431]
   - idx: 12
-    op: 'patrol'
+    op: 'slow_move'
+    data: [721, 399]
   - idx: 13
-    op: 'patrol'
+    op: 'disposable'
   - idx: 14
     op: 'move'
-    data: [738, 320]
+    data: [729, 414]
   - idx: 15
-    op: 'disposable'
-  - idx: 16
     op: 'move'
-    data: [781, 307]
+    data: [686, 428]
+  - idx: 16
+    op: 'patrol'
   - idx: 17
     op: 'move'
-    data: [788, 286]
+    data: [675, 407]
   - idx: 18
     op: 'move'
-    data: [787, 257]
+    data: [672, 375]
   - idx: 19
+    op: 'move'
+    data: [695, 349]
+  - idx: 20
+    op: 'slow_move'
+    data: [750, 317]
+  - idx: 21
+    op: 'disposable'
+  - idx: 22
+    op: 'move'
+    data: [720, 289]
+  - idx: 23
+    op: 'patrol'
+  - idx: 24
+    op: 'slow_move'
+    data: [707, 277]
+  - idx: 25
+    op: 'patrol'
+  - idx: 26
+    op: 'move'
+    data: [714, 283]
+  - idx: 27
+    op: 'patrol'
+  - idx: 28
+    op: 'move'
+    data: [712, 334]
+  - idx: 29
+    op: 'move'
+    data: [682, 326]
+  - idx: 30
+    op: 'disposable'
+  - idx: 31
+    op: 'move'
+    data: [645, 309]
+  - idx: 32
+    op: 'move'
+    data: [682, 239]
+  - idx: 33
+    op: 'disposable'
+  - idx: 34
+    op: 'move'
+    data: [669, 218]
+  - idx: 35
+    op: 'slow_move'
+    data: [690, 193]
+  - idx: 36
+    op: 'disposable'
+  - idx: 37
+    op: 'slow_move'
+    data: [669, 214]
+  - idx: 38
+    op: 'move'
+    data: [758, 214]
+  - idx: 39
+    op: 'slow_move'
+    data: [740, 194]
+  - idx: 40
+    op: 'disposable'
+  - idx: 41
+    op: 'move'
+    data: [758, 209]
+  - idx: 42
+    op: 'move'
+    data: [765, 255]
+  - idx: 43
+    op: 'patrol'
+  - idx: 44
+    op: 'slow_move'
+    data: [783, 243]
+  - idx: 45
     op: 'patrol'

@@ -1,0 +1,17 @@
+author: ['朗加', 'DoctorReid']
+planet: '匹诺康尼'
+region: '匹诺康尼大剧院'
+floor: 0
+tp: '交谊厅'
+route:
+  - idx: 1
+    op: 'move'
+    data: [1302, 748]
+  - idx: 2
+    op: 'move'
+    data: [1353, 649]
+  - idx: 3
+    op: 'move'
+    data: [1315, 647]
+  - idx: 4
+    op: 'disposable'

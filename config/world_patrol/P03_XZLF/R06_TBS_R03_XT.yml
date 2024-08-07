@@ -1,4 +1,4 @@
-author: ['DoctorReid', '龙女姬']
+author: ['朗加', 'DoctorReid']
 planet: '仙舟「罗浮」'
 region: '太卜司'
 floor: 2
@@ -17,67 +17,69 @@ route:
     op: 'disposable'
   - idx: 5
     op: 'move'
-    data: [508, 1127]
+    data: [518, 1149]
   - idx: 6
     op: 'move'
-    data: [533, 1122]
+    data: [524, 1134]
   - idx: 7
     op: 'patrol'
   - idx: 8
     op: 'move'
-    data: [535, 1049]
+    data: [565, 1108]
   - idx: 9
-    op: 'move'
-    data: [610, 1046]
+    op: 'patrol'
   - idx: 10
     op: 'move'
-    data: [638, 1045]
+    data: [506, 1113]
   - idx: 11
-    op: 'move'
-    data: [673, 1045]
-  - idx: 12
     op: 'patrol'
+  - idx: 12
+    op: 'move'
+    data: [524, 1118]
   - idx: 13
     op: 'move'
-    data: [638, 1045]
+    data: [535, 1049]
   - idx: 14
     op: 'move'
-    data: [610, 1046]
+    data: [495, 1010]
   - idx: 15
-    op: 'move'
-    data: [537, 1021]
+    op: 'disposable'
   - idx: 16
-    op: 'move'
-    data: [534, 921]
+    op: 'slow_move'
+    data: [499, 1022]
   - idx: 17
-    op: 'move'
-    data: [561, 917]
+    op: 'slow_move'
+    data: [423, 1022]
   - idx: 18
-    op: 'patrol'
+    op: 'slow_move'
+    data: [408, 1005]
   - idx: 19
-    op: 'move'
-    data: [561, 866]
+    op: 'slow_move'
+    data: [408, 951]
   - idx: 20
-    op: 'patrol'
+    op: 'slow_move'
+    data: [408, 926]
   - idx: 21
     op: 'move'
-    data: [503, 865]
+    data: [405, 891]
   - idx: 22
     op: 'move'
-    data: [503, 895]
+    data: [315, 890]
   - idx: 23
-    op: 'move'
-    data: [493, 931]
+    op: 'patrol'
   - idx: 24
-    op: 'disposable'
+    op: 'slow_move'
+    data: [276, 890]
   - idx: 25
-    op: 'move'
-    data: [485, 897]
+    op: 'patrol'
   - idx: 26
     op: 'move'
-    data: [465, 896]
+    data: [314, 892]
   - idx: 27
     op: 'move'
-    data: [299, 890]
+    data: [311, 909]
   - idx: 28
-    op: 'patrol'
+    op: 'move'
+    data: [303, 912]
+  - idx: 29
+    op: 'disposable'

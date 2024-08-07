@@ -1,0 +1,24 @@
+author: ['朗加', 'DoctorReid']
+planet: '匹诺康尼'
+region: '匹诺康尼大剧院'
+floor: 0
+tp: '福音沙龙'
+route:
+  - idx: 1
+    op: 'move'
+    data: [274, 827]
+  - idx: 2
+    op: 'patrol'
+  - idx: 3
+    op: 'move'
+    data: [393, 853]
+  - idx: 4
+    op: 'move'
+    data: [523, 951]
+  - idx: 5
+    op: 'disposable'
+  - idx: 6
+    op: 'move'
+    data: [523, 903]
+  - idx: 7
+    op: 'disposable'

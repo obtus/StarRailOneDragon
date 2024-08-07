@@ -1,0 +1,74 @@
+author: ['朗加', 'DoctorReid']
+planet: '匹诺康尼'
+region: '匹诺康尼大剧院'
+floor: 0
+tp: '调弦大厅'
+route:
+  - idx: 1
+    op: 'move'
+    data: [760, 777]
+  - idx: 2
+    op: 'disposable'
+  - idx: 3
+    op: 'move'
+    data: [720, 732]
+  - idx: 4
+    op: 'patrol'
+  - idx: 5
+    op: 'move'
+    data: [654, 685]
+  - idx: 6
+    op: 'disposable'
+  - idx: 7
+    op: 'move'
+    data: [643, 690]
+  - idx: 8
+    op: 'move'
+    data: [619, 678]
+  - idx: 9
+    op: 'move'
+    data: [597, 662]
+  - idx: 10
+    op: 'patrol'
+  - idx: 11
+    op: 'move'
+    data: [555, 600]
+  - idx: 12
+    op: 'move'
+    data: [540, 555]
+  - idx: 13
+    op: 'move'
+    data: [527, 500]
+  - idx: 14
+    op: 'move'
+    data: [567, 487]
+  - idx: 15
+    op: 'patrol'
+  - idx: 16
+    op: 'move'
+    data: [527, 500]
+  - idx: 17
+    op: 'move'
+    data: [525, 389]
+  - idx: 18
+    op: 'patrol'
+  - idx: 19
+    op: 'slow_move'
+    data: [494, 418]
+  - idx: 20
+    op: 'patrol'
+  - idx: 21
+    op: 'slow_move'
+    data: [474, 455]
+  - idx: 22
+    op: 'patrol'
+  - idx: 23
+    op: 'move'
+    data: [419, 439]
+  - idx: 24
+    op: 'patrol'
+  - idx: 25
+    op: 'move'
+    data: [417, 419]
+  - idx: 26
+    op: 'patrol'
