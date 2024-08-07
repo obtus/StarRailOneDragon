@@ -625,15 +625,15 @@ if __name__ == '__main__':
     r = map_const.P03_R11_B4
     sc = special_condition.get(r.pr_id, None)
     # print(LargeMapRecorder.same_as_last_row(r, _row, _col))
-    merge = False
-    if merge:
-        LargeMapRecorder.do_merge_1(r,
-                                    skip_height=sc.get('skip_height', None) if sc is not None else None,
-                                    max_row=sc.get('max_row', None) if sc is not None else None,
-                                    max_col=sc.get('max_column', None) if sc is not None else None,
-                                    show=True
-                                    )
-        exit(0)
+    # merge = False
+    # if merge:
+    #     LargeMapRecorder.do_merge_1(r,
+    #                                 skip_height=sc.get('skip_height', None) if sc is not None else None,
+    #                                 max_row=sc.get('max_row', None) if sc is not None else None,
+    #                                 max_col=sc.get('max_column', None) if sc is not None else None,
+    #                                 show=True
+    #                                 )
+    #     exit(0)
 
     # 执行前先传送到别的地图 确保当前地图上没有无关的任务标记
     # 执行后 如果是重新录制地图 需要确保更新 map_const 中的坐标点 以及对应的 锄大地/模拟宇宙 路线
