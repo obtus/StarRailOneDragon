@@ -197,9 +197,8 @@ P03_R11_B1 = Region(11, "YQY", "幽囚狱", P03, floor=-1)
 P03_R11_B2 = Region(11, "YQY", "幽囚狱", P03, floor=-2)
 P03_R11_B3 = Region(11, "YQY", "幽囚狱", P03, floor=-3)
 P03_R11_B4 = Region(11, "YQY", "幽囚狱", P03, floor=-4)
-P03_R11_SUB_01 = Region(11, "YQY", "幽囚狱", P03, floor=-4,
-                           parent=P03_R11_B4, enter_template_id='mm_sp_05', enter_lm_pos=Point(1300, 943),
-                           large_map_scale=0)
+P03_R11_SUB_01 = Region(11, "YQYDB", "幽囚狱", P03, parent=P03_R11_B4, enter_template_id='mm_sp_05',
+                        enter_lm_pos=Point(1300, 943), large_map_scale=0)
 # 匹诺康尼
 P04_R01_F1 = Region(1, "BRMJDXS", "「白日梦」酒店-现实", P04, floor=1)
 P04_R01_F2 = Region(1, "BRMJDXS", "「白日梦」酒店-现实", P04, floor=2)
@@ -256,17 +255,21 @@ P04_R10_SUB_01_F3 = Region(10, "MJKJ1", "梦境空间1", P04, floor=3,
                            parent=P04_R10, enter_template_id='mm_sp_05', enter_lm_pos=Point(387, 755),
                            large_map_scale=0)
 
-
 # 这里的顺序需要保持和界面上的区域顺序一致
 PLANET_2_REGION: Dict[str, List[Region]] = {
-    P01.np_id: [P01_R01, P01_R02, P01_R03_F1, P01_R03_F2, P01_R03_B1, P01_R04_F1, P01_R04_F2, P01_R05_F1, P01_R05_F2, P01_R05_L3],
-    P02.np_id: [P02_R01_F1, P02_R01_B1, P02_R02, P02_R03, P02_R04, P02_R05, P02_R06, P02_R07, P02_R08_F2, P02_R09, P02_R10,
+    P01.np_id: [P01_R01, P01_R02, P01_R03_F1, P01_R03_F2, P01_R03_B1, P01_R04_F1, P01_R04_F2, P01_R05_F1, P01_R05_F2,
+                P01_R05_L3],
+    P02.np_id: [P02_R01_F1, P02_R01_B1, P02_R02, P02_R03, P02_R04, P02_R05, P02_R06, P02_R07, P02_R08_F2, P02_R09,
+                P02_R10,
                 P02_R11_F1, P02_R11_F2, P02_R12_F1, P02_R12_F2],
     P03.np_id: [P03_R01, P03_R02_F1, P03_R02_F2, P03_R03_F1, P03_R03_F2, P03_R04, P03_R05, P03_R06_F1, P03_R06_F2,
-                P03_R07, P03_R08_F1, P03_R08_F2, P03_R09, P03_R10, P03_R11_F1, P03_R11_B1, P03_R11_B2, P03_R11_B3, P03_R11_B4, P03_R11_SUB_01],
-    P04.np_id: [P04_R01_F1, P04_R01_F2, P04_R01_F3, P04_R02_F1, P04_R02_F2, P04_R02_F3, P04_R03, P04_R04, P04_R05_F1, P04_R05_F2, P04_R05_F3,
+                P03_R07, P03_R08_F1, P03_R08_F2, P03_R09, P03_R10, P03_R11_F1, P03_R11_B1, P03_R11_B2, P03_R11_B3,
+                P03_R11_B4, P03_R11_SUB_01],
+    P04.np_id: [P04_R01_F1, P04_R01_F2, P04_R01_F3, P04_R02_F1, P04_R02_F2, P04_R02_F3, P04_R03, P04_R04, P04_R05_F1,
+                P04_R05_F2, P04_R05_F3,
                 P04_R06_F1, P04_R06_F2, P04_R06_SUB_01, P04_R07_F1, P04_R07_F2, P04_R08_F1, P04_R08_F2,
-                P04_R09, P04_R09_SUB_01, P04_R09_SUB_02, P04_R09_SUB_03_B2, P04_R09_SUB_03_B1, P04_R09_SUB_03_F1, P04_R09_SUB_03_F2, P04_R09_SUB_04, P04_R09_SUB_05, P04_R09_SUB_06,
+                P04_R09, P04_R09_SUB_01, P04_R09_SUB_02, P04_R09_SUB_03_B2, P04_R09_SUB_03_B1, P04_R09_SUB_03_F1,
+                P04_R09_SUB_03_F2, P04_R09_SUB_04, P04_R09_SUB_05, P04_R09_SUB_06,
                 P04_R10, P04_R10_SUB_01_F2, P04_R10_SUB_01_F3]
 }
 
@@ -349,7 +352,8 @@ def get_region_by_prl_id(prd_id: str) -> Optional[Region]:
 
 class TransportPoint:
 
-    def __init__(self, id: str, cn: str, region: Region, template_id: str, lm_pos: tuple, tp_pos: Optional[tuple] = None):
+    def __init__(self, id: str, cn: str, region: Region, template_id: str, lm_pos: tuple,
+                 tp_pos: Optional[tuple] = None):
         self.id: str = id  # 英文 用在找图
         self.cn: str = cn  # 中文 用在OCR
         self.region: Region = region  # 所属区域
@@ -373,7 +377,8 @@ class TransportPoint:
 # 空间站黑塔 - 主控舱段
 P01_R01_SP01 = TransportPoint('JCY', '监察域', P01_R01, 'mm_tp_03', (529, 231), (562, 243))
 P01_R01_SP02 = TransportPoint('HXTL', '核心通路', P01_R01, 'mm_tp_03', (592, 691), (563, 678))
-P01_R01_SP03 = TransportPoint('HTDBGS', '黑塔的办公室', P01_R01, 'mm_tp_04', (245, 796), (245, 770))  # 这个比较特殊 需要走出办公室才是这个坐标
+P01_R01_SP03 = TransportPoint('HTDBGS', '黑塔的办公室', P01_R01, 'mm_tp_04', (245, 796),
+                              (245, 770))  # 这个比较特殊 需要走出办公室才是这个坐标
 P01_R01_SP04 = TransportPoint('FSSQ', '封锁扇区', P01_R01, 'mm_sp_01', (228, 744))
 P01_R01_SP05 = TransportPoint('TKDT', '太空电梯', P01_R01, 'mm_sp_02', (562, 837))
 P01_R01_SP06 = TransportPoint('NGZY', '内购专员', P01_R01, 'mm_sp_04', (535, 628))
@@ -724,9 +729,12 @@ P04_R05_SP05 = TransportPoint('JMJB', '惊梦酒吧', P04_R05_F3, 'mm_tp_03', (4
 P04_R05_SP06 = TransportPoint('BJKF', '铂金客房', P04_R05_F3, 'mm_tp_03', (1491, 699), tp_pos=(1471, 681))
 P04_R05_SP07 = TransportPoint('GBXXSZL', '贵宾休息室走廊', P04_R05_F3, 'mm_tp_03', (493, 737), tp_pos=(459, 745))
 P04_R05_SP08 = TransportPoint('BNZXNZXY', '冰酿之形·凝滞虚影', P04_R05_F3, 'mm_tp_06', (206, 745), tp_pos=(230, 747))
-P04_R05_SP09 = TransportPoint('TXZLNZHEC', '同谐之蕾·拟造花萼（赤）', P04_R05_F3, 'mm_tp_07', (649, 1054), tp_pos=(651, 1059))
-P04_R05_SP10 = TransportPoint('CZZLNZHEJ', '藏珍之蕾·拟造花萼（金）', P04_R05_F3, 'mm_tp_08', (1314, 1397), tp_pos=(1318, 1398))
-P04_R05_SP11 = TransportPoint('MQZJQSSD', '梦潜之径·侵蚀隧洞', P04_R05_F3, 'mm_tp_09', (1507, 1354), tp_pos=(1504, 1352))
+P04_R05_SP09 = TransportPoint('TXZLNZHEC', '同谐之蕾·拟造花萼（赤）', P04_R05_F3, 'mm_tp_07', (649, 1054),
+                              tp_pos=(651, 1059))
+P04_R05_SP10 = TransportPoint('CZZLNZHEJ', '藏珍之蕾·拟造花萼（金）', P04_R05_F3, 'mm_tp_08', (1314, 1397),
+                              tp_pos=(1318, 1398))
+P04_R05_SP11 = TransportPoint('MQZJQSSD', '梦潜之径·侵蚀隧洞', P04_R05_F3, 'mm_tp_09', (1507, 1354),
+                              tp_pos=(1504, 1352))
 P04_R05_SP12 = TransportPoint('RMC', '入梦池', P04_R05_F3, 'mm_sp_10', (1493, 680))
 P04_R05_SP13 = TransportPoint('TYBT', '调饮吧台', P04_R05_F3, 'mm_tp_17', (410, 273), tp_pos=(417, 273))
 
@@ -735,7 +743,8 @@ P04_R06_SP02 = TransportPoint('CLJLDDS', '草绿经理的「大树」', P04_R06_
 P04_R06_SP03 = TransportPoint('YBC', '迎宾处', P04_R06_F2, 'mm_tp_03', (589, 856), tp_pos=(574, 846))
 
 P04_R06_SUB_01_SP01 = TransportPoint('CSSH', '城市沙盒', P04_R06_SUB_01, 'mm_tp_03', (871, 607), tp_pos=(890, 596))
-P04_R06_SUB_01_SP02 = TransportPoint('CNZXNZXY', '嗔怒之形·凝滞虚影', P04_R06_SUB_01, 'mm_tp_06', (678, 708), tp_pos=(663, 710))
+P04_R06_SUB_01_SP02 = TransportPoint('CNZXNZXY', '嗔怒之形·凝滞虚影', P04_R06_SUB_01, 'mm_tp_06', (678, 708),
+                                     tp_pos=(663, 710))
 
 P04_R07_SP01 = TransportPoint('YCDM', '影城大门', P04_R07_F1, 'mm_tp_03', (1244, 884), tp_pos=(1262, 910))
 P04_R07_SP02 = TransportPoint('HJDSK', '黄金的时刻', P04_R07_F1, 'mm_sp_02', (1272, 910))
@@ -743,13 +752,15 @@ P04_R07_SP03 = TransportPoint('WEN', '沃尔纳', P04_R07_F1, 'mm_sp_03', (1146,
 P04_R07_SP04 = TransportPoint('CSQLY', '仓鼠球乐园', P04_R07_F2, 'mm_tp_03', (664, 424), tp_pos=(688, 433))
 P04_R07_SP05 = TransportPoint('FYQRK', '放映区入口', P04_R07_F2, 'mm_tp_03', (490, 895), tp_pos=(528, 912))
 P04_R07_SP06 = TransportPoint('HNBPJD', '哈努帮派基地', P04_R07_F2, 'mm_tp_03', (705, 1456), tp_pos=(702, 1442))
-P04_R07_SP07 = TransportPoint('CHZLNZHEC', '存护之蕾·拟造花萼（赤）', P04_R07_F2, 'mm_tp_07', (832, 1243), tp_pos=(837, 1247))
+P04_R07_SP07 = TransportPoint('CHZLNZHEC', '存护之蕾·拟造花萼（赤）', P04_R07_F2, 'mm_tp_07', (832, 1243),
+                              tp_pos=(837, 1247))
 P04_R07_SP08 = TransportPoint('MMXZZTCT', '美梦小镇主题餐厅', P04_R07_F2, 'mm_sp_03', (478, 830))
 P04_R07_SP09 = TransportPoint('XXHNXD', '小小哈努行动', P04_R07_F2, 'mm_sp_11', (776, 439))
 P04_R07_SP10 = TransportPoint('XXHNXD', '小小哈努行动', P04_R07_F2, 'mm_sp_11', (816, 1405))
 P04_R07_SP11 = TransportPoint('HJGZDDS', '黄金公子的「大树」', P04_R07_F2, 'mm_sp_14', (819, 493))
 P04_R07_SP12 = TransportPoint('CSQQSSDYJG', '《仓鼠球骑士：速度与坚果》', P04_R07_F2, 'mm_sp_17', (756, 333))
-P04_R07_SP13 = TransportPoint('ZSZXNZXY', '职司之形·凝滞虚影', P04_R07_F1, 'mm_tp_06', (855, 1040), tp_pos=(873, 1028))  # 2.2新增
+P04_R07_SP13 = TransportPoint('ZSZXNZXY', '职司之形·凝滞虚影', P04_R07_F1, 'mm_tp_06', (855, 1040),
+                              tp_pos=(873, 1028))  # 2.2新增
 P04_R07_SP14 = TransportPoint('MMWSPSDD', '《美梦往事》拍摄地点', P04_R07_F2, 'mm_tp_16', (332, 909), tp_pos=(332, 909))
 P04_R07_SP15 = TransportPoint('HNXDLZD', '《哈努兄弟：狼之道》', P04_R07_F2, 'mm_sp_17', (634, 1465))
 P04_R07_SP16 = TransportPoint('HNXDDJA', '哈努兄弟大劫案', P04_R07_F2, 'mm_sp_01', (659, 1420))
@@ -768,7 +779,8 @@ P04_R08_SP10 = TransportPoint('ZLJSDDS', '湛蓝爵士的「大树」', P04_R08_
 
 P04_R09_SP01 = TransportPoint('JXZL', '巨星之路', P04_R09, 'mm_tp_03', (585, 635), tp_pos=(572, 638))
 P04_R09_SP02 = TransportPoint('HXGC', '海选广场', P04_R09, 'mm_tp_03', (558, 2155), tp_pos=(570, 2118))
-P04_R09_SP03 = TransportPoint('XLZLNZHEC', '巡猎之蕾·拟造花萼（赤）', P04_R09, 'mm_tp_07', (517, 1691), tp_pos=(522, 1693))
+P04_R09_SP03 = TransportPoint('XLZLNZHEC', '巡猎之蕾·拟造花萼（赤）', P04_R09, 'mm_tp_07', (517, 1691),
+                              tp_pos=(522, 1693))
 P04_R09_SP04 = TransportPoint('CHDGDDS', '赤红大哥的「大树」', P04_R09, 'mm_sp_14', (627, 1694))
 P04_R09_SP05 = TransportPoint('FCTK', '返程特快', P04_R09, 'mm_sp_18', (570, 801))
 P04_R09_SP06 = TransportPoint('HXTK', '海选特快', P04_R09, 'mm_sp_18', (569, 1581))
@@ -779,29 +791,36 @@ P04_R09_SP10 = TransportPoint('SJDSLRK', '时间的试炼入口', P04_R09, 'mm_s
 P04_R09_SP11 = TransportPoint('YJPTZRK', '演技派挑战入口', P04_R09, 'mm_sub_02', (294, 1404))
 P04_R09_SP12 = TransportPoint('DZPTZRK', '动作派挑战入口', P04_R09, 'mm_sub_02', (403, 1404))
 
-P04_R09_SUB_01_SP01 = TransportPoint('JXDFZYHLT', '巨星巅峰战·一号擂台', P04_R09_SUB_01, 'mm_tp_03', (736, 510), tp_pos=(763, 525))
+P04_R09_SUB_01_SP01 = TransportPoint('JXDFZYHLT', '巨星巅峰战·一号擂台', P04_R09_SUB_01, 'mm_tp_03', (736, 510),
+                                     tp_pos=(763, 525))
 P04_R09_SUB_01_SP02 = TransportPoint('FCTK', '返程特快', P04_R09_SUB_01, 'mm_sp_18', (763, 764))
 
-P04_R09_SUB_02_SP01 = TransportPoint('JXDFZEHLT', '巨星巅峰战·二号擂台', P04_R09_SUB_02, 'mm_tp_03', (792, 525), tp_pos=(766, 539))
+P04_R09_SUB_02_SP01 = TransportPoint('JXDFZEHLT', '巨星巅峰战·二号擂台', P04_R09_SUB_02, 'mm_tp_03', (792, 525),
+                                     tp_pos=(766, 539))
 P04_R09_SUB_02_SP02 = TransportPoint('FCTK', '返程特快', P04_R09_SUB_02, 'mm_sp_18', (765, 779))
 
 P04_R09_SUB_03_SP01 = TransportPoint('HNZX', '哈努战线', P04_R09_SUB_03_B2, 'mm_sp_17', (763, 452))
 P04_R09_SUB_03_SP02 = TransportPoint('XXHNXD', '小小哈努行动', P04_R09_SUB_03_B1, 'mm_sp_11', (733, 461))
-P04_R09_SUB_03_SP03 = TransportPoint('QHSJQHDSL', '枪火时间·枪火的试炼', P04_R09_SUB_03_F1, 'mm_tp_03', (743, 525), tp_pos=(731, 537))
+P04_R09_SUB_03_SP03 = TransportPoint('QHSJQHDSL', '枪火时间·枪火的试炼', P04_R09_SUB_03_F1, 'mm_tp_03', (743, 525),
+                                     tp_pos=(731, 537))
 P04_R09_SUB_03_SP04 = TransportPoint('XXHNXD', '小小哈努行动', P04_R09_SUB_03_F1, 'mm_sp_11', (732, 438))
 P04_R09_SUB_03_SP05 = TransportPoint('FCTK', '返程特快', P04_R09_SUB_03_F1, 'mm_sp_18', (724, 630))
 P04_R09_SUB_03_SP06 = TransportPoint('HXTK', '海选特快', P04_R09_SUB_03_B2, 'mm_sp_18', (810, 132))
 
-P04_R09_SUB_04_SP01 = TransportPoint('QHSJSJDSLHF', '枪火时间·时间的试炼（后方）', P04_R09_SUB_04, 'mm_tp_03', (918, 185), tp_pos=(934, 195))
-P04_R09_SUB_04_SP02 = TransportPoint('QHSJSJDSL', '枪火时间·时间的试炼', P04_R09_SUB_04, 'mm_tp_03', (403, 545), tp_pos=(419, 554))
+P04_R09_SUB_04_SP01 = TransportPoint('QHSJSJDSLHF', '枪火时间·时间的试炼（后方）', P04_R09_SUB_04, 'mm_tp_03', (918, 185),
+                                     tp_pos=(934, 195))
+P04_R09_SUB_04_SP02 = TransportPoint('QHSJSJDSL', '枪火时间·时间的试炼', P04_R09_SUB_04, 'mm_tp_03', (403, 545),
+                                     tp_pos=(419, 554))
 P04_R09_SUB_04_SP03 = TransportPoint('HXTK', '海选特快', P04_R09_SUB_04, 'mm_sp_18', (404, 173))
 P04_R09_SUB_04_SP04 = TransportPoint('FCTK', '返程特快', P04_R09_SUB_04, 'mm_sp_18', (418, 622))
 
-P04_R09_SUB_05_SP01 = TransportPoint('XMQZYJPTZ', '戏梦奇战·演技派挑战', P04_R09_SUB_05, 'mm_tp_03', (736, 527), tp_pos=(718, 531))
+P04_R09_SUB_05_SP01 = TransportPoint('XMQZYJPTZ', '戏梦奇战·演技派挑战', P04_R09_SUB_05, 'mm_tp_03', (736, 527),
+                                     tp_pos=(718, 531))
 P04_R09_SUB_05_SP02 = TransportPoint('HXTK', '海选特快', P04_R09_SUB_05, 'mm_sp_18', (719, 90))
 P04_R09_SUB_05_SP03 = TransportPoint('FCTK', '返程特快', P04_R09_SUB_05, 'mm_sp_18', (717, 687))
 
-P04_R09_SUB_06_SP01 = TransportPoint('XMQZDZPTZ', '戏梦奇战·动作派挑战', P04_R09_SUB_06, 'mm_tp_03', (701, 524), tp_pos=(718, 531))
+P04_R09_SUB_06_SP01 = TransportPoint('XMQZDZPTZ', '戏梦奇战·动作派挑战', P04_R09_SUB_06, 'mm_tp_03', (701, 524),
+                                     tp_pos=(718, 531))
 P04_R09_SUB_06_SP02 = TransportPoint('HXTK', '海选特快', P04_R09_SUB_06, 'mm_sp_18', (716, 89))
 P04_R09_SUB_06_SP03 = TransportPoint('FCTK', '返程特快', P04_R09_SUB_06, 'mm_sp_18', (718, 686))
 
@@ -813,70 +832,98 @@ P04_R10_SP05 = TransportPoint('', '', P04_R10, 'mm_sp_05', (385, 749))
 P04_R10_SP06 = TransportPoint('XXHNXD', '小小哈努行动', P04_R10, 'mm_sp_11', (1267, 882))
 P04_R10_SP07 = TransportPoint('FSFRDDS', '妃色夫人的「大树」', P04_R10, 'mm_sp_14', (322, 891))
 P04_R10_SP08 = TransportPoint('CMDZLLZYX', '尘梦的赞礼·历战余响', P04_R10, 'mm_boss_05', (793, 298), tp_pos=(796, 309))
-P04_R10_SP09 = TransportPoint('ZSZLNZHEC', '智识之蕾·拟造花萼（赤）', P04_R10, 'mm_tp_07', (1022, 383), tp_pos=(1028, 381))
+P04_R10_SP09 = TransportPoint('ZSZLNZHEC', '智识之蕾·拟造花萼（赤）', P04_R10, 'mm_tp_07', (1022, 383),
+                              tp_pos=(1028, 381))
 P04_R10_SP10 = TransportPoint('YQZJQSCD', '勇骑之径·侵蚀隧洞', P04_R10, 'mm_tp_09', (222, 627), tp_pos=(228, 631))
-
-
 
 REGION_2_SP = {
     P01_R01.pr_id: [P01_R01_SP03],
     P01_R02.pr_id: [P01_R02_SP01, P01_R02_SP02, P01_R02_SP03, P01_R02_SP04],
-    P01_R03_F1.pr_id: [P01_R03_SP01, P01_R03_SP02, P01_R03_SP03, P01_R03_SP04, P01_R03_SP05, P01_R03_SP06, P01_R03_SP07],
+    P01_R03_F1.pr_id: [P01_R03_SP01, P01_R03_SP02, P01_R03_SP03, P01_R03_SP04, P01_R03_SP05, P01_R03_SP06,
+                       P01_R03_SP07],
     P01_R04_F1.pr_id: [P01_R04_SP01, P01_R04_SP02, P01_R04_SP03, P01_R04_SP04, P01_R04_SP05, P01_R04_SP06],
-    P01_R05_F1.pr_id: [P01_R05_SP01, P01_R05_SP02, P01_R05_SP03, P01_R05_SP04, P01_R05_SP05, P01_R05_SP06, P01_R05_SP07],
+    P01_R05_F1.pr_id: [P01_R05_SP01, P01_R05_SP02, P01_R05_SP03, P01_R05_SP04, P01_R05_SP05, P01_R05_SP06,
+                       P01_R05_SP07],
     P02_R01_F1.pr_id: [
-        P02_R01_SP01, P02_R01_SP02, P02_R01_SP03, P02_R01_SP04, P02_R01_SP05, P02_R01_SP06, P02_R01_SP07, P02_R01_SP08, P02_R01_SP09, P02_R01_SP10,
-        P02_R01_SP11, P02_R01_SP12, P02_R01_SP13, P02_R01_SP14, P02_R01_SP15, P02_R01_SP16, P02_R01_SP17, P02_R01_SP18, P02_R01_SP19],
+        P02_R01_SP01, P02_R01_SP02, P02_R01_SP03, P02_R01_SP04, P02_R01_SP05, P02_R01_SP06, P02_R01_SP07, P02_R01_SP08,
+        P02_R01_SP09, P02_R01_SP10,
+        P02_R01_SP11, P02_R01_SP12, P02_R01_SP13, P02_R01_SP14, P02_R01_SP15, P02_R01_SP16, P02_R01_SP17, P02_R01_SP18,
+        P02_R01_SP19],
     P02_R02.pr_id: [P02_R02_SP01, P02_R02_SP02, P02_R02_SP03, P02_R02_SP04, P02_R02_SP05, P02_R02_SP06],
     P02_R03.pr_id: [P02_R03_SP01, P02_R03_SP02, P02_R03_SP03, P02_R03_SP04, P02_R03_SP05, P02_R03_SP06],
-    P02_R04.pr_id: [P02_R04_SP01, P02_R04_SP02, P02_R04_SP03, P02_R04_SP04, P02_R04_SP05, P02_R04_SP06, P02_R04_SP07, P02_R04_SP08],
-    P02_R05.pr_id: [P02_R05_SP01, P02_R05_SP02, P02_R05_SP03, P02_R05_SP04, P02_R05_SP05, P02_R05_SP06, P02_R05_SP07, P02_R05_SP08, P02_R05_SP09],
+    P02_R04.pr_id: [P02_R04_SP01, P02_R04_SP02, P02_R04_SP03, P02_R04_SP04, P02_R04_SP05, P02_R04_SP06, P02_R04_SP07,
+                    P02_R04_SP08],
+    P02_R05.pr_id: [P02_R05_SP01, P02_R05_SP02, P02_R05_SP03, P02_R05_SP04, P02_R05_SP05, P02_R05_SP06, P02_R05_SP07,
+                    P02_R05_SP08, P02_R05_SP09],
     P02_R06.pr_id: [P02_R06_SP01, P02_R06_SP02, P02_R06_SP03, P02_R06_SP04, P02_R06_SP05],
     P02_R07.pr_id: [P02_R07_SP01, P02_R07_SP02, P02_R07_SP03],
     P02_R08_F2.pr_id: [P02_R08_SP01, P02_R08_SP02, P02_R08_SP03],
-    P02_R09.pr_id: [P02_R09_SP01, P02_R09_SP02, P02_R09_SP03, P02_R09_SP04, P02_R09_SP05, P02_R09_SP06, P02_R09_SP07, P02_R09_SP08, P02_R09_SP09, P02_R09_SP10],
-    P02_R10.pr_id: [P02_R10_SP01, P02_R10_SP02, P02_R10_SP03, P02_R10_SP04, P02_R10_SP05, P02_R10_SP06, P02_R10_SP07, P02_R10_SP08, P02_R10_SP09],
-    P02_R11_F1.pr_id: [P02_R11_SP01, P02_R11_SP02, P02_R11_SP03, P02_R11_SP04, P02_R11_SP05, P02_R11_SP06, P02_R11_SP07],
+    P02_R09.pr_id: [P02_R09_SP01, P02_R09_SP02, P02_R09_SP03, P02_R09_SP04, P02_R09_SP05, P02_R09_SP06, P02_R09_SP07,
+                    P02_R09_SP08, P02_R09_SP09, P02_R09_SP10],
+    P02_R10.pr_id: [P02_R10_SP01, P02_R10_SP02, P02_R10_SP03, P02_R10_SP04, P02_R10_SP05, P02_R10_SP06, P02_R10_SP07,
+                    P02_R10_SP08, P02_R10_SP09],
+    P02_R11_F1.pr_id: [P02_R11_SP01, P02_R11_SP02, P02_R11_SP03, P02_R11_SP04, P02_R11_SP05, P02_R11_SP06,
+                       P02_R11_SP07],
     P02_R12_F1.pr_id: [P02_R12_SP01, P02_R12_SP02, P02_R12_SP03, P02_R12_SP04],
-    P03_R01.pr_id: [P03_R01_SP01, P03_R01_SP02, P03_R01_SP03, P03_R01_SP04, P03_R01_SP05, P03_R01_SP06, P03_R01_SP07, P03_R01_SP08, P03_R01_SP09, P03_R01_SP10,
+    P03_R01.pr_id: [P03_R01_SP01, P03_R01_SP02, P03_R01_SP03, P03_R01_SP04, P03_R01_SP05, P03_R01_SP06, P03_R01_SP07,
+                    P03_R01_SP08, P03_R01_SP09, P03_R01_SP10,
                     P03_R01_SP11, P03_R01_SP12, P03_R01_SP13, P03_R01_SP14, P03_R01_SP15, P03_R01_SP16],
-    P03_R02_F1.pr_id: [P03_R02_SP01, P03_R02_SP02, P03_R02_SP03, P03_R02_SP04, P03_R02_SP05, P03_R02_SP06, P03_R02_SP07, P03_R02_SP08, P03_R02_SP09],
-    P03_R03_F1.pr_id: [P03_R03_SP01, P03_R03_SP02, P03_R03_SP03, P03_R03_SP04, P03_R03_SP05, P03_R03_SP06, P03_R03_SP07],
-    P03_R04.pr_id: [P03_R04_SP01, P03_R04_SP02, P03_R04_SP03, P03_R04_SP04, P03_R04_SP05, P03_R04_SP06, P03_R04_SP07, P03_R04_SP08, P03_R04_SP09, P03_R04_SP10,
+    P03_R02_F1.pr_id: [P03_R02_SP01, P03_R02_SP02, P03_R02_SP03, P03_R02_SP04, P03_R02_SP05, P03_R02_SP06, P03_R02_SP07,
+                       P03_R02_SP08, P03_R02_SP09],
+    P03_R03_F1.pr_id: [P03_R03_SP01, P03_R03_SP02, P03_R03_SP03, P03_R03_SP04, P03_R03_SP05, P03_R03_SP06,
+                       P03_R03_SP07],
+    P03_R04.pr_id: [P03_R04_SP01, P03_R04_SP02, P03_R04_SP03, P03_R04_SP04, P03_R04_SP05, P03_R04_SP06, P03_R04_SP07,
+                    P03_R04_SP08, P03_R04_SP09, P03_R04_SP10,
                     P03_R04_SP10, P03_R04_SP11, P03_R04_SP12, P03_R04_SP13, P03_R04_SP14, P03_R04_SP15],
-    P03_R05.pr_id: [P03_R05_SP01, P03_R05_SP02, P03_R05_SP03, P03_R05_SP04, P03_R05_SP05, P03_R05_SP06, P03_R05_SP07, P03_R05_SP08, P03_R05_SP09, P03_R05_SP10,
+    P03_R05.pr_id: [P03_R05_SP01, P03_R05_SP02, P03_R05_SP03, P03_R05_SP04, P03_R05_SP05, P03_R05_SP06, P03_R05_SP07,
+                    P03_R05_SP08, P03_R05_SP09, P03_R05_SP10,
                     P03_R05_SP11, P03_R05_SP12, P03_R05_SP13],
-    P03_R06_F1.pr_id: [P03_R06_SP01, P03_R06_SP02, P03_R06_SP03, P03_R06_SP04, P03_R06_SP05, P03_R06_SP06, P03_R06_SP07],
-    P03_R07.pr_id: [P03_R07_SP01, P03_R07_SP02, P03_R07_SP03, P03_R07_SP04, P03_R07_SP05, P03_R07_SP06, P03_R07_SP07, P03_R07_SP08],
-    P03_R08_F1.pr_id: [P03_R08_SP01, P03_R08_SP02, P03_R08_SP03, P03_R08_SP04, P03_R08_SP05, P03_R08_SP06, P03_R08_SP07, P03_R08_SP08, P03_R08_SP09, P03_R08_SP10,
+    P03_R06_F1.pr_id: [P03_R06_SP01, P03_R06_SP02, P03_R06_SP03, P03_R06_SP04, P03_R06_SP05, P03_R06_SP06,
+                       P03_R06_SP07],
+    P03_R07.pr_id: [P03_R07_SP01, P03_R07_SP02, P03_R07_SP03, P03_R07_SP04, P03_R07_SP05, P03_R07_SP06, P03_R07_SP07,
+                    P03_R07_SP08],
+    P03_R08_F1.pr_id: [P03_R08_SP01, P03_R08_SP02, P03_R08_SP03, P03_R08_SP04, P03_R08_SP05, P03_R08_SP06, P03_R08_SP07,
+                       P03_R08_SP08, P03_R08_SP09, P03_R08_SP10,
                        P03_R08_SP11, P03_R08_SP12, P03_R08_SP13],
     P03_R09.pr_id: [P03_R09_SP01, P03_R09_SP02, P03_R09_SP03, P03_R09_SP04, P03_R09_SP05, P03_R09_SP06, P03_R09_SP07],
-    P03_R10.pr_id: [P03_R10_SP01, P03_R10_SP02, P03_R10_SP03, P03_R10_SP04, P03_R10_SP05, P03_R10_SP06, P03_R10_SP07, P03_R10_SP08, P03_R10_SP09, P03_R10_SP10,
+    P03_R10.pr_id: [P03_R10_SP01, P03_R10_SP02, P03_R10_SP03, P03_R10_SP04, P03_R10_SP05, P03_R10_SP06, P03_R10_SP07,
+                    P03_R10_SP08, P03_R10_SP09, P03_R10_SP10,
                     P03_R10_SP11, P03_R10_SP12, P03_R10_SP13, P03_R10_SP14, P03_R10_SP15, P03_R10_SP16, P03_R10_SP17],
     P03_R11_F1.pr_id: [P03_R11_SP01, P03_R11_SP02, P03_R11_SP03, P03_R11_SP04, P03_R11_SP05, P03_R11_SP06, P03_R11_SP07,
                        P03_R11_SP08, P03_R11_SP09, P03_R11_SP10],
     P04_R01_F1.pr_id: [P04_R01_SP01, P04_R01_SP02, P04_R01_SP03, P04_R01_SP04],
-    P04_R02_F1.pr_id: [P04_R02_SP01, P04_R02_SP02, P04_R02_SP03, P04_R02_SP04, P04_R02_SP05, P04_R02_SP06, P04_R02_SP07, P04_R02_SP08, P04_R02_SP09, P04_R02_SP10,
-                       P04_R02_SP11, P04_R02_SP12, P04_R02_SP13, P04_R02_SP14, P04_R02_SP15, P04_R02_SP16, P04_R02_SP17, P04_R02_SP18, P04_R02_SP19],
-    P04_R03.pr_id: [P04_R03_SP01, P04_R03_SP02, P04_R03_SP03, P04_R03_SP04, P04_R03_SP05, P04_R03_SP06, P04_R03_SP07, P04_R03_SP08, P04_R03_SP09, P04_R03_SP10],
+    P04_R02_F1.pr_id: [P04_R02_SP01, P04_R02_SP02, P04_R02_SP03, P04_R02_SP04, P04_R02_SP05, P04_R02_SP06, P04_R02_SP07,
+                       P04_R02_SP08, P04_R02_SP09, P04_R02_SP10,
+                       P04_R02_SP11, P04_R02_SP12, P04_R02_SP13, P04_R02_SP14, P04_R02_SP15, P04_R02_SP16, P04_R02_SP17,
+                       P04_R02_SP18, P04_R02_SP19],
+    P04_R03.pr_id: [P04_R03_SP01, P04_R03_SP02, P04_R03_SP03, P04_R03_SP04, P04_R03_SP05, P04_R03_SP06, P04_R03_SP07,
+                    P04_R03_SP08, P04_R03_SP09, P04_R03_SP10],
     P04_R04.pr_id: [P04_R04_SP01, P04_R04_SP02, P04_R04_SP03, P04_R04_SP04, P04_R04_SP05],
-    P04_R05_F1.pr_id: [P04_R05_SP01, P04_R05_SP02, P04_R05_SP03, P04_R05_SP04, P04_R05_SP05, P04_R05_SP06, P04_R05_SP07, P04_R05_SP08, P04_R05_SP09, P04_R05_SP10,
+    P04_R05_F1.pr_id: [P04_R05_SP01, P04_R05_SP02, P04_R05_SP03, P04_R05_SP04, P04_R05_SP05, P04_R05_SP06, P04_R05_SP07,
+                       P04_R05_SP08, P04_R05_SP09, P04_R05_SP10,
                        P04_R05_SP11, P04_R05_SP12],
     P04_R06_F1.pr_id: [P04_R06_SP01, P04_R06_SP02, P04_R06_SP03],
     P04_R06_SUB_01.pr_id: [P04_R06_SUB_01_SP01, P04_R06_SUB_01_SP02],
-    P04_R07_F1.pr_id: [P04_R07_SP01, P04_R07_SP02, P04_R07_SP03, P04_R07_SP04, P04_R07_SP05, P04_R07_SP06, P04_R07_SP07, P04_R07_SP08, P04_R07_SP09, P04_R07_SP10,
-                       P04_R07_SP11, P04_R07_SP12, P04_R07_SP13, P04_R07_SP14, P04_R07_SP15, P04_R07_SP16, P04_R07_SP17],
-    P04_R08_F1.pr_id: [P04_R08_SP01, P04_R08_SP02, P04_R08_SP03, P04_R08_SP04, P04_R08_SP05, P04_R08_SP06, P04_R08_SP07, P04_R08_SP08, P04_R08_SP09, P04_R08_SP10],
-    P04_R09.pr_id: [P04_R09_SP01, P04_R09_SP02, P04_R09_SP03, P04_R09_SP04, P04_R09_SP05, P04_R09_SP06, P04_R09_SP07, P04_R09_SP08, P04_R09_SP09, P04_R09_SP10,
+    P04_R07_F1.pr_id: [P04_R07_SP01, P04_R07_SP02, P04_R07_SP03, P04_R07_SP04, P04_R07_SP05, P04_R07_SP06, P04_R07_SP07,
+                       P04_R07_SP08, P04_R07_SP09, P04_R07_SP10,
+                       P04_R07_SP11, P04_R07_SP12, P04_R07_SP13, P04_R07_SP14, P04_R07_SP15, P04_R07_SP16,
+                       P04_R07_SP17],
+    P04_R08_F1.pr_id: [P04_R08_SP01, P04_R08_SP02, P04_R08_SP03, P04_R08_SP04, P04_R08_SP05, P04_R08_SP06, P04_R08_SP07,
+                       P04_R08_SP08, P04_R08_SP09, P04_R08_SP10],
+    P04_R09.pr_id: [P04_R09_SP01, P04_R09_SP02, P04_R09_SP03, P04_R09_SP04, P04_R09_SP05, P04_R09_SP06, P04_R09_SP07,
+                    P04_R09_SP08, P04_R09_SP09, P04_R09_SP10,
                     P04_R09_SP11, P04_R09_SP12],
     P04_R09_SUB_01.pr_id: [P04_R09_SUB_01_SP01, P04_R09_SUB_01_SP02],
     P04_R09_SUB_02.pr_id: [P04_R09_SUB_02_SP01, P04_R09_SUB_02_SP02],
-    P04_R09_SUB_03_B2.pr_id: [P04_R09_SUB_03_SP01, P04_R09_SUB_03_SP02, P04_R09_SUB_03_SP03, P04_R09_SUB_03_SP04, P04_R09_SUB_03_SP05, P04_R09_SUB_03_SP06],
+    P04_R09_SUB_03_B2.pr_id: [P04_R09_SUB_03_SP01, P04_R09_SUB_03_SP02, P04_R09_SUB_03_SP03, P04_R09_SUB_03_SP04,
+                              P04_R09_SUB_03_SP05, P04_R09_SUB_03_SP06],
     P04_R09_SUB_04.pr_id: [P04_R09_SUB_04_SP01, P04_R09_SUB_04_SP02, P04_R09_SUB_04_SP03, P04_R09_SUB_04_SP04],
     P04_R09_SUB_05.pr_id: [P04_R09_SUB_05_SP01, P04_R09_SUB_05_SP02, P04_R09_SUB_05_SP03],
     P04_R09_SUB_06.pr_id: [P04_R09_SUB_06_SP01, P04_R09_SUB_06_SP02, P04_R09_SUB_06_SP03],
-    P04_R10.pr_id: [P04_R10_SP01, P04_R10_SP02, P04_R10_SP03, P04_R10_SP04, P04_R10_SP05, P04_R10_SP06, P04_R10_SP07, P04_R10_SP08],
+    P04_R10.pr_id: [P04_R10_SP01, P04_R10_SP02, P04_R10_SP03, P04_R10_SP04, P04_R10_SP05, P04_R10_SP06, P04_R10_SP07,
+                    P04_R10_SP08],
 }
+
 
 def get_sp_by_cn(planet_cn: str, region_cn: str, floor: int, tp_cn: str) -> TransportPoint:
     p: Planet = get_planet_by_cn(planet_cn)
