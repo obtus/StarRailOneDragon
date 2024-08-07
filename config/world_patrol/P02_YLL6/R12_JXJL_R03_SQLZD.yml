@@ -1,0 +1,33 @@
+author: ['朗加', 'DoctorReid']
+planet: '雅利洛-VI'
+region: '机械聚落'
+floor: 2
+tp: '史瓦罗驻地'
+route:
+  - idx: 1
+    op: 'move'
+    data: [562, 562]
+  - idx: 2
+    op: 'move'
+    data: [563, 636]
+  - idx: 3
+    op: 'move'
+    data: [578, 712]
+  - idx: 4
+    op: 'move'
+    data: [590, 727]
+  - idx: 5
+    op: 'disposable'
+  - idx: 6
+    op: 'move'
+    data: [589, 790]
+  - idx: 7
+    op: 'disposable'
+  - idx: 8
+    op: 'move'
+    data: [544, 835]
+  - idx: 9
+    op: 'move'
+    data: [510, 793]
+  - idx: 10
+    op: 'disposable'

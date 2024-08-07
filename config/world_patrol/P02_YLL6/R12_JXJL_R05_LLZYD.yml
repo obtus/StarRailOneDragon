@@ -1,0 +1,46 @@
+author: ['朗加', 'DoctorReid']
+planet: '雅利洛-VI'
+region: '机械聚落'
+floor: 2
+tp: '流浪者营地'
+route:
+  - idx: 1
+    op: 'move'
+    data: [555, 212]
+  - idx: 2
+    op: 'move'
+    data: [590, 257]
+  - idx: 3
+    op: 'disposable'
+  - idx: 4
+    op: 'move'
+    data: [554, 259]
+  - idx: 5
+    op: 'move'
+    data: [502, 261]
+  - idx: 6
+    op: 'disposable'
+  - idx: 7
+    op: 'move'
+    data: [457, 270]
+  - idx: 8
+    op: 'move'
+    data: [458, 304]
+  - idx: 9
+    op: 'move'
+    data: [443, 315]
+  - idx: 10
+    op: 'disposable'
+  - idx: 11
+    op: 'move'
+    data: [464, 360]
+  - idx: 12
+    op: 'disposable'
+  - idx: 13
+    op: 'slow_move'
+    data: [554, 342]
+  - idx: 14
+    op: 'slow_move'
+    data: [549, 352]
+  - idx: 15
+    op: 'disposable'

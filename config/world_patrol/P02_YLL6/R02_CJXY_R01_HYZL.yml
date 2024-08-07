@@ -1,4 +1,4 @@
-author: ['DoctorReid']
+author: ['朗加', 'DoctorReid']
 planet: '雅利洛-VI'
 region: '城郊雪原'
 floor: 0
@@ -43,27 +43,53 @@ route:
   - idx: 15
     op: 'disposable'
   - idx: 16
-    op: 'move'
-    data: [704, 326]
+    op: 'slow_move'
+    data: [879, 252]
   - idx: 17
-    op: 'patrol'
+    op: 'disposable'
   - idx: 18
     op: 'move'
-    data: [689, 227]
+    data: [834, 296]
   - idx: 19
-    op: 'patrol'
+    op: 'move'
+    data: [789, 307]
   - idx: 20
     op: 'move'
-    data: [710, 229]
+    data: [744, 326]
   - idx: 21
-    op: 'disposable'
+    op: 'patrol'
   - idx: 22
     op: 'move'
-    data: [624, 292]
+    data: [653, 314]
   - idx: 23
-    op: 'disposable'
-  - idx: 24
     op: 'move'
-    data: [570, 235]
+    data: [622, 304]
+  - idx: 24
+    op: 'disposable'
   - idx: 25
+    op: 'move'
+    data: [601, 266]
+  - idx: 26
+    op: 'move'
+    data: [560, 221]
+  - idx: 27
+    op: 'disposable'
+  - idx: 28
+    op: 'move'
+    data: [605, 223]
+  - idx: 29
+    op: 'move'
+    data: [650, 219]
+  - idx: 30
+    op: 'patrol'
+  - idx: 31
+    op: 'move'
+    data: [753, 243]
+  - idx: 32
+    op: 'move'
+    data: [736, 208]
+  - idx: 33
+    op: 'move'
+    data: [712, 219]
+  - idx: 34
     op: 'disposable'

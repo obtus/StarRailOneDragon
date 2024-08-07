@@ -1,0 +1,134 @@
+author: ['朗加', 'DoctorReid']
+planet: '匹诺康尼'
+region: '匹诺康尼大剧院'
+floor: 0
+tp: '调弦大厅'
+route:
+  - idx: 1
+    op: 'move'
+    data: [760, 777]
+  - idx: 2
+    op: 'disposable'
+  - idx: 3
+    op: 'move'
+    data: [720, 732]
+  - idx: 4
+    op: 'patrol'
+  - idx: 5
+    op: 'move'
+    data: [661, 764]
+  - idx: 6
+    op: 'slow_move'
+    data: [652, 780]
+  - idx: 7
+    op: 'disposable'
+  - idx: 8
+    op: 'move'
+    data: [654, 685]
+  - idx: 9
+    op: 'disposable'
+  - idx: 10
+    op: 'move'
+    data: [643, 690]
+  - idx: 11
+    op: 'move'
+    data: [619, 678]
+  - idx: 12
+    op: 'move'
+    data: [597, 662]
+  - idx: 13
+    op: 'patrol'
+  - idx: 14
+    op: 'move'
+    data: [594, 637]
+  - idx: 15
+    op: 'disposable'
+  - idx: 16
+    op: 'move'
+    data: [577, 700]
+  - idx: 17
+    op: 'disposable'
+  - idx: 18
+    op: 'slow_move'
+    data: [567, 675]
+  - idx: 19
+    op: 'slow_move'
+    data: [557, 682]
+  - idx: 20
+    op: 'disposable'
+  - idx: 21
+    op: 'move'
+    data: [545, 632]
+  - idx: 22
+    op: 'slow_move'
+    data: [532, 630]
+  - idx: 23
+    op: 'slow_move'
+    data: [520, 633]
+  - idx: 24
+    op: 'disposable'
+  - idx: 25
+    op: 'move'
+    data: [512, 607]
+  - idx: 26
+    op: 'disposable'
+  - idx: 27
+    op: 'move'
+    data: [540, 555]
+  - idx: 28
+    op: 'move'
+    data: [527, 500]
+  - idx: 29
+    op: 'move'
+    data: [567, 487]
+  - idx: 30
+    op: 'patrol'
+  - idx: 31
+    op: 'move'
+    data: [527, 500]
+  - idx: 32
+    op: 'move'
+    data: [530, 444]
+  - idx: 33
+    op: 'disposable'
+  - idx: 34
+    op: 'move'
+    data: [525, 389]
+  - idx: 35
+    op: 'patrol'
+  - idx: 36
+    op: 'slow_move'
+    data: [494, 418]
+  - idx: 37
+    op: 'patrol'
+  - idx: 38
+    op: 'slow_move'
+    data: [474, 455]
+  - idx: 39
+    op: 'patrol'
+  - idx: 40
+    op: 'slow_move'
+    data: [460, 477]
+  - idx: 41
+    op: 'slow_move'
+    data: [454, 484]
+  - idx: 42
+    op: 'disposable'
+  - idx: 43
+    op: 'move'
+    data: [419, 439]
+  - idx: 44
+    op: 'patrol'
+  - idx: 45
+    op: 'move'
+    data: [417, 419]
+  - idx: 46
+    op: 'patrol'
+  - idx: 47
+    op: 'slow_move'
+    data: [407, 432]
+  - idx: 48
+    op: 'slow_move'
+    data: [399, 442]
+  - idx: 49
+    op: 'disposable'

@@ -1,0 +1,24 @@
+author: ['DoctorReid']
+planet: '仙舟「罗浮」'
+region: '幽囚狱'
+floor: 1
+tp: '勘录舍·栈道前'
+route:
+  - idx: 1
+    op: 'move'
+    data: [1184, 689]
+  - idx: 2
+    op: 'disposable'
+  - idx: 3
+    op: 'move'
+    data: [1068, 790]
+  - idx: 4
+    op: 'disposable'
+  - idx: 5
+    op: 'move'
+    data: [1047, 887]
+  - idx: 6
+    op: 'move'
+    data: [1028, 885]
+  - idx: 7
+    op: 'disposable'

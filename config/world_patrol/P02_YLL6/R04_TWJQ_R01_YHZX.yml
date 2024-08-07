@@ -1,0 +1,43 @@
+author: ['朗加', 'DoctorReid']
+planet: '雅利洛-VI'
+region: '铁卫禁区'
+floor: 0
+tp: '炎华之形·凝滞虚影'
+route:
+  - idx: 1
+    op: 'move'
+    data: [470, 469]
+  - idx: 2
+    op: 'disposable'
+  - idx: 3
+    op: 'move'
+    data: [460, 470]
+  - idx: 4
+    op: 'disposable'
+  - idx: 5
+    op: 'move'
+    data: [470, 595]
+  - idx: 6
+    op: 'move'
+    data: [385, 590]
+  - idx: 7
+    op: 'disposable'
+  - idx: 8
+    op: 'move'
+    data: [486, 610]
+  - idx: 9
+    op: 'move'
+    data: [502, 594]
+  - idx: 10
+    op: 'move'
+    data: [607, 592]
+  - idx: 11
+    op: 'move'
+    data: [598, 562]
+  - idx: 12
+    op: 'disposable'
+  - idx: 13
+    op: 'move'
+    data: [633, 647]
+  - idx: 14
+    op: 'disposable'

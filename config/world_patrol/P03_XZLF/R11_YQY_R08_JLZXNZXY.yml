@@ -1,0 +1,162 @@
+author: ['DoctorReid']
+planet: '仙舟「罗浮」'
+region: '幽囚狱'
+floor: -3
+tp: '机狼之形·凝滞虚影'
+route:
+  - idx: 1
+    op: 'move'
+    data: [1763, 998]
+  - idx: 2
+    op: 'disposable'
+  - idx: 3
+    op: 'move'
+    data: [1723, 1038]
+  - idx: 4
+    op: 'patrol'
+  - idx: 5
+    op: 'move'
+    data: [1718, 1047]
+  - idx: 6
+    op: 'patrol'
+  - idx: 7
+    op: 'move'
+    data: [1723, 949]
+  - idx: 8
+    op: 'disposable'
+  - idx: 9
+    op: 'move'
+    data: [1728, 965]
+  - idx: 10
+    op: 'slow_move'
+    data: [1712, 953]
+  - idx: 11
+    op: 'interact'
+    data: '穿行'
+  - idx: 12
+    op: 'wait'
+    data: ['seconds', '5']
+  - idx: 13
+    op: 'update_pos'
+    data: [1629, 900]
+  - idx: 14
+    op: 'move'
+    data: [1584, 911]
+  - idx: 15
+    op: 'disposable'
+  - idx: 16
+    op: 'move'
+    data: [1603, 904]
+  - idx: 17
+    op: 'move'
+    data: [1587, 885]
+  - idx: 18
+    op: 'patrol'
+  - idx: 19
+    op: 'move'
+    data: [1577, 826]
+  - idx: 20
+    op: 'patrol'
+  - idx: 21
+    op: 'move'
+    data: [1540, 828]
+  - idx: 22
+    op: 'disposable'
+  - idx: 23
+    op: 'move'
+    data: [1566, 831]
+  - idx: 24
+    op: 'slow_move'
+    data: [1528, 823]
+  - idx: 25
+    op: 'interact'
+    data: '按下'
+  - idx: 26
+    op: 'wait'
+    data: ['seconds', '7']
+  - idx: 27
+    op: 'slow_move'
+    data: [1535, 843]
+  - idx: 28
+    op: 'move'
+    data: [1417, 887]
+  - idx: 29
+    op: 'disposable'
+  - idx: 30
+    op: 'move'
+    data: [1401, 854]
+  - idx: 31
+    op: 'move'
+    data: [1349, 831]
+  - idx: 32
+    op: 'disposable'
+  - idx: 33
+    op: 'move'
+    data: [1394, 854]
+  - idx: 34
+    op: 'slow_move'
+    data: [1401, 887]
+  - idx: 35
+    op: 'slow_move'
+    data: [1444, 892]
+  - idx: 36
+    op: 'interact'
+    data: '按下'
+  - idx: 37
+    op: 'wait'
+    data: ['seconds', '7']
+  - idx: 38
+    op: 'slow_move'
+    data: [1439, 883]
+  - idx: 39
+    op: 'move'
+    data: [1434, 871]
+  - idx: 40
+    op: 'move'
+    data: [1502, 854]
+  - idx: 41
+    op: 'move'
+    data: [1525, 822]
+  - idx: 42
+    op: 'disposable'
+  - idx: 43
+    op: 'move'
+    data: [1574, 839]
+  - idx: 44
+    op: 'disposable'
+  - idx: 45
+    op: 'move'
+    data: [1575, 887]
+  - idx: 46
+    op: 'patrol'
+  - idx: 47
+    op: 'move'
+    data: [1526, 894]
+  - idx: 48
+    op: 'patrol'
+  - idx: 49
+    op: 'move'
+    data: [1528, 904]
+  - idx: 50
+    op: 'move'
+    data: [1584, 880]
+  - idx: 51
+    op: 'move'
+    data: [1547, 765]
+  - idx: 52
+    op: 'patrol'
+  - idx: 53
+    op: 'move'
+    data: [1497, 788]
+  - idx: 54
+    op: 'patrol'
+  - idx: 55
+    op: 'move'
+    data: [1488, 810]
+  - idx: 56
+    op: 'patrol'
+  - idx: 57
+    op: 'move'
+    data: [1486, 800]
+  - idx: 58
+    op: 'patrol'

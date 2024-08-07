@@ -1,0 +1,32 @@
+author: ['DoctorReid']
+planet: '匹诺康尼'
+region: '黄金的时刻'
+floor: 2
+tp: '甜蜜一隅'
+route:
+  - idx: 1
+    op: 'move'
+    data: [710, 623]
+  - idx: 2
+    op: 'disposable'
+  - idx: 3
+    op: 'move'
+    data: [755, 668]
+  - idx: 4
+    op: 'disposable'
+  - idx: 5
+    op: 'move'
+    data: [681, 739]
+  - idx: 6
+    op: 'disposable'
+  - idx: 7
+    op: 'move'
+    data: [715, 717]
+  - idx: 8
+    op: 'move'
+    data: [711, 805]
+  - idx: 9
+    op: 'move'
+    data: [666, 802]
+  - idx: 10
+    op: 'disposable'

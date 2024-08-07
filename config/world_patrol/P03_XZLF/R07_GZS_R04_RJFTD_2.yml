@@ -1,0 +1,31 @@
+author: ['朗加', 'DoctorReid']
+planet: '仙舟「罗浮」'
+region: '工造司'
+floor: 0
+tp: '镕金坊通道'
+route:
+  - idx: 1
+    op: 'move'
+    data: [791, 517]
+  - idx: 2
+    op: 'move'
+    data: [828, 500]
+  - idx: 3
+    op: 'disposable'
+  - idx: 4
+    op: 'move'
+    data: [798, 489]
+  - idx: 5
+    op: 'move'
+    data: [798, 441]
+  - idx: 6
+    op: 'slow_move'
+    data: [778, 443]
+  - idx: 7
+    op: 'slow_move'
+    data: [776, 456]
+  - idx: 8
+    op: 'wait'
+    data: ['seconds', '2']
+  - idx: 9
+    op: 'patrol'

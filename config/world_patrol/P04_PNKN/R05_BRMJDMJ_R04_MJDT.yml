@@ -1,0 +1,37 @@
+author: ['朗加', 'DoctorReid']
+planet: '匹诺康尼'
+region: '「白日梦」酒店-梦境'
+floor: 1
+tp: '梦境大堂'
+route:
+  - idx: 1
+    op: 'move'
+    data: [1132, 1123]
+  - idx: 2
+    op: 'move'
+    data: [1120, 1094]
+  - idx: 3
+    op: 'disposable'
+  - idx: 4
+    op: 'move'
+    data: [1111, 1139]
+  - idx: 5
+    op: 'move'
+    data: [963, 1146]
+  - idx: 6
+    op: 'move'
+    data: [918, 1153]
+  - idx: 7
+    op: 'move'
+    data: [873, 1157]
+  - idx: 8
+    op: 'move'
+    data: [828, 1148]
+  - idx: 9
+    op: 'move'
+    data: [669, 1138]
+  - idx: 10
+    op: 'move'
+    data: [664, 1094]
+  - idx: 11
+    op: 'disposable'

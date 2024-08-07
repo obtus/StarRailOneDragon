@@ -1,0 +1,57 @@
+author: ['朗加', 'DoctorReid']
+planet: '仙舟「罗浮」'
+region: '绥园'
+floor: 0
+tp: '丰饶之蕾·拟造花萼（赤）'
+route:
+  - idx: 1
+    op: 'move'
+    data: [236, 755]
+  - idx: 2
+    op: 'patrol'
+  - idx: 3
+    op: 'move'
+    data: [285, 740]
+  - idx: 4
+    op: 'disposable'
+  - idx: 5
+    op: 'move'
+    data: [303, 765]
+  - idx: 6
+    op: 'move'
+    data: [339, 778]
+  - idx: 7
+    op: 'disposable'
+  - idx: 8
+    op: 'move'
+    data: [361, 776]
+  - idx: 9
+    op: 'move'
+    data: [380, 802]
+  - idx: 10
+    op: 'patrol'
+  - idx: 11
+    op: 'patrol'
+  - idx: 12
+    op: 'move'
+    data: [360, 860]
+  - idx: 13
+    op: 'patrol'
+  - idx: 14
+    op: 'slow_move'
+    data: [295, 863]
+  - idx: 15
+    op: 'patrol'
+  - idx: 16
+    op: 'slow_move'
+    data: [360, 860]
+  - idx: 17
+    op: 'slow_move'
+    data: [424, 900]
+  - idx: 18
+    op: 'patrol'
+  - idx: 19
+    op: 'move'
+    data: [459, 888]
+  - idx: 20
+    op: 'disposable'

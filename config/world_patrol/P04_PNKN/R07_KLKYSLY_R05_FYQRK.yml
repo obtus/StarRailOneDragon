@@ -1,0 +1,11 @@
+author: ['朗加', 'DoctorReid']
+planet: '匹诺康尼'
+region: '克劳克影视乐园'
+floor: 2
+tp: '放映区入口'
+route:
+  - idx: 1
+    op: 'move'
+    data: [488, 927]
+  - idx: 2
+    op: 'disposable'

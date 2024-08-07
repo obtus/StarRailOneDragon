@@ -1,0 +1,27 @@
+author: ['朗加', 'DoctorReid']
+planet: '匹诺康尼'
+region: '二号擂台'
+floor: 0
+tp: '巨星巅峰战·二号擂台'
+route:
+  - idx: 1
+    op: 'slow_move'
+    data: [739, 506]
+  - idx: 2
+    op: 'disposable'
+  - idx: 3
+    op: 'slow_move'
+    data: [750, 507]
+  - idx: 4
+    op: 'slow_move'
+    data: [736, 492]
+  - idx: 5
+    op: 'disposable'
+  - idx: 6
+    op: 'move'
+    data: [765, 502]
+  - idx: 7
+    op: 'slow_move'
+    data: [791, 508]
+  - idx: 8
+    op: 'disposable'

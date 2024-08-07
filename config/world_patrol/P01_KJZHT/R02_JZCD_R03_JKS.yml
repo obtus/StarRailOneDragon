@@ -1,0 +1,42 @@
+author: ['DoctorReid', 'nyehueh']
+planet: '空间站黑塔'
+region: '基座舱段'
+floor: 0
+tp: '监控室'
+route:
+  - idx: 1
+    op: 'move'
+    data: [609, 137]
+  - idx: 2
+    op: 'disposable'
+  - idx: 3
+    op: 'move'
+    data: [641, 140]
+  - idx: 4
+    op: 'move'
+    data: [640, 176]
+  - idx: 5
+    op: 'slow_move'
+    data: [641, 248]
+  - idx: 6
+    op: 'patrol'
+  - idx: 7
+    op: 'move'
+    data: [632, 246]
+  - idx: 8
+    op: 'disposable'
+  - idx: 9
+    op: 'move'
+    data: [658, 279]
+  - idx: 10
+    op: 'disposable'
+  - idx: 11
+    op: 'move'
+    data: [627, 326]
+  - idx: 12
+    op: 'disposable'
+  - idx: 13
+    op: 'move'
+    data: [591, 371]
+  - idx: 14
+    op: 'disposable'

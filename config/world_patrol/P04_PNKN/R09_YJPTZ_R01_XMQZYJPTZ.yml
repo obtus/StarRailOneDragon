@@ -1,42 +1,103 @@
-author: ['DoctorReid']
+author: ['朗加', 'DoctorReid']
 planet: '匹诺康尼'
 region: '演技派挑战'
 floor: 0
 tp: '戏梦奇战·演技派挑战'
 route:
   - idx: 1
-    op: 'move'
-    data: [732, 497]
+    op: 'slow_move'
+    data: [688, 521]
   - idx: 2
     op: 'disposable'
   - idx: 3
-    op: 'move'
-    data: [709, 471]
+    op: 'slow_move'
+    data: [732, 497]
   - idx: 4
     op: 'disposable'
   - idx: 5
     op: 'move'
-    data: [694, 459]
+    data: [709, 471]
   - idx: 6
-    op: 'move'
-    data: [715, 436]
+    op: 'disposable'
   - idx: 7
     op: 'move'
-    data: [760, 401]
+    data: [694, 459]
   - idx: 8
     op: 'move'
-    data: [748, 357]
+    data: [715, 436]
   - idx: 9
-    op: 'move'
-    data: [703, 345]
+    op: 'slow_move'
+    data: [728, 396]
   - idx: 10
-    op: 'move'
-    data: [658, 307]
+    op: 'disposable'
   - idx: 11
-    op: 'move'
-    data: [644, 288]
+    op: 'slow_move'
+    data: [741, 392]
   - idx: 12
-    op: 'move'
-    data: [649, 250]
+    op: 'disposable'
   - idx: 13
+    op: 'move'
+    data: [752, 408]
+  - idx: 14
+    op: 'move'
+    data: [760, 401]
+  - idx: 15
+    op: 'move'
+    data: [748, 357]
+  - idx: 16
+    op: 'move'
+    data: [735, 339]
+  - idx: 17
+    op: 'slow_move'
+    data: [750, 327]
+  - idx: 18
+    op: 'disposable'
+  - idx: 19
+    op: 'move'
+    data: [767, 331]
+  - idx: 20
+    op: 'move'
+    data: [784, 310]
+  - idx: 21
+    op: 'move'
+    data: [783, 276]
+  - idx: 22
+    op: 'move'
+    data: [770, 272]
+  - idx: 23
+    op: 'disposable'
+  - idx: 24
+    op: 'move'
+    data: [789, 208]
+  - idx: 25
+    op: 'disposable'
+  - idx: 26
+    op: 'move'
+    data: [743, 225]
+  - idx: 27
+    op: 'move'
+    data: [715, 222]
+  - idx: 28
+    op: 'move'
+    data: [665, 219]
+  - idx: 29
+    op: 'move'
+    data: [647, 238]
+  - idx: 30
     op: 'patrol'
+  - idx: 31
+    op: 'move'
+    data: [664, 260]
+  - idx: 32
+    op: 'disposable'
+  - idx: 33
+    op: 'move'
+    data: [649, 287]
+  - idx: 34
+    op: 'move'
+    data: [651, 313]
+  - idx: 35
+    op: 'move'
+    data: [691, 318]
+  - idx: 36
+    op: 'disposable'

@@ -1,0 +1,20 @@
+author: ['DoctorReid']
+planet: '匹诺康尼'
+region: '晖长石号'
+floor: 1
+tp: '驾驶舱'
+route:
+  - idx: 1
+    op: 'move'
+    data: [553, 206]
+  - idx: 2
+    op: 'move'
+    data: [550, 251]
+  - idx: 3
+    op: 'move'
+    data: [580, 255]
+  - idx: 4
+    op: 'move'
+    data: [586, 266]
+  - idx: 5
+    op: 'disposable'

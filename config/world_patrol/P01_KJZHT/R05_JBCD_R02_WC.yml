@@ -1,29 +1,47 @@
-author: ['DoctorReid']
+author: ['DoctorReid', '朗加']
 planet: '空间站黑塔'
 region: '禁闭舱段'
 floor: 2
 tp: '温床'
 route:
-  - op: 'move'
+  - idx: 1
+    op: 'move'
     data: [757, 350]
-  - op: 'move'
+  - idx: 2
+    op: 'move'
     data: [773, 370]
-  - op: 'move'
+  - idx: 3
+    op: 'move'
     data: [800, 409]
-  - op: 'move'
+  - idx: 4
+    op: 'move'
     data: [818, 453]
-  - op: 'move'
+  - idx: 5
+    op: 'move'
     data: [829, 523]
-  - op: 'move'
+  - idx: 6
+    op: 'move'
     data: [824, 580]
-  - op: 'move'
-    data: [810, 629]
-  - op: 'patrol'
-  - op: 'move'
-    data: [773, 688]
-  - op: 'disposable'
-  - op: 'move'
-    data: [745, 720]
-  - op: 'move'
-    data: [703, 749]
-  - op: 'patrol'
+  - idx: 7
+    op: 'move'
+    data: [818, 603]
+  - idx: 8
+    op: 'patrol'
+  - idx: 9
+    op: 'move'
+    data: [792, 661]
+  - idx: 10
+    op: 'move'
+    data: [783, 677]
+  - idx: 11
+    op: 'patrol'
+  - idx: 12
+    op: 'slow_move'
+    data: [727, 733]
+  - idx: 13
+    op: 'patrol'
+  - idx: 14
+    op: 'slow_move'
+    data: [764, 701]
+  - idx: 15
+    op: 'disposable'

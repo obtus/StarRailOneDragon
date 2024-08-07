@@ -1,0 +1,33 @@
+author: ['朗加', 'DoctorReid']
+planet: '雅利洛-VI'
+region: '铆钉镇'
+floor: 1
+tp: '智识之蕾·拟造花萼（赤）'
+route:
+  - idx: 1
+    op: 'move'
+    data: [583, 612]
+  - idx: 2
+    op: 'disposable'
+  - idx: 3
+    op: 'slow_move'
+    data: [586, 632]
+  - idx: 4
+    op: 'disposable'
+  - idx: 5
+    op: 'move'
+    data: [615, 622]
+  - idx: 6
+    op: 'move'
+    data: [649, 622]
+  - idx: 7
+    op: 'move'
+    data: [649, 605]
+  - idx: 8
+    op: 'move'
+    data: [611, 598]
+  - idx: 9
+    op: 'slow_move'
+    data: [648, 593]
+  - idx: 10
+    op: 'disposable'

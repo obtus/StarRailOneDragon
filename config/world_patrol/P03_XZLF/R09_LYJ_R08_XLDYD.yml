@@ -1,0 +1,41 @@
+author: ['朗加', 'DoctorReid']
+planet: '仙舟「罗浮」'
+region: '鳞渊境'
+floor: 0
+tp: '显龙大雩殿'
+route:
+  - idx: 1
+    op: 'move'
+    data: [1580, 410]
+  - idx: 2
+    op: 'move'
+    data: [1601, 396]
+  - idx: 3
+    op: 'move'
+    data: [1605, 365]
+  - idx: 4
+    op: 'patrol'
+  - idx: 5
+    op: 'slow_move'
+    data: [1638, 362]
+  - idx: 6
+    op: 'patrol'
+  - idx: 7
+    op: 'move'
+    data: [1684, 369]
+  - idx: 8
+    op: 'move'
+    data: [1690, 398]
+  - idx: 9
+    op: 'move'
+    data: [1669, 410]
+  - idx: 10
+    op: 'disposable'
+  - idx: 11
+    op: 'move'
+    data: [1764, 432]
+  - idx: 12
+    op: 'move'
+    data: [1768, 465]
+  - idx: 13
+    op: 'disposable'

@@ -1,4 +1,4 @@
-author: ['DoctorReid', 'nyehueh']
+author: ['朗加', 'DoctorReid']
 planet: '空间站黑塔'
 region: '支援舱段'
 floor: 2
@@ -34,7 +34,7 @@ route:
     data: [485, 388, 1]
   - idx: 11
     op: 'move'
-    data: [465, 382]
+    data: [466, 388]
   - idx: 12
     op: 'move'
     data: [470, 275]

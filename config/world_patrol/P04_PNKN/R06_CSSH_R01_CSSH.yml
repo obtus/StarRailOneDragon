@@ -1,35 +1,66 @@
-author: ['DoctorReid']
+author: ['朗加', 'DoctorReid']
 planet: '匹诺康尼'
 region: '城市沙盒'
 floor: 0
 tp: '城市沙盒'
 route:
   - idx: 1
-    op: 'move'
-    data: [900, 551]
+    op: 'slow_move'
+    data: [905, 595]
   - idx: 2
-    op: 'move'
-    data: [1002, 550]
+    op: 'disposable'
   - idx: 3
-    op: 'move'
-    data: [1010, 537]
+    op: 'slow_move'
+    data: [915, 611]
   - idx: 4
-    op: 'patrol'
+    op: 'disposable'
   - idx: 5
     op: 'move'
-    data: [1059, 535]
+    data: [917, 634]
   - idx: 6
-    op: 'patrol'
+    op: 'move'
+    data: [943, 635]
   - idx: 7
     op: 'move'
-    data: [1034, 421]
+    data: [970, 559]
   - idx: 8
     op: 'move'
-    data: [1035, 362]
+    data: [1009, 547]
   - idx: 9
-    op: 'patrol'
-  - idx: 10
     op: 'move'
-    data: [990, 344]
+    data: [1006, 534]
+  - idx: 10
+    op: 'patrol'
   - idx: 11
+    op: 'move'
+    data: [1033, 542]
+  - idx: 12
+    op: 'patrol'
+  - idx: 13
+    op: 'slow_move'
+    data: [1032, 506]
+  - idx: 14
+    op: 'patrol'
+  - idx: 15
+    op: 'move'
+    data: [1058, 549]
+  - idx: 16
+    op: 'disposable'
+  - idx: 17
+    op: 'move'
+    data: [1032, 496]
+  - idx: 18
+    op: 'move'
+    data: [1020, 383]
+  - idx: 19
+    op: 'patrol'
+  - idx: 20
+    op: 'slow_move'
+    data: [1003, 360]
+  - idx: 21
+    op: 'patrol'
+  - idx: 22
+    op: 'slow_move'
+    data: [987, 338]
+  - idx: 23
     op: 'patrol'

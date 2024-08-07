@@ -1,0 +1,17 @@
+author: ['朗加', 'DoctorReid']
+planet: '空间站黑塔'
+region: '禁闭舱段'
+floor: 2
+tp: '温床'
+route:
+  - idx: 1
+    op: 'move'
+    data: [741, 343]
+  - idx: 2
+    op: 'move'
+    data: [808, 297]
+  - idx: 3
+    op: 'move'
+    data: [750, 216]
+  - idx: 4
+    op: 'patrol'

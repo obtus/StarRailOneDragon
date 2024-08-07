@@ -1,0 +1,107 @@
+author: ['DoctorReid']
+planet: '仙舟「罗浮」'
+region: '幽囚狱'
+floor: -1
+tp: '阴寒域·其一'
+route:
+  - idx: 1
+    op: 'disposable'
+  - idx: 2
+    op: 'move'
+    data: [1240, 1275]
+  - idx: 3
+    op: 'disposable'
+  - idx: 4
+    op: 'move'
+    data: [1236, 1292]
+  - idx: 5
+    op: 'interact'
+    data: '按下'
+  - idx: 6
+    op: 'wait'
+    data: ['seconds', '7']
+  - idx: 7
+    op: 'move'
+    data: [1236, 1259]
+  - idx: 8
+    op: 'move'
+    data: [1217, 1271]
+  - idx: 9
+    op: 'move'
+    data: [1266, 1358]
+  - idx: 10
+    op: 'move'
+    data: [1257, 1384]
+  - idx: 11
+    op: 'move'
+    data: [1290, 1375]
+  - idx: 12
+    op: 'interact'
+    data: '按下'
+  - idx: 13
+    op: 'move'
+    data: [1259, 1530]
+  - idx: 14
+    op: 'patrol'
+  - idx: 15
+    op: 'slow_move'
+    data: [1269, 1591]
+  - idx: 16
+    op: 'patrol'
+  - idx: 17
+    op: 'move'
+    data: [1238, 1549]
+  - idx: 18
+    op: 'disposable'
+  - idx: 19
+    op: 'move'
+    data: [1278, 1575]
+  - idx: 20
+    op: 'move'
+    data: [1307, 1580]
+  - idx: 21
+    op: 'disposable'
+  - idx: 22
+    op: 'move'
+    data: [1337, 1582]
+  - idx: 23
+    op: 'patrol'
+  - idx: 24
+    op: 'move'
+    data: [1347, 1544]
+  - idx: 25
+    op: 'disposable'
+  - idx: 26
+    op: 'move'
+    data: [1339, 1502]
+  - idx: 27
+    op: 'disposable'
+  - idx: 28
+    op: 'move'
+    data: [1269, 1509]
+  - idx: 29
+    op: 'move'
+    data: [1264, 1358]
+  - idx: 30
+    op: 'move'
+    data: [1175, 1372]
+  - idx: 31
+    op: 'move'
+    data: [1153, 1370]
+  - idx: 32
+    op: 'patrol'
+  - idx: 33
+    op: 'slow_move'
+    data: [1144, 1403]
+  - idx: 34
+    op: 'patrol'
+  - idx: 35
+    op: 'move'
+    data: [1172, 1403]
+  - idx: 36
+    op: 'patrol'
+  - idx: 37
+    op: 'move'
+    data: [1182, 1377]
+  - idx: 38
+    op: 'disposable'

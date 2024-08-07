@@ -1,0 +1,39 @@
+author: ['朗加', 'DoctorReid']
+planet: '雅利洛-VI'
+region: '铁卫禁区'
+floor: 0
+tp: '能源枢纽'
+route:
+  - idx: 1
+    op: 'move'
+    data: [785, 1059]
+  - idx: 2
+    op: 'move'
+    data: [787, 995]
+  - idx: 3
+    op: 'move'
+    data: [731, 1001]
+  - idx: 4
+    op: 'disposable'
+  - idx: 5
+    op: 'move'
+    data: [662, 999]
+  - idx: 6
+    op: 'move'
+    data: [629, 954]
+  - idx: 7
+    op: 'disposable'
+  - idx: 8
+    op: 'move'
+    data: [568, 956]
+  - idx: 9
+    op: 'move'
+    data: [559, 852]
+  - idx: 10
+    op: 'move'
+    data: [533, 852]
+  - idx: 11
+    op: 'move'
+    data: [414, 864]
+  - idx: 12
+    op: 'disposable'

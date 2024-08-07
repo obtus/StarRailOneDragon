@@ -1,0 +1,41 @@
+author: ['朗加', 'DoctorReid']
+planet: '仙舟「罗浮」'
+region: '绥园'
+floor: 0
+tp: '青丘台入口'
+route:
+  - idx: 1
+    op: 'move'
+    data: [615, 626]
+  - idx: 2
+    op: 'move'
+    data: [576, 606]
+  - idx: 3
+    op: 'move'
+    data: [553, 605]
+  - idx: 4
+    op: 'move'
+    data: [508, 568]
+  - idx: 5
+    op: 'move'
+    data: [490, 526]
+  - idx: 6
+    op: 'disposable'
+  - idx: 7
+    op: 'move'
+    data: [525, 550]
+  - idx: 8
+    op: 'disposable'
+  - idx: 9
+    op: 'move'
+    data: [479, 582]
+  - idx: 10
+    op: 'move'
+    data: [434, 627]
+  - idx: 11
+    op: 'disposable'
+  - idx: 12
+    op: 'move'
+    data: [415, 672]
+  - idx: 13
+    op: 'disposable'

@@ -1,4 +1,4 @@
-author: ['DoctorReid']
+author: ['朗加', 'DoctorReid']
 planet: '仙舟「罗浮」'
 region: '廻星港'
 floor: 1
@@ -6,41 +6,62 @@ tp: '植船区萌甲'
 route:
   - idx: 1
     op: 'move'
-    data: [441, 489]
+    data: [442, 488]
   - idx: 2
     op: 'move'
-    data: [421, 487]
+    data: [423, 486]
   - idx: 3
     op: 'move'
-    data: [421, 445]
+    data: [422, 445]
   - idx: 4
     op: 'move'
-    data: [401, 438]
+    data: [403, 444]
   - idx: 5
     op: 'patrol'
   - idx: 6
-    op: 'move'
-    data: [384, 398]
+    op: 'slow_move'
+    data: [387, 441]
   - idx: 7
-    op: 'disposable'
-  - idx: 8
     op: 'move'
-    data: [444, 398]
+    data: [386, 464]
+  - idx: 8
+    op: 'patrol'
   - idx: 9
     op: 'move'
-    data: [482, 398]
+    data: [387, 400]
   - idx: 10
-    op: 'move'
-    data: [495, 421]
-  - idx: 11
     op: 'disposable'
+  - idx: 11
+    op: 'move'
+    data: [388, 438]
   - idx: 12
     op: 'move'
-    data: [473, 338]
+    data: [305, 421]
   - idx: 13
     op: 'disposable'
   - idx: 14
     op: 'move'
-    data: [521, 323]
+    data: [320, 447]
   - idx: 15
+    op: 'move'
+    data: [310, 565]
+  - idx: 16
+    op: 'disposable'
+  - idx: 17
+    op: 'move'
+    data: [329, 555]
+  - idx: 18
+    op: 'move'
+    data: [367, 553]
+  - idx: 19
+    op: 'patrol'
+  - idx: 20
+    op: 'move'
+    data: [389, 544]
+  - idx: 21
+    op: 'patrol'
+  - idx: 22
+    op: 'move'
+    data: [383, 567]
+  - idx: 23
     op: 'patrol'
