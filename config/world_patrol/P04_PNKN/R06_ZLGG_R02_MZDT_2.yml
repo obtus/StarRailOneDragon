@@ -1,0 +1,51 @@
+author: ['朗加', 'DoctorReid']
+planet: '匹诺康尼'
+region: '朝露公馆'
+floor: 1
+tp: '梦主大厅'
+route:
+  - idx: 1
+    op: 'move'
+    data: [607, 429]
+  - idx: 2
+    op: 'move'
+    data: [604, 352]
+  - idx: 3
+    op: 'move'
+    data: [602, 332]
+  - idx: 4
+    op: 'disposable'
+  - idx: 5
+    op: 'move'
+    data: [604, 352]
+  - idx: 6
+    op: 'move'
+    data: [760, 351]
+  - idx: 7
+    op: 'disposable'
+  - idx: 8
+    op: 'move'
+    data: [752, 416]
+  - idx: 9
+    op: 'move'
+    data: [751, 453]
+  - idx: 10
+    op: 'move'
+    data: [770, 441]
+  - idx: 11
+    op: 'patrol'
+  - idx: 12
+    op: 'move'
+    data: [781, 446]
+  - idx: 13
+    op: 'patrol'
+  - idx: 14
+    op: 'move'
+    data: [721, 449]
+  - idx: 15
+    op: 'patrol'
+  - idx: 16
+    op: 'move'
+    data: [731, 437]
+  - idx: 17
+    op: 'patrol'

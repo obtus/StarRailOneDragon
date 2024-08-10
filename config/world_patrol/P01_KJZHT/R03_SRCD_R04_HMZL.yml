@@ -1,0 +1,41 @@
+author: ['DoctorReid', 'nyehueh', '朗加']
+planet: '空间站黑塔'
+region: '收容舱段'
+floor: 1
+tp: '毁灭之蕾·拟造花萼（赤）'
+route:
+  - idx: 1
+    op: 'move'
+    data: [323, 340]
+  - idx: 2
+    op: 'disposable'
+  - idx: 3
+    op: 'move'
+    data: [315, 418]
+  - idx: 4
+    op: 'move'
+    data: [312, 450, -1]
+  - idx: 5
+    op: 'patrol'
+  - idx: 6
+    op: 'move'
+    data: [256, 440]
+  - idx: 7
+    op: 'move'
+    data: [254, 326]
+  - idx: 8
+    op: 'move'
+    data: [224, 325]
+  - idx: 9
+    op: 'move'
+    data: [218, 380]
+  - idx: 10
+    op: 'move'
+    data: [204, 379]
+  - idx: 11
+    op: 'patrol'
+  - idx: 12
+    op: 'slow_move'
+    data: [204, 443]
+  - idx: 13
+    op: 'patrol'

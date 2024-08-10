@@ -1,0 +1,61 @@
+author: ['朗加', 'DoctorReid']
+planet: '雅利洛-VI'
+region: '残响回廊'
+floor: 0
+tp: '作战指挥室'
+route:
+  - idx: 1
+    op: 'move'
+    data: [479, 940]
+  - idx: 2
+    op: 'patrol'
+  - idx: 3
+    op: 'slow_move'
+    data: [487, 984]
+  - idx: 4
+    op: 'patrol'
+  - idx: 5
+    op: 'move'
+    data: [461, 958]
+  - idx: 6
+    op: 'disposable'
+  - idx: 7
+    op: 'move'
+    data: [487, 955]
+  - idx: 8
+    op: 'move'
+    data: [482, 924]
+  - idx: 9
+    op: 'move'
+    data: [465, 929]
+  - idx: 10
+    op: 'disposable'
+  - idx: 11
+    op: 'move'
+    data: [486, 920]
+  - idx: 12
+    op: 'move'
+    data: [486, 1038]
+  - idx: 13
+    op: 'move'
+    data: [480, 1037]
+  - idx: 14
+    op: 'disposable'
+  - idx: 15
+    op: 'move'
+    data: [487, 1100]
+  - idx: 16
+    op: 'move'
+    data: [488, 1138]
+  - idx: 17
+    op: 'patrol'
+  - idx: 18
+    op: 'slow_move'
+    data: [482, 1139]
+  - idx: 19
+    op: 'disposable'
+  - idx: 20
+    op: 'slow_move'
+    data: [484, 1232]
+  - idx: 21
+    op: 'patrol'

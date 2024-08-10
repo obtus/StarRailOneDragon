@@ -1,0 +1,35 @@
+author: ['朗加', 'DoctorReid']
+planet: '匹诺康尼'
+region: '匹诺康尼大剧院'
+floor: 0
+tp: '交谊厅'
+route:
+  - idx: 1
+    op: 'move'
+    data: [1211, 877]
+  - idx: 2
+    op: 'move'
+    data: [1171, 917]
+  - idx: 3
+    op: 'move'
+    data: [1132, 949]
+  - idx: 4
+    op: 'move'
+    data: [1117, 983]
+  - idx: 5
+    op: 'patrol'
+  - idx: 6
+    op: 'slow_move'
+    data: [1089, 958]
+  - idx: 7
+    op: 'patrol'
+  - idx: 8
+    op: 'slow_move'
+    data: [1089, 936]
+  - idx: 9
+    op: 'patrol'
+  - idx: 10
+    op: 'move'
+    data: [1068, 943]
+  - idx: 11
+    op: 'disposable'

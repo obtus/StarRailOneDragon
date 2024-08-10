@@ -1,0 +1,36 @@
+author: ['朗加', 'DoctorReid']
+planet: '仙舟「罗浮」'
+region: '绥园'
+floor: 0
+tp: '幽冥之径·侵蚀隧洞'
+route:
+  - idx: 1
+    op: 'move'
+    data: [413, 431]
+  - idx: 2
+    op: 'disposable'
+  - idx: 3
+    op: 'move'
+    data: [409, 401]
+  - idx: 4
+    op: 'move'
+    data: [454, 403]
+  - idx: 5
+    op: 'move'
+    data: [480, 424]
+  - idx: 6
+    op: 'move'
+    data: [514, 441]
+  - idx: 7
+    op: 'move'
+    data: [524, 408]
+  - idx: 8
+    op: 'disposable'
+  - idx: 9
+    op: 'move'
+    data: [521, 429]
+  - idx: 10
+    op: 'move'
+    data: [579, 456]
+  - idx: 11
+    op: 'disposable'

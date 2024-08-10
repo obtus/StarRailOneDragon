@@ -1,0 +1,59 @@
+author: ['DoctorReid']
+planet: '仙舟「罗浮」'
+region: '流云渡'
+floor: 1
+tp: '积玉坊'
+route:
+  - idx: 1
+    op: 'move'
+    data: [537, 767]
+  - idx: 2
+    op: 'move'
+    data: [596, 767]
+  - idx: 3
+    op: 'move'
+    data: [658, 733]
+  - idx: 4
+    op: 'disposable'
+  - idx: 5
+    op: 'move'
+    data: [725, 736]
+  - idx: 6
+    op: 'move'
+    data: [786, 730]
+  - idx: 7
+    op: 'slow_move'
+    data: [816, 753]
+  - idx: 8
+    op: 'disposable'
+  - idx: 9
+    op: 'move'
+    data: [857, 763]
+  - idx: 10
+    op: 'disposable'
+  - idx: 11
+    op: 'move'
+    data: [846, 664]
+  - idx: 12
+    op: 'patrol'
+  - idx: 13
+    op: 'slow_move'
+    data: [850, 691]
+  - idx: 14
+    op: 'slow_move'
+    data: [887, 686]
+  - idx: 15
+    op: 'patrol'
+  - idx: 16
+    op: 'move'
+    data: [896, 665]
+  - idx: 17
+    op: 'patrol'
+  - idx: 18
+    op: 'move'
+    data: [907, 650]
+  - idx: 19
+    op: 'move'
+    data: [933, 648]
+  - idx: 20
+    op: 'disposable'

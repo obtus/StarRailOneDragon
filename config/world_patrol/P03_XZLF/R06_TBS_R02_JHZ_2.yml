@@ -1,0 +1,125 @@
+author: ['DoctorReid', '龙女姬']
+planet: '仙舟「罗浮」'
+region: '太卜司'
+floor: 1
+tp: '界寰阵'
+route:
+  - idx: 1
+    op: 'move'
+    data: [409, 243]
+  - idx: 2
+    op: 'disposable'
+  - idx: 3
+    op: 'move'
+    data: [377, 229]
+  - idx: 4
+    op: 'disposable'
+  - idx: 5
+    op: 'slow_move'
+    data: [399, 220]
+  - idx: 6
+    op: 'move'
+    data: [432, 185]
+  - idx: 7
+    op: 'move'
+    data: [490, 186]
+  - idx: 8
+    op: 'move'
+    data: [520, 171]
+  - idx: 9
+    op: 'move'
+    data: [542, 183]
+  - idx: 10
+    op: 'slow_move'
+    data: [587, 184]
+  - idx: 11
+    op: 'interact'
+    data: '入画'
+  - idx: 12
+    op: 'wait'
+    data: ['seconds', '3']
+  - idx: 13
+    op: 'wait'
+    data: ['in_world', '20']
+  - idx: 14
+    op: 'update_pos'
+    data: [690, 239]
+  - idx: 15
+    op: 'move'
+    data: [724, 264]
+  - idx: 16
+    op: 'move'
+    data: [705, 279]
+  - idx: 17
+    op: 'disposable'
+  - idx: 18
+    op: 'move'
+    data: [736, 286]
+  - idx: 19
+    op: 'patrol'
+  - idx: 20
+    op: 'slow_move'
+    data: [780, 330]
+  - idx: 21
+    op: 'slow_move'
+    data: [779, 394]
+  - idx: 22
+    op: 'move'
+    data: [695, 394]
+  - idx: 23
+    op: 'move'
+    data: [653, 432]
+  - idx: 24
+    op: 'disposable'
+  - idx: 25
+    op: 'move'
+    data: [701, 471]
+  - idx: 26
+    op: 'move'
+    data: [761, 474]
+  - idx: 27
+    op: 'move'
+    data: [761, 430]
+  - idx: 28
+    op: 'move'
+    data: [835, 430]
+  - idx: 29
+    op: 'slow_move'
+    data: [871, 409]
+  - idx: 30
+    op: 'move'
+    data: [907, 410]
+  - idx: 31
+    op: 'move'
+    data: [930, 383]
+  - idx: 32
+    op: 'patrol'
+  - idx: 33
+    op: 'move'
+    data: [873, 376]
+  - idx: 34
+    op: 'disposable'
+  - idx: 35
+    op: 'move'
+    data: [930, 383]
+  - idx: 36
+    op: 'move'
+    data: [931, 431]
+  - idx: 37
+    op: 'move'
+    data: [986, 432]
+  - idx: 38
+    op: 'move'
+    data: [1010, 465]
+  - idx: 39
+    op: 'patrol'
+  - idx: 40
+    op: 'slow_move'
+    data: [1010, 400]
+  - idx: 41
+    op: 'patrol'
+  - idx: 42
+    op: 'move'
+    data: [1029, 376]
+  - idx: 43
+    op: 'patrol'

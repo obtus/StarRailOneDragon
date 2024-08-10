@@ -1,0 +1,38 @@
+author: ['DoctorReid']
+planet: '仙舟「罗浮」'
+region: '丹鼎司'
+floor: 2
+tp: '行医市集'
+route:
+  - idx: 1
+    op: 'move'
+    data: [738, 894]
+  - idx: 2
+    op: 'move'
+    data: [739, 937]
+  - idx: 3
+    op: 'disposable'
+  - idx: 4
+    op: 'move'
+    data: [738, 892]
+  - idx: 5
+    op: 'move'
+    data: [573, 892]
+  - idx: 6
+    op: 'move'
+    data: [611, 920]
+  - idx: 7
+    op: 'disposable'
+  - idx: 8
+    op: 'move'
+    data: [563, 916]
+  - idx: 9
+    op: 'move'
+    data: [559, 1000]
+  - idx: 10
+    op: 'patrol'
+  - idx: 11
+    op: 'move'
+    data: [542, 1025]
+  - idx: 12
+    op: 'patrol'

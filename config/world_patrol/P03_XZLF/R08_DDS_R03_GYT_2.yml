@@ -1,0 +1,50 @@
+author: ['朗加', 'DoctorReid']
+planet: '仙舟「罗浮」'
+region: '丹鼎司'
+floor: 1
+tp: '观颐台'
+route:
+  - idx: 1
+    op: 'move'
+    data: [443, 761]
+  - idx: 2
+    op: 'move'
+    data: [443, 846]
+  - idx: 3
+    op: 'move'
+    data: [445, 900]
+  - idx: 4
+    op: 'move'
+    data: [468, 931]
+  - idx: 5
+    op: 'move'
+    data: [502, 938]
+  - idx: 6
+    op: 'move'
+    data: [511, 922]
+  - idx: 7
+    op: 'disposable'
+  - idx: 8
+    op: 'move'
+    data: [503, 920]
+  - idx: 9
+    op: 'move'
+    data: [502, 850]
+  - idx: 10
+    op: 'move'
+    data: [532, 862]
+  - idx: 11
+    op: 'patrol'
+  - idx: 12
+    op: 'move'
+    data: [532, 895]
+  - idx: 13
+    op: 'patrol'
+  - idx: 14
+    op: 'move'
+    data: [535, 958]
+  - idx: 15
+    op: 'move'
+    data: [556, 958]
+  - idx: 16
+    op: 'disposable'

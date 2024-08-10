@@ -1,0 +1,38 @@
+author: ['朗加', 'DoctorReid']
+planet: '匹诺康尼'
+region: '稚子的梦'
+floor: 0
+tp: '洑洄梦境'
+route:
+  - idx: 1
+    op: 'move'
+    data: [619, 997]
+  - idx: 2
+    op: 'disposable'
+  - idx: 3
+    op: 'move'
+    data: [589, 1012]
+  - idx: 4
+    op: 'move'
+    data: [587, 1071]
+  - idx: 5
+    op: 'move'
+    data: [611, 1069]
+  - idx: 6
+    op: 'patrol'
+  - idx: 7
+    op: 'move'
+    data: [595, 1115]
+  - idx: 8
+    op: 'move'
+    data: [576, 1218]
+  - idx: 9
+    op: 'disposable'
+  - idx: 10
+    op: 'move'
+    data: [594, 1221]
+  - idx: 11
+    op: 'move'
+    data: [594, 1264]
+  - idx: 12
+    op: 'patrol'

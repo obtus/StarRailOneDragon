@@ -1,0 +1,31 @@
+author: ['朗加', 'DoctorReid']
+planet: '匹诺康尼'
+region: '筑梦边境'
+floor: 0
+tp: '观景台前'
+route:
+  - idx: 1
+    op: 'move'
+    data: [369, 1043]
+  - idx: 2
+    op: 'patrol'
+  - idx: 3
+    op: 'slow_move'
+    data: [367, 1064]
+  - idx: 4
+    op: 'patrol'
+  - idx: 5
+    op: 'move'
+    data: [386, 1062]
+  - idx: 6
+    op: 'patrol'
+  - idx: 7
+    op: 'move'
+    data: [388, 1079]
+  - idx: 8
+    op: 'disposable'
+  - idx: 9
+    op: 'move'
+    data: [392, 1017]
+  - idx: 10
+    op: 'disposable'

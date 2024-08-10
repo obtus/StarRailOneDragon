@@ -1,0 +1,82 @@
+author: ['朗加', 'DoctorReid']
+planet: '仙舟「罗浮」'
+region: '太卜司'
+floor: 2
+tp: '祥台'
+route:
+  - idx: 1
+    op: 'move'
+    data: [469, 1183]
+  - idx: 2
+    op: 'move'
+    data: [506, 1181]
+  - idx: 3
+    op: 'move'
+    data: [524, 1167]
+  - idx: 4
+    op: 'disposable'
+  - idx: 5
+    op: 'move'
+    data: [518, 1149]
+  - idx: 6
+    op: 'move'
+    data: [524, 1134]
+  - idx: 7
+    op: 'patrol'
+  - idx: 8
+    op: 'move'
+    data: [565, 1108]
+  - idx: 9
+    op: 'patrol'
+  - idx: 10
+    op: 'move'
+    data: [506, 1113]
+  - idx: 11
+    op: 'patrol'
+  - idx: 12
+    op: 'move'
+    data: [524, 1118]
+  - idx: 13
+    op: 'move'
+    data: [535, 1049]
+  - idx: 14
+    op: 'move'
+    data: [495, 1010]
+  - idx: 15
+    op: 'disposable'
+  - idx: 16
+    op: 'move'
+    data: [499, 1022]
+  - idx: 17
+    op: 'move'
+    data: [423, 1022]
+  - idx: 18
+    op: 'move'
+    data: [408, 1005]
+  - idx: 19
+    op: 'move'
+    data: [406, 951]
+  - idx: 20
+    op: 'move'
+    data: [405, 891]
+  - idx: 21
+    op: 'move'
+    data: [315, 890]
+  - idx: 22
+    op: 'patrol'
+  - idx: 23
+    op: 'slow_move'
+    data: [276, 890]
+  - idx: 24
+    op: 'patrol'
+  - idx: 25
+    op: 'move'
+    data: [314, 892]
+  - idx: 26
+    op: 'move'
+    data: [311, 909]
+  - idx: 27
+    op: 'move'
+    data: [303, 912]
+  - idx: 28
+    op: 'disposable'

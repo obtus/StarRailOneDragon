@@ -1,0 +1,81 @@
+author: ['DoctorReid']
+planet: '仙舟「罗浮」'
+region: '工造司'
+floor: 0
+tp: '造化洪炉'
+route:
+  - idx: 1
+    op: 'move'
+    data: [738, 977]
+  - idx: 2
+    op: 'move'
+    data: [740, 1017]
+  - idx: 3
+    op: 'move'
+    data: [773, 1020]
+  - idx: 4
+    op: 'move'
+    data: [818, 1046]
+  - idx: 5
+    op: 'disposable'
+  - idx: 6
+    op: 'slow_move'
+    data: [779, 1058]
+  - idx: 7
+    op: 'slow_move'
+    data: [780, 1077]
+  - idx: 8
+    op: 'move'
+    data: [716, 1077]
+  - idx: 9
+    op: 'move'
+    data: [714, 1093]
+  - idx: 10
+    op: 'patrol'
+  - idx: 11
+    op: 'slow_move'
+    data: [725, 1135]
+  - idx: 12
+    op: 'patrol'
+  - idx: 13
+    op: 'move'
+    data: [698, 1129]
+  - idx: 14
+    op: 'disposable'
+  - idx: 15
+    op: 'slow_move'
+    data: [750, 1138]
+  - idx: 16
+    op: 'patrol'
+  - idx: 17
+    op: 'slow_move'
+    data: [758, 1177]
+  - idx: 18
+    op: 'patrol'
+  - idx: 19
+    op: 'move'
+    data: [768, 1160]
+  - idx: 20
+    op: 'disposable'
+  - idx: 21
+    op: 'move'
+    data: [760, 1145]
+  - idx: 22
+    op: 'move'
+    data: [816, 1145]
+  - idx: 23
+    op: 'move'
+    data: [882, 1145]
+  - idx: 24
+    op: 'move'
+    data: [884, 1124]
+  - idx: 25
+    op: 'move'
+    data: [878, 1107]
+  - idx: 26
+    op: 'patrol'
+  - idx: 27
+    op: 'move'
+    data: [916, 1112]
+  - idx: 28
+    op: 'patrol'

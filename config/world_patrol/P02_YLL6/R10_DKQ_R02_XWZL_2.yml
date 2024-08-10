@@ -1,0 +1,71 @@
+author: ['朗加', 'DoctorReid']
+planet: '雅利洛-VI'
+region: '大矿区'
+floor: 0
+tp: '虚无之蕾·拟造花萼（赤）'
+route:
+  - idx: 1
+    op: 'move'
+    data: [325, 290]
+  - idx: 2
+    op: 'move'
+    data: [319, 320]
+  - idx: 3
+    op: 'move'
+    data: [305, 318]
+  - idx: 4
+    op: 'disposable'
+  - idx: 5
+    op: 'move'
+    data: [347, 344]
+  - idx: 6
+    op: 'move'
+    data: [397, 341]
+  - idx: 7
+    op: 'move'
+    data: [431, 358]
+  - idx: 8
+    op: 'disposable'
+  - idx: 9
+    op: 'move'
+    data: [429, 328]
+  - idx: 10
+    op: 'move'
+    data: [479, 301]
+  - idx: 11
+    op: 'disposable'
+  - idx: 12
+    op: 'move'
+    data: [550, 323]
+  - idx: 13
+    op: 'move'
+    data: [651, 290]
+  - idx: 14
+    op: 'disposable'
+  - idx: 15
+    op: 'move'
+    data: [657, 290]
+  - idx: 16
+    op: 'disposable'
+  - idx: 17
+    op: 'move'
+    data: [658, 306]
+  - idx: 18
+    op: 'move'
+    data: [711, 306]
+  - idx: 19
+    op: 'move'
+    data: [746, 371]
+  - idx: 20
+    op: 'disposable'
+  - idx: 21
+    op: 'move'
+    data: [728, 411]
+  - idx: 22
+    op: 'move'
+    data: [722, 476]
+  - idx: 23
+    op: 'move'
+    data: [705, 507]
+  - idx: 24
+    op: 'disposable'
