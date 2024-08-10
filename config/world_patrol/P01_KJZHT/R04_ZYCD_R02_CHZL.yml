@@ -1,0 +1,83 @@
+author: ['朗加', 'DoctorReid']
+planet: '空间站黑塔'
+region: '支援舱段'
+floor: 2
+tp: '存护之蕾·拟造花萼（赤）'
+route:
+  - idx: 1
+    op: 'slow_move'
+    data: [480, 328]
+  - idx: 2
+    op: 'disposable'
+  - idx: 3
+    op: 'move'
+    data: [454, 343]
+  - idx: 4
+    op: 'disposable'
+  - idx: 5
+    op: 'move'
+    data: [464, 380]
+  - idx: 6
+    op: 'move'
+    data: [493, 390]
+  - idx: 7
+    op: 'interact'
+    data: '配控装置'
+  - idx: 8
+    op: 'wait'
+    data: ['seconds', '3']
+  - idx: 9
+    op: 'wait'
+    data: ['in_world', '20']
+  - idx: 10
+    op: 'update_pos'
+    data: [485, 388, 1]
+  - idx: 11
+    op: 'move'
+    data: [466, 388]
+  - idx: 12
+    op: 'move'
+    data: [473, 485]
+  - idx: 13
+    op: 'move'
+    data: [388, 488]
+  - idx: 14
+    op: 'patrol'
+  - idx: 15
+    op: 'move'
+    data: [392, 457]
+  - idx: 16
+    op: 'disposable'
+  - idx: 17
+    op: 'move'
+    data: [392, 487]
+  - idx: 18
+    op: 'move'
+    data: [474, 486]
+  - idx: 19
+    op: 'move'
+    data: [470, 275]
+  - idx: 20
+    op: 'patrol'
+  - idx: 21
+    op: 'move'
+    data: [429, 272]
+  - idx: 22
+    op: 'move'
+    data: [429, 300]
+  - idx: 23
+    op: 'disposable'
+  - idx: 24
+    op: 'move'
+    data: [384, 282]
+  - idx: 25
+    op: 'move'
+    data: [280, 284]
+  - idx: 26
+    op: 'move'
+    data: [278, 362]
+  - idx: 27
+    op: 'move'
+    data: [293, 360]
+  - idx: 28
+    op: 'disposable'

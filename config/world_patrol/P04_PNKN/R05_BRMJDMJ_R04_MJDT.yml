@@ -1,47 +1,51 @@
 author: ['朗加', 'DoctorReid']
-planet: '雅利洛-VI'
-region: '铁卫禁区'
-floor: 0
-tp: '禁区岗哨'
+planet: '匹诺康尼'
+region: '「白日梦」酒店-梦境'
+floor: 1
+tp: '梦境大堂'
 route:
   - idx: 1
     op: 'move'
-    data: [1113, 589]
+    data: [1132, 1123]
   - idx: 2
     op: 'move'
-    data: [1088, 624]
+    data: [1120, 1094]
   - idx: 3
     op: 'disposable'
   - idx: 4
     op: 'move'
-    data: [1091, 588]
+    data: [1111, 1139]
   - idx: 5
     op: 'move'
-    data: [906, 590]
+    data: [963, 1146]
   - idx: 6
-    op: 'disposable'
+    op: 'move'
+    data: [918, 1153]
   - idx: 7
     op: 'move'
-    data: [869, 592]
+    data: [873, 1157]
   - idx: 8
     op: 'move'
-    data: [862, 547]
+    data: [828, 1148]
   - idx: 9
     op: 'move'
-    data: [840, 510]
+    data: [669, 1138]
   - idx: 10
     op: 'move'
-    data: [828, 512]
+    data: [664, 1094]
   - idx: 11
     op: 'disposable'
   - idx: 12
     op: 'move'
-    data: [848, 581]
+    data: [634, 1119]
   - idx: 13
     op: 'move'
-    data: [846, 622]
+    data: [612, 1091]
   - idx: 14
     op: 'move'
-    data: [848, 647]
+    data: [609, 922]
   - idx: 15
+    op: 'slow_move'
+    data: [621, 927]
+  - idx: 16
     op: 'disposable'

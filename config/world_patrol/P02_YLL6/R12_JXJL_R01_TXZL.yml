@@ -1,0 +1,50 @@
+author: ['朗加', 'DoctorReid']
+planet: '雅利洛-VI'
+region: '机械聚落'
+floor: 1
+tp: '同谐之蕾·拟造花萼（赤）'
+route:
+  - idx: 1
+    op: 'move'
+    data: [312, 531]
+  - idx: 2
+    op: 'patrol'
+  - idx: 3
+    op: 'move'
+    data: [342, 554]
+  - idx: 4
+    op: 'move'
+    data: [404, 529]
+  - idx: 5
+    op: 'move'
+    data: [404, 496]
+  - idx: 6
+    op: 'disposable'
+  - idx: 7
+    op: 'move'
+    data: [410, 422]
+  - idx: 8
+    op: 'patrol'
+  - idx: 9
+    op: 'slow_move'
+    data: [442, 411]
+  - idx: 10
+    op: 'patrol'
+  - idx: 11
+    op: 'move'
+    data: [462, 412]
+  - idx: 12
+    op: 'disposable'
+  - idx: 13
+    op: 'move'
+    data: [411, 410]
+  - idx: 14
+    op: 'disposable'
+  - idx: 15
+    op: 'move'
+    data: [360, 407]
+  - idx: 16
+    op: 'move'
+    data: [286, 364]
+  - idx: 17
+    op: 'disposable'

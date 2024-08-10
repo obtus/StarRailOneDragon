@@ -1,0 +1,27 @@
+author: ['DoctorReid']
+planet: '匹诺康尼'
+region: '黄金的时刻'
+floor: 2
+tp: '艾迪恩公园'
+route:
+  - idx: 1
+    op: 'move'
+    data: [781, 194]
+  - idx: 2
+    op: 'disposable'
+  - idx: 3
+    op: 'move'
+    data: [779, 251]
+  - idx: 4
+    op: 'disposable'
+  - idx: 5
+    op: 'move'
+    data: [828, 240]
+  - idx: 6
+    op: 'move'
+    data: [898, 240]
+  - idx: 7
+    op: 'move'
+    data: [893, 256]
+  - idx: 8
+    op: 'disposable'

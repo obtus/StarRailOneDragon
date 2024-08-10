@@ -1,0 +1,63 @@
+author: ['DoctorReid', 'nyehueh']
+planet: '雅利洛-VI'
+region: '残响回廊'
+floor: 0
+tp: '鸣雷之形·凝滞虚影'
+route:
+  - idx: 1
+    op: 'move'
+    data: [530, 608]
+  - idx: 2
+    op: 'disposable'
+  - idx: 3
+    op: 'move'
+    data: [558, 641]
+  - idx: 4
+    op: 'disposable'
+  - idx: 5
+    op: 'move'
+    data: [555, 610]
+  - idx: 6
+    op: 'move'
+    data: [552, 544]
+  - idx: 7
+    op: 'move'
+    data: [633, 543]
+  - idx: 8
+    op: 'disposable'
+  - idx: 9
+    op: 'move'
+    data: [655, 547]
+  - idx: 10
+    op: 'patrol'
+  - idx: 11
+    op: 'slow_move'
+    data: [734, 627]
+  - idx: 12
+    op: 'patrol'
+  - idx: 13
+    op: 'move'
+    data: [693, 599]
+  - idx: 14
+    op: 'disposable'
+  - idx: 15
+    op: 'move'
+    data: [732, 616]
+  - idx: 16
+    op: 'patrol'
+  - idx: 17
+    op: 'slow_move'
+    data: [693, 665]
+  - idx: 18
+    op: 'slow_move'
+    data: [663, 663]
+  - idx: 19
+    op: 'slow_move'
+    data: [626, 625]
+  - idx: 20
+    op: 'patrol'
+  - idx: 21
+    op: 'move'
+    data: [577, 623]
+  - idx: 22
+    op: 'disposable'

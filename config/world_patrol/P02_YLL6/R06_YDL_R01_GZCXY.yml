@@ -1,0 +1,37 @@
+author: ['朗加', 'DoctorReid']
+planet: '雅利洛-VI'
+region: '永冬岭'
+floor: 0
+tp: '古战场雪原'
+route:
+  - idx: 1
+    op: 'move'
+    data: [428, 782]
+  - idx: 2
+    op: 'disposable'
+  - idx: 3
+    op: 'move'
+    data: [486, 785]
+  - idx: 4
+    op: 'move'
+    data: [485, 663]
+  - idx: 5
+    op: 'move'
+    data: [468, 635]
+  - idx: 6
+    op: 'patrol'
+  - idx: 7
+    op: 'move'
+    data: [467, 588]
+  - idx: 8
+    op: 'patrol'
+  - idx: 9
+    op: 'slow_move'
+    data: [483, 548]
+  - idx: 10
+    op: 'patrol'
+  - idx: 11
+    op: 'slow_move'
+    data: [506, 505]
+  - idx: 12
+    op: 'patrol'

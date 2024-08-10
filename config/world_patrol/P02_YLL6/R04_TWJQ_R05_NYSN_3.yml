@@ -6,7 +6,7 @@ tp: '能源枢纽'
 route:
   - idx: 1
     op: 'move'
-    data: [787, 1057]
+    data: [785, 1057]
   - idx: 2
     op: 'move'
     data: [793, 955]
@@ -14,47 +14,45 @@ route:
     op: 'disposable'
   - idx: 4
     op: 'move'
-    data: [804, 910]
+    data: [788, 889]
   - idx: 5
-    op: 'disposable'
+    op: 'move'
+    data: [744, 897]
   - idx: 6
     op: 'move'
-    data: [739, 883]
+    data: [736, 919]
   - idx: 7
     op: 'move'
-    data: [736, 919]
-  - idx: 8
-    op: 'move'
     data: [745, 920]
-  - idx: 9
+  - idx: 8
     op: 'disposable'
+  - idx: 9
+    op: 'slow_move'
+    data: [733, 919]
   - idx: 10
     op: 'move'
-    data: [736, 919]
+    data: [733, 883]
   - idx: 11
     op: 'move'
-    data: [733, 883]
-  - idx: 12
-    op: 'move'
     data: [680, 880]
-  - idx: 13
+  - idx: 12
     op: 'disposable'
+  - idx: 13
+    op: 'move'
+    data: [684, 835]
   - idx: 14
     op: 'move'
-    data: [684, 839]
-  - idx: 15
-    op: 'move'
     data: [752, 842]
-  - idx: 16
+  - idx: 15
     op: 'disposable'
-  - idx: 17
+  - idx: 16
     op: 'move'
     data: [736, 833]
-  - idx: 18
+  - idx: 17
     op: 'move'
     data: [736, 721]
-  - idx: 19
+  - idx: 18
     op: 'move'
     data: [748, 708]
-  - idx: 20
+  - idx: 19
     op: 'disposable'

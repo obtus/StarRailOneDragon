@@ -1,0 +1,65 @@
+author: ['朗加', 'DoctorReid']
+planet: '雅利洛-VI'
+region: '大矿区'
+floor: 0
+tp: '锋芒之形·凝滞虚影'
+route:
+  - idx: 1
+    op: 'move'
+    data: [596, 582]
+  - idx: 2
+    op: 'move'
+    data: [617, 575]
+  - idx: 3
+    op: 'disposable'
+  - idx: 4
+    op: 'move'
+    data: [582, 584]
+  - idx: 5
+    op: 'disposable'
+  - idx: 6
+    op: 'move'
+    data: [592, 595]
+  - idx: 7
+    op: 'move'
+    data: [597, 558]
+  - idx: 8
+    op: 'move'
+    data: [487, 548]
+  - idx: 9
+    op: 'move'
+    data: [438, 545]
+  - idx: 10
+    op: 'patrol'
+  - idx: 11
+    op: 'move'
+    data: [382, 519]
+  - idx: 12
+    op: 'move'
+    data: [392, 501]
+  - idx: 13
+    op: 'disposable'
+  - idx: 14
+    op: 'move'
+    data: [382, 519]
+  - idx: 15
+    op: 'move'
+    data: [434, 526]
+  - idx: 16
+    op: 'patrol'
+  - idx: 17
+    op: 'slow_move'
+    data: [443, 491]
+  - idx: 18
+    op: 'slow_move'
+    data: [446, 462]
+  - idx: 19
+    op: 'patrol'
+  - idx: 20
+    op: 'slow_move'
+    data: [471, 457]
+  - idx: 21
+    op: 'slow_move'
+    data: [486, 440]
+  - idx: 22
+    op: 'patrol'

@@ -1,0 +1,11 @@
+author: ['朗加', 'DoctorReid']
+planet: '匹诺康尼'
+region: '匹诺康尼大剧院'
+floor: 0
+tp: '尘梦的赞礼·历战余响'
+route:
+  - idx: 1
+    op: 'slow_move'
+    data: [828, 298]
+  - idx: 2
+    op: 'disposable'
