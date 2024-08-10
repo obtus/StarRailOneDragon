@@ -1,0 +1,36 @@
+author: ['朗加', 'DoctorReid']
+planet: '仙舟「罗浮」'
+region: '鳞渊境'
+floor: 0
+tp: '古海宫墟'
+route:
+  - idx: 1
+    op: 'move'
+    data: [1115, 446]
+  - idx: 2
+    op: 'disposable'
+  - idx: 3
+    op: 'move'
+    data: [1133, 436]
+  - idx: 4
+    op: 'move'
+    data: [1164, 437]
+  - idx: 5
+    op: 'move'
+    data: [1186, 437]
+  - idx: 6
+    op: 'move'
+    data: [1207, 438]
+  - idx: 7
+    op: 'move'
+    data: [1217, 438]
+  - idx: 8
+    op: 'move'
+    data: [1219, 423]
+  - idx: 9
+    op: 'disposable'
+  - idx: 10
+    op: 'move'
+    data: [1228, 414]
+  - idx: 11
+    op: 'disposable'

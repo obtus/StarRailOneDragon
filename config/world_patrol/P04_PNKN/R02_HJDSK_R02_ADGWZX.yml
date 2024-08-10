@@ -1,0 +1,24 @@
+author: ['DoctorReid']
+planet: '匹诺康尼'
+region: '黄金的时刻'
+floor: 2
+tp: '奥帝购物中心'
+route:
+  - idx: 1
+    op: 'move'
+    data: [1467, 511]
+  - idx: 2
+    op: 'disposable'
+  - idx: 3
+    op: 'move'
+    data: [1493, 509]
+  - idx: 4
+    op: 'move'
+    data: [1493, 291]
+  - idx: 5
+    op: 'disposable'
+  - idx: 6
+    op: 'move'
+    data: [1485, 289]
+  - idx: 7
+    op: 'disposable'

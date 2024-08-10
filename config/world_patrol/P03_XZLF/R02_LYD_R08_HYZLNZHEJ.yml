@@ -1,0 +1,56 @@
+author: ['朗加', 'DoctorReid']
+planet: '仙舟「罗浮」'
+region: '流云渡'
+floor: 1
+tp: '回忆之蕾·拟造花萼（金）'
+route:
+  - idx: 1
+    op: 'move'
+    data: [435, 1272]
+  - idx: 2
+    op: 'move'
+    data: [453, 1297]
+  - idx: 3
+    op: 'patrol'
+  - idx: 4
+    op: 'move'
+    data: [423, 1297]
+  - idx: 5
+    op: 'patrol'
+  - idx: 6
+    op: 'slow_move'
+    data: [442, 1323]
+  - idx: 7
+    op: 'patrol'
+  - idx: 8
+    op: 'move'
+    data: [416, 1317]
+  - idx: 9
+    op: 'move'
+    data: [416, 1356]
+  - idx: 10
+    op: 'patrol'
+  - idx: 11
+    op: 'move'
+    data: [416, 1414]
+  - idx: 12
+    op: 'move'
+    data: [374, 1417]
+  - idx: 13
+    op: 'disposable'
+  - idx: 14
+    op: 'move'
+    data: [442, 1419]
+  - idx: 15
+    op: 'move'
+    data: [453, 1429]
+  - idx: 16
+    op: 'move'
+    data: [469, 1424]
+  - idx: 17
+    op: 'patrol'
+  - idx: 18
+    op: 'move'
+    data: [513, 1426]
+  - idx: 19
+    op: 'disposable'

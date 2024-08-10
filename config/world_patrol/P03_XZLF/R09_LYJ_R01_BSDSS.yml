@@ -1,0 +1,17 @@
+author: ['朗加', 'DoctorReid']
+planet: '仙舟「罗浮」'
+region: '鳞渊境'
+floor: 0
+tp: '不死的神实·历战余响'
+route:
+  - idx: 1
+    op: 'move'
+    data: [486, 438]
+  - idx: 2
+    op: 'move'
+    data: [523, 424]
+  - idx: 3
+    op: 'move'
+    data: [550, 420]
+  - idx: 4
+    op: 'disposable'

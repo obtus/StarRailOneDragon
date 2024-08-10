@@ -1,0 +1,16 @@
+author: ['朗加', 'DoctorReid']
+planet: '仙舟「罗浮」'
+region: '太卜司'
+floor: 2
+tp: '以太之蕾·拟造花萼（金）'
+route:
+  - idx: 1
+    op: 'move'
+    data: [673, 1045]
+  - idx: 2
+    op: 'patrol'
+  - idx: 3
+    op: 'move'
+    data: [647, 1034]
+  - idx: 4
+    op: 'disposable'

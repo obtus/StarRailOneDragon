@@ -1,0 +1,13 @@
+author: ['朗加', 'DoctorReid']
+planet: '雅利洛-VI'
+region: '铆钉镇'
+floor: 1
+tp: '废弃市集'
+route:
+  - idx: 1
+    op: 'disposable'
+  - idx: 2
+    op: 'move'
+    data: [471, 349]
+  - idx: 3
+    op: 'disposable'

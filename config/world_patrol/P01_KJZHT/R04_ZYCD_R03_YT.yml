@@ -1,0 +1,22 @@
+author: ['朗加', 'DoctorReid']
+planet: '空间站黑塔'
+region: '支援舱段'
+floor: 2
+tp: '月台'
+route:
+  - idx: 1
+    op: 'move'
+    data: [738, 380]
+  - idx: 2
+    op: 'move'
+    data: [737, 266]
+  - idx: 3
+    op: 'move'
+    data: [727, 264]
+  - idx: 4
+    op: 'patrol'
+  - idx: 5
+    op: 'move'
+    data: [758, 258]
+  - idx: 6
+    op: 'patrol'

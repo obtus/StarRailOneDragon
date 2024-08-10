@@ -1,0 +1,11 @@
+author: ['朗加', 'DoctorReid']
+planet: '空间站黑塔'
+region: '基座舱段'
+floor: 0
+tp: '空海之形·凝滞虚影'
+route:
+  - idx: 1
+    op: 'move'
+    data: [524, 907]
+  - idx: 2
+    op: 'patrol'

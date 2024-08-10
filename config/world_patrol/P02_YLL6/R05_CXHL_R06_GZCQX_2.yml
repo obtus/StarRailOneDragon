@@ -1,0 +1,48 @@
+author: ['朗加', 'DoctorReid']
+planet: '雅利洛-VI'
+region: '残响回廊'
+floor: 0
+tp: '古战场前线'
+route:
+  - idx: 1
+    op: 'disposable'
+  - idx: 2
+    op: 'move'
+    data: [597, 1236]
+  - idx: 3
+    op: 'patrol'
+  - idx: 4
+    op: 'move'
+    data: [489, 1236]
+  - idx: 5
+    op: 'move'
+    data: [450, 1257]
+  - idx: 6
+    op: 'disposable'
+  - idx: 7
+    op: 'move'
+    data: [409, 1308]
+  - idx: 8
+    op: 'move'
+    data: [380, 1323]
+  - idx: 9
+    op: 'move'
+    data: [355, 1322]
+  - idx: 10
+    op: 'disposable'
+  - idx: 11
+    op: 'move'
+    data: [351, 1324]
+  - idx: 12
+    op: 'patrol'
+  - idx: 13
+    op: 'slow_move'
+    data: [280, 1318]
+  - idx: 14
+    op: 'move'
+    data: [263, 1305]
+  - idx: 15
+    op: 'move'
+    data: [264, 1247]
+  - idx: 16
+    op: 'patrol'

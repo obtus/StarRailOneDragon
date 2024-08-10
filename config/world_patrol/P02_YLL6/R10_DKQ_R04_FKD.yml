@@ -1,0 +1,34 @@
+author: ['朗加', 'DoctorReid']
+planet: '雅利洛-VI'
+region: '大矿区'
+floor: 0
+tp: '俯瞰点'
+route:
+  - idx: 1
+    op: 'move'
+    data: [616, 657]
+  - idx: 2
+    op: 'move'
+    data: [683, 644]
+  - idx: 3
+    op: 'disposable'
+  - idx: 4
+    op: 'move'
+    data: [677, 634]
+  - idx: 5
+    op: 'patrol'
+  - idx: 6
+    op: 'move'
+    data: [694, 574]
+  - idx: 7
+    op: 'patrol'
+  - idx: 8
+    op: 'slow_move'
+    data: [770, 565]
+  - idx: 9
+    op: 'patrol'
+  - idx: 10
+    op: 'move'
+    data: [781, 617]
+  - idx: 11
+    op: 'disposable'

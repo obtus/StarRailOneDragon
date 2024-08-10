@@ -1,0 +1,100 @@
+author: ['DoctorReid']
+planet: '匹诺康尼'
+region: '「白日梦」酒店-梦境'
+floor: 3
+tp: '铂金客房'
+route:
+  - idx: 1
+    op: 'move'
+    data: [1426, 684]
+  - idx: 2
+    op: 'move'
+    data: [1409, 707]
+  - idx: 3
+    op: 'disposable'
+  - idx: 4
+    op: 'move'
+    data: [1428, 788]
+  - idx: 5
+    op: 'disposable'
+  - idx: 6
+    op: 'move'
+    data: [1421, 814]
+  - idx: 7
+    op: 'move'
+    data: [1419, 859]
+  - idx: 8
+    op: 'slow_move'
+    data: [1419, 919]
+  - idx: 9
+    op: 'move'
+    data: [1383, 915]
+  - idx: 10
+    op: 'move'
+    data: [1345, 890]
+  - idx: 11
+    op: 'patrol'
+  - idx: 12
+    op: 'slow_move'
+    data: [1358, 917]
+  - idx: 13
+    op: 'slow_move'
+    data: [1345, 939]
+  - idx: 14
+    op: 'patrol'
+  - idx: 15
+    op: 'move'
+    data: [1319, 954]
+  - idx: 16
+    op: 'patrol'
+  - idx: 17
+    op: 'move'
+    data: [1302, 978]
+  - idx: 18
+    op: 'patrol'
+  - idx: 19
+    op: 'move'
+    data: [1306, 986]
+  - idx: 20
+    op: 'disposable'
+  - idx: 21
+    op: 'move'
+    data: [1231, 919]
+  - idx: 22
+    op: 'patrol'
+  - idx: 23
+    op: 'patrol'
+  - idx: 24
+    op: 'move'
+    data: [1231, 919]
+  - idx: 25
+    op: 'move'
+    data: [1172, 917]
+  - idx: 26
+    op: 'move'
+    data: [1164, 947]
+  - idx: 27
+    op: 'patrol'
+  - idx: 28
+    op: 'slow_move'
+    data: [1155, 980]
+  - idx: 29
+    op: 'patrol'
+  - idx: 30
+    op: 'slow_move'
+    data: [1162, 1009]
+  - idx: 31
+    op: 'patrol'
+  - idx: 32
+    op: 'move'
+    data: [1162, 1053]
+  - idx: 33
+    op: 'move'
+    data: [1176, 1047]
+  - idx: 34
+    op: 'disposable'
+  - idx: 35
+    op: 'move'
+    data: [1170, 1087]
+  - idx: 36
+    op: 'patrol'

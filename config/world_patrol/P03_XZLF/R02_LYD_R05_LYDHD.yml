@@ -1,0 +1,53 @@
+author: ['朗加', 'DoctorReid']
+planet: '仙舟「罗浮」'
+region: '流云渡'
+floor: 2
+tp: '流云渡货道'
+route:
+  - idx: 1
+    op: 'move'
+    data: [707, 519]
+  - idx: 2
+    op: 'disposable'
+  - idx: 3
+    op: 'move'
+    data: [684, 564]
+  - idx: 4
+    op: 'move'
+    data: [599, 559]
+  - idx: 5
+    op: 'move'
+    data: [563, 552]
+  - idx: 6
+    op: 'disposable'
+  - idx: 7
+    op: 'move'
+    data: [560, 597]
+  - idx: 8
+    op: 'disposable'
+  - idx: 9
+    op: 'move'
+    data: [570, 604]
+  - idx: 10
+    op: 'move'
+    data: [567, 641]
+  - idx: 11
+    op: 'move'
+    data: [553, 648]
+  - idx: 12
+    op: 'patrol'
+  - idx: 13
+    op: 'slow_move'
+    data: [524, 653]
+  - idx: 14
+    op: 'patrol'
+  - idx: 15
+    op: 'move'
+    data: [502, 675]
+  - idx: 16
+    op: 'patrol'
+  - idx: 17
+    op: 'move'
+    data: [587, 677]
+  - idx: 18
+    op: 'disposable'

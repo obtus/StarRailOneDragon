@@ -1,0 +1,115 @@
+author: ['DoctorReid', '龙女姬']
+planet: '仙舟「罗浮」'
+region: '丹鼎司'
+floor: 1
+tp: '太真丹室'
+route:
+  - idx: 1
+    op: 'disposable'
+  - idx: 2
+    op: 'move'
+    data: [538, 583]
+  - idx: 3
+    op: 'move'
+    data: [522, 604]
+  - idx: 4
+    op: 'move'
+    data: [466, 606]
+  - idx: 5
+    op: 'move'
+    data: [456, 616]
+  - idx: 6
+    op: 'move'
+    data: [442, 607]
+  - idx: 7
+    op: 'move'
+    data: [391, 606]
+  - idx: 8
+    op: 'move'
+    data: [353, 575]
+  - idx: 9
+    op: 'move'
+    data: [367, 557]
+  - idx: 10
+    op: 'patrol'
+  - idx: 11
+    op: 'slow_move'
+    data: [337, 581]
+  - idx: 12
+    op: 'patrol'
+  - idx: 13
+    op: 'slow_move'
+    data: [308, 556]
+  - idx: 14
+    op: 'patrol'
+  - idx: 15
+    op: 'slow_move'
+    data: [340, 529]
+  - idx: 16
+    op: 'patrol'
+  - idx: 17
+    op: 'slow_move'
+    data: [367, 556]
+  - idx: 18
+    op: 'patrol'
+  - idx: 19
+    op: 'move'
+    data: [325, 538]
+  - idx: 20
+    op: 'move'
+    data: [291, 514]
+  - idx: 21
+    op: 'move'
+    data: [288, 461]
+  - idx: 22
+    op: 'move'
+    data: [309, 459]
+  - idx: 23
+    op: 'patrol'
+  - idx: 24
+    op: 'slow_move'
+    data: [311, 421]
+  - idx: 25
+    op: 'patrol'
+  - idx: 26
+    op: 'slow_move'
+    data: [269, 423]
+  - idx: 27
+    op: 'patrol'
+  - idx: 28
+    op: 'slow_move'
+    data: [269, 461]
+  - idx: 29
+    op: 'patrol'
+  - idx: 30
+    op: 'slow_move'
+    data: [309, 462]
+  - idx: 31
+    op: 'patrol'
+  - idx: 32
+    op: 'move'
+    data: [312, 442]
+  - idx: 33
+    op: 'move'
+    data: [372, 440]
+  - idx: 34
+    op: 'move'
+    data: [424, 378]
+  - idx: 35
+    op: 'move'
+    data: [491, 376]
+  - idx: 36
+    op: 'move'
+    data: [521, 412]
+  - idx: 37
+    op: 'patrol'
+  - idx: 38
+    op: 'slow_move'
+    data: [528, 441]
+  - idx: 39
+    op: 'patrol'
+  - idx: 40
+    op: 'slow_move'
+    data: [521, 470]
+  - idx: 41
+    op: 'patrol'

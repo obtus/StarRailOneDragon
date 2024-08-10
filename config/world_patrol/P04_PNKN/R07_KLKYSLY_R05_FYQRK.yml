@@ -1,0 +1,42 @@
+author: ['朗加', 'DoctorReid']
+planet: '匹诺康尼'
+region: '克劳克影视乐园'
+floor: 2
+tp: '放映区入口'
+route:
+  - idx: 1
+    op: 'move'
+    data: [488, 927]
+  - idx: 2
+    op: 'disposable'
+  - idx: 3
+    op: 'move'
+    data: [470, 911]
+  - idx: 4
+    op: 'move'
+    data: [396, 910]
+  - idx: 5
+    op: 'move'
+    data: [378, 836]
+  - idx: 6
+    op: 'move'
+    data: [325, 755]
+  - idx: 7
+    op: 'move'
+    data: [314, 749]
+  - idx: 8
+    op: 'disposable'
+  - idx: 9
+    op: 'move'
+    data: [378, 697]
+  - idx: 10
+    op: 'move'
+    data: [401, 694]
+  - idx: 11
+    op: 'move'
+    data: [464, 743]
+  - idx: 12
+    op: 'move'
+    data: [517, 738]
+  - idx: 13
+    op: 'disposable'

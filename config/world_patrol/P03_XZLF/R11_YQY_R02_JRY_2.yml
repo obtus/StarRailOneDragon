@@ -1,0 +1,179 @@
+author: ['DoctorReid']
+planet: '仙舟「罗浮」'
+region: '幽囚狱'
+floor: -3
+tp: '焦热狱'
+route:
+  - idx: 1
+    op: 'move'
+    data: [1603, 1076]
+  - idx: 2
+    op: 'slow_move'
+    data: [1608, 1073]
+  - idx: 3
+    op: 'interact'
+    data: '按下'
+  - idx: 4
+    op: 'wait'
+    data: ['seconds', '5']
+  - idx: 5
+    op: 'move'
+    data: [1582, 1071]
+  - idx: 6
+    op: 'move'
+    data: [1601, 1047]
+  - idx: 7
+    op: 'move'
+    data: [1632, 1055]
+  - idx: 8
+    op: 'move'
+    data: [1713, 1023]
+  - idx: 9
+    op: 'move'
+    data: [1827, 942]
+  - idx: 10
+    op: 'patrol'
+  - idx: 11
+    op: 'slow_move'
+    data: [1843, 972]
+  - idx: 12
+    op: 'patrol'
+  - idx: 13
+    op: 'patrol'
+  - idx: 14
+    op: 'move'
+    data: [1775, 972]
+  - idx: 15
+    op: 'move'
+    data: [1763, 998]
+  - idx: 16
+    op: 'disposable'
+  - idx: 17
+    op: 'move'
+    data: [1723, 949]
+  - idx: 18
+    op: 'disposable'
+  - idx: 19
+    op: 'move'
+    data: [1728, 965]
+  - idx: 20
+    op: 'slow_move'
+    data: [1712, 953]
+  - idx: 21
+    op: 'interact'
+    data: '穿行'
+  - idx: 22
+    op: 'wait'
+    data: ['seconds', '5']
+  - idx: 23
+    op: 'update_pos'
+    data: [1629, 900]
+  - idx: 24
+    op: 'move'
+    data: [1584, 911]
+  - idx: 25
+    op: 'disposable'
+  - idx: 26
+    op: 'move'
+    data: [1603, 904]
+  - idx: 27
+    op: 'move'
+    data: [1587, 885]
+  - idx: 28
+    op: 'patrol'
+  - idx: 29
+    op: 'move'
+    data: [1577, 826]
+  - idx: 30
+    op: 'patrol'
+  - idx: 31
+    op: 'move'
+    data: [1540, 828]
+  - idx: 32
+    op: 'disposable'
+  - idx: 33
+    op: 'slow_move'
+    data: [1540, 828]
+  - idx: 34
+    op: 'interact'
+    data: '按下'
+  - idx: 35
+    op: 'wait'
+    data: ['seconds', '5']
+  - idx: 36
+    op: 'move'
+    data: [1544, 838]
+  - idx: 37
+    op: 'move'
+    data: [1417, 887]
+  - idx: 38
+    op: 'disposable'
+  - idx: 39
+    op: 'move'
+    data: [1401, 854]
+  - idx: 40
+    op: 'move'
+    data: [1349, 831]
+  - idx: 41
+    op: 'disposable'
+  - idx: 42
+    op: 'move'
+    data: [1401, 854]
+  - idx: 43
+    op: 'move'
+    data: [1417, 887]
+  - idx: 44
+    op: 'move'
+    data: [1441, 890]
+  - idx: 45
+    op: 'move'
+    data: [1438, 885]
+  - idx: 46
+    op: 'move'
+    data: [1537, 838]
+  - idx: 47
+    op: 'move'
+    data: [1533, 826]
+  - idx: 48
+    op: 'disposable'
+  - idx: 49
+    op: 'move'
+    data: [1574, 839]
+  - idx: 50
+    op: 'disposable'
+  - idx: 51
+    op: 'move'
+    data: [1575, 887]
+  - idx: 52
+    op: 'patrol'
+  - idx: 53
+    op: 'move'
+    data: [1526, 894]
+  - idx: 54
+    op: 'patrol'
+  - idx: 55
+    op: 'move'
+    data: [1528, 904]
+  - idx: 56
+    op: 'move'
+    data: [1584, 880]
+  - idx: 57
+    op: 'move'
+    data: [1547, 765]
+  - idx: 58
+    op: 'patrol'
+  - idx: 59
+    op: 'move'
+    data: [1497, 788]
+  - idx: 60
+    op: 'patrol'
+  - idx: 61
+    op: 'move'
+    data: [1488, 810]
+  - idx: 62
+    op: 'patrol'
+  - idx: 63
+    op: 'move'
+    data: [1509, 786]
+  - idx: 64
+    op: 'disposable'

@@ -1,0 +1,17 @@
+author: ['朗加', 'DoctorReid']
+planet: '雅利洛-VI'
+region: '永冬岭'
+floor: 0
+tp: '造物平台'
+route:
+  - idx: 1
+    op: 'move'
+    data: [789, 500]
+  - idx: 2
+    op: 'move'
+    data: [755, 488]
+  - idx: 3
+    op: 'move'
+    data: [749, 453]
+  - idx: 4
+    op: 'disposable'

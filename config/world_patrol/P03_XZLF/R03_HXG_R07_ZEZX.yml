@@ -1,0 +1,24 @@
+author: ['朗加', 'DoctorReid']
+planet: '仙舟「罗浮」'
+region: '廻星港'
+floor: 1
+tp: '震厄之形·凝滞虚影'
+route:
+  - idx: 1
+    op: 'move'
+    data: [735, 770]
+  - idx: 2
+    op: 'disposable'
+  - idx: 3
+    op: 'move'
+    data: [706, 766]
+  - idx: 4
+    op: 'move'
+    data: [706, 753]
+  - idx: 5
+    op: 'disposable'
+  - idx: 6
+    op: 'move'
+    data: [691, 752]
+  - idx: 7
+    op: 'disposable'

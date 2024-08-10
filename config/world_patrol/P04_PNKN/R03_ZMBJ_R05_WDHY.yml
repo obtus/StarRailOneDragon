@@ -1,0 +1,70 @@
+author: ['朗加', 'DoctorReid']
+planet: '匹诺康尼'
+region: '筑梦边境'
+floor: 0
+tp: '屋顶花园'
+route:
+  - idx: 1
+    op: 'move'
+    data: [886, 1386]
+  - idx: 2
+    op: 'disposable'
+  - idx: 3
+    op: 'move'
+    data: [882, 1410]
+  - idx: 4
+    op: 'move'
+    data: [837, 1410]
+  - idx: 5
+    op: 'patrol'
+  - idx: 6
+    op: 'slow_move'
+    data: [821, 1398]
+  - idx: 7
+    op: 'patrol'
+  - idx: 8
+    op: 'slow_move'
+    data: [832, 1387]
+  - idx: 9
+    op: 'slow_move'
+    data: [819, 1381]
+  - idx: 10
+    op: 'patrol'
+  - idx: 11
+    op: 'slow_move'
+    data: [834, 1366]
+  - idx: 12
+    op: 'patrol'
+  - idx: 13
+    op: 'move'
+    data: [832, 1436]
+  - idx: 14
+    op: 'disposable'
+  - idx: 15
+    op: 'move'
+    data: [834, 1296]
+  - idx: 16
+    op: 'patrol'
+  - idx: 17
+    op: 'move'
+    data: [819, 1311]
+  - idx: 18
+    op: 'patrol'
+  - idx: 19
+    op: 'slow_move'
+    data: [775, 1311]
+  - idx: 20
+    op: 'patrol'
+  - idx: 21
+    op: 'move'
+    data: [724, 1311]
+  - idx: 22
+    op: 'move'
+    data: [711, 1368]
+  - idx: 23
+    op: 'disposable'
+  - idx: 24
+    op: 'move'
+    data: [715, 1438]
+  - idx: 25
+    op: 'patrol'

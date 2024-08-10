@@ -1,0 +1,62 @@
+author: ['朗加', 'DoctorReid']
+planet: '仙舟「罗浮」'
+region: '廻星港'
+floor: 1
+tp: '植船区繁生'
+route:
+  - idx: 1
+    op: 'move'
+    data: [516, 551]
+  - idx: 2
+    op: 'move'
+    data: [542, 549]
+  - idx: 3
+    op: 'move'
+    data: [532, 633]
+  - idx: 4
+    op: 'disposable'
+  - idx: 5
+    op: 'move'
+    data: [412, 633]
+  - idx: 6
+    op: 'move'
+    data: [410, 660]
+  - idx: 7
+    op: 'move'
+    data: [394, 667]
+  - idx: 8
+    op: 'patrol'
+  - idx: 9
+    op: 'slow_move'
+    data: [407, 696]
+  - idx: 10
+    op: 'patrol'
+  - idx: 11
+    op: 'slow_move'
+    data: [394, 698]
+  - idx: 12
+    op: 'patrol'
+  - idx: 13
+    op: 'slow_move'
+    data: [392, 789]
+  - idx: 14
+    op: 'patrol'
+  - idx: 15
+    op: 'move'
+    data: [399, 815]
+  - idx: 16
+    op: 'disposable'
+  - idx: 17
+    op: 'move'
+    data: [367, 755]
+  - idx: 18
+    op: 'move'
+    data: [308, 755]
+  - idx: 19
+    op: 'move'
+    data: [310, 784]
+  - idx: 20
+    op: 'move'
+    data: [330, 783]
+  - idx: 21
+    op: 'patrol'

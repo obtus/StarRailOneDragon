@@ -1,0 +1,13 @@
+author: ['朗加', 'DoctorReid']
+planet: '仙舟「罗浮」'
+region: '流云渡'
+floor: 1
+tp: '圣颂之径·侵蚀隧洞'
+route:
+  - idx: 1
+    op: 'disposable'
+  - idx: 2
+    op: 'move'
+    data: [559, 1147]
+  - idx: 3
+    op: 'disposable'

@@ -1,0 +1,53 @@
+author: ['DoctorReid']
+planet: '匹诺康尼'
+region: '晖长石号'
+floor: 1
+tp: '艉部泳池'
+route:
+  - idx: 1
+    op: 'move'
+    data: [523, 913]
+  - idx: 2
+    op: 'move'
+    data: [565, 885]
+  - idx: 3
+    op: 'move'
+    data: [572, 902]
+  - idx: 4
+    op: 'patrol'
+  - idx: 5
+    op: 'move'
+    data: [548, 882]
+  - idx: 6
+    op: 'patrol'
+  - idx: 7
+    op: 'move'
+    data: [569, 880]
+  - idx: 8
+    op: 'move'
+    data: [577, 849]
+  - idx: 9
+    op: 'move'
+    data: [607, 850]
+  - idx: 10
+    op: 'disposable'
+  - idx: 11
+    op: 'move'
+    data: [538, 847]
+  - idx: 12
+    op: 'disposable'
+  - idx: 13
+    op: 'move'
+    data: [513, 848]
+  - idx: 14
+    op: 'disposable'
+  - idx: 15
+    op: 'move'
+    data: [508, 840]
+  - idx: 16
+    op: 'disposable'
+  - idx: 17
+    op: 'move'
+    data: [546, 795]
+  - idx: 18
+    op: 'disposable'

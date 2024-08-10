@@ -1,0 +1,62 @@
+author: ['朗加', 'DoctorReid']
+planet: '匹诺康尼'
+region: '稚子的梦'
+floor: 0
+tp: '回忆走廊'
+route:
+  - idx: 1
+    op: 'move'
+    data: [610, 525]
+  - idx: 2
+    op: 'move'
+    data: [657, 524]
+  - idx: 3
+    op: 'move'
+    data: [660, 504]
+  - idx: 4
+    op: 'patrol'
+  - idx: 5
+    op: 'slow_move'
+    data: [696, 504]
+  - idx: 6
+    op: 'patrol'
+  - idx: 7
+    op: 'slow_move'
+    data: [696, 473]
+  - idx: 8
+    op: 'patrol'
+  - idx: 9
+    op: 'slow_move'
+    data: [660, 473]
+  - idx: 10
+    op: 'patrol'
+  - idx: 11
+    op: 'slow_move'
+    data: [675, 490]
+  - idx: 12
+    op: 'patrol'
+  - idx: 13
+    op: 'slow_move'
+    data: [660, 504]
+  - idx: 14
+    op: 'patrol'
+  - idx: 15
+    op: 'move'
+    data: [658, 518]
+  - idx: 16
+    op: 'move'
+    data: [597, 536]
+  - idx: 17
+    op: 'move'
+    data: [562, 552]
+  - idx: 18
+    op: 'wait'
+    data: ['seconds', '1']
+  - idx: 19
+    op: 'move'
+    data: [535, 551]
+  - idx: 20
+    op: 'move'
+    data: [539, 530]
+  - idx: 21
+    op: 'disposable'

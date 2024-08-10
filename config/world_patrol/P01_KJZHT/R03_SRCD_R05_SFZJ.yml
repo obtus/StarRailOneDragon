@@ -1,0 +1,21 @@
+author: ['DoctorReid']
+planet: '空间站黑塔'
+region: '收容舱段'
+floor: 1
+tp: '霜风之径·侵蚀隧洞'
+route:
+  - idx: 1
+    op: 'disposable'
+  - idx: 2
+    op: 'move'
+    data: [830, 362]
+  - idx: 3
+    op: 'disposable'
+  - idx: 4
+    op: 'move'
+    data: [815, 376]
+  - idx: 5
+    op: 'move'
+    data: [801, 440]
+  - idx: 6
+    op: 'disposable'

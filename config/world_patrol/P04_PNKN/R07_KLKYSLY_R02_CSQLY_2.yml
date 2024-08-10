@@ -1,0 +1,68 @@
+author: ['DoctorReid']
+planet: '匹诺康尼'
+region: '克劳克影视乐园'
+floor: 2
+tp: '仓鼠球乐园'
+route:
+  - idx: 1
+    op: 'move'
+    data: [823, 380]
+  - idx: 2
+    op: 'move'
+    data: [817, 403]
+  - idx: 3
+    op: 'disposable'
+  - idx: 4
+    op: 'move'
+    data: [833, 385]
+  - idx: 5
+    op: 'move'
+    data: [810, 348]
+  - idx: 6
+    op: 'patrol'
+  - idx: 7
+    op: 'move'
+    data: [814, 295]
+  - idx: 8
+    op: 'patrol'
+  - idx: 9
+    op: 'move'
+    data: [745, 308]
+  - idx: 10
+    op: 'move'
+    data: [749, 289]
+  - idx: 11
+    op: 'patrol'
+  - idx: 12
+    op: 'slow_move'
+    data: [720, 296]
+  - idx: 13
+    op: 'patrol'
+  - idx: 14
+    op: 'move'
+    data: [676, 302]
+  - idx: 15
+    op: 'disposable'
+  - idx: 16
+    op: 'move'
+    data: [672, 287]
+  - idx: 17
+    op: 'move'
+    data: [785, 264]
+  - idx: 18
+    op: 'patrol'
+  - idx: 19
+    op: 'move'
+    data: [762, 247]
+  - idx: 20
+    op: 'patrol'
+  - idx: 21
+    op: 'slow_move'
+    data: [724, 256]
+  - idx: 22
+    op: 'patrol'
+  - idx: 23
+    op: 'move'
+    data: [701, 260]
+  - idx: 24
+    op: 'patrol'

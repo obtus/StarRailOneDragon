@@ -1,0 +1,49 @@
+author: ['DoctorReid']
+planet: '仙舟「罗浮」'
+region: '廻星港'
+floor: 1
+tp: '植船区萌甲'
+route:
+  - idx: 1
+    op: 'move'
+    data: [465, 450]
+  - idx: 2
+    op: 'move'
+    data: [438, 445]
+  - idx: 3
+    op: 'disposable'
+  - idx: 4
+    op: 'move'
+    data: [465, 423]
+  - idx: 5
+    op: 'move'
+    data: [458, 401]
+  - idx: 6
+    op: 'move'
+    data: [457, 352]
+  - idx: 7
+    op: 'move'
+    data: [459, 305]
+  - idx: 8
+    op: 'move'
+    data: [460, 284]
+  - idx: 9
+    op: 'patrol'
+  - idx: 10
+    op: 'slow_move'
+    data: [513, 285]
+  - idx: 11
+    op: 'patrol'
+  - idx: 12
+    op: 'move'
+    data: [531, 286]
+  - idx: 13
+    op: 'patrol'
+  - idx: 14
+    op: 'move'
+    data: [591, 287]
+  - idx: 15
+    op: 'move'
+    data: [611, 271]
+  - idx: 16
+    op: 'disposable'

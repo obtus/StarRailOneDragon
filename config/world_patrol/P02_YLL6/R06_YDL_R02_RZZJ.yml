@@ -1,0 +1,30 @@
+author: ['DoctorReid']
+planet: '雅利洛-VI'
+region: '永冬岭'
+floor: 0
+tp: '睿治之径·侵蚀隧洞'
+route:
+  - idx: 1
+    op: 'move'
+    data: [560, 553]
+  - idx: 2
+    op: 'move'
+    data: [604, 534]
+  - idx: 3
+    op: 'patrol'
+  - idx: 4
+    op: 'move'
+    data: [627, 545]
+  - idx: 5
+    op: 'move'
+    data: [653, 557]
+  - idx: 6
+    op: 'patrol'
+  - idx: 7
+    op: 'move'
+    data: [688, 574]
+  - idx: 8
+    op: 'move'
+    data: [667, 645]
+  - idx: 9
+    op: 'disposable'

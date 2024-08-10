@@ -1,0 +1,68 @@
+author: ['DoctorReid', 'nyehueh', '朗加']
+planet: '空间站黑塔'
+region: '收容舱段'
+floor: 1
+tp: '中庭'
+route:
+  - idx: 1
+    op: 'move'
+    data: [574, 324]
+  - idx: 2
+    op: 'disposable'
+  - idx: 3
+    op: 'move'
+    data: [623, 341]
+  - idx: 4
+    op: 'disposable'
+  - idx: 5
+    op: 'move'
+    data: [653, 315]
+  - idx: 6
+    op: 'patrol'
+  - idx: 7
+    op: 'slow_move'
+    data: [686, 310]
+  - idx: 8
+    op: 'slow_move'
+    data: [667, 293]
+  - idx: 9
+    op: 'patrol'
+  - idx: 10
+    op: 'move'
+    data: [690, 306]
+  - idx: 11
+    op: 'move'
+    data: [709, 348]
+  - idx: 12
+    op: 'move'
+    data: [737, 360]
+  - idx: 13
+    op: 'move'
+    data: [737, 382]
+  - idx: 14
+    op: 'move'
+    data: [726, 384]
+  - idx: 15
+    op: 'disposable'
+  - idx: 16
+    op: 'move'
+    data: [712, 390]
+  - idx: 17
+    op: 'move'
+    data: [688, 452]
+  - idx: 18
+    op: 'move'
+    data: [660, 451]
+  - idx: 19
+    op: 'patrol'
+  - idx: 20
+    op: 'move'
+    data: [644, 430]
+  - idx: 21
+    op: 'move'
+    data: [620, 406]
+  - idx: 22
+    op: 'move'
+    data: [625, 392]
+  - idx: 23
+    op: 'disposable'

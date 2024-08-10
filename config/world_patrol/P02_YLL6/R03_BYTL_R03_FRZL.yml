@@ -1,0 +1,29 @@
+author: ['朗加', 'DoctorReid']
+planet: '雅利洛-VI'
+region: '边缘通路'
+floor: 0
+tp: '丰饶之蕾·拟造花萼（赤）'
+route:
+  - idx: 1
+    op: 'move'
+    data: [658, 541]
+  - idx: 2
+    op: 'move'
+    data: [666, 635]
+  - idx: 3
+    op: 'patrol'
+  - idx: 4
+    op: 'move'
+    data: [780, 642]
+  - idx: 5
+    op: 'disposable'
+  - idx: 6
+    op: 'move'
+    data: [764, 588]
+  - idx: 7
+    op: 'disposable'
+  - idx: 8
+    op: 'move'
+    data: [821, 595]
+  - idx: 9
+    op: 'disposable'

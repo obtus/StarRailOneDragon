@@ -1,0 +1,90 @@
+author: ['朗加', 'DoctorReid']
+planet: '雅利洛-VI'
+region: '大矿区'
+floor: 0
+tp: '燔灼之形·凝滞虚影'
+route:
+  - idx: 1
+    op: 'move'
+    data: [817, 673]
+  - idx: 2
+    op: 'disposable'
+  - idx: 3
+    op: 'move'
+    data: [785, 702]
+  - idx: 4
+    op: 'disposable'
+  - idx: 5
+    op: 'move'
+    data: [767, 713]
+  - idx: 6
+    op: 'move'
+    data: [732, 688]
+  - idx: 7
+    op: 'move'
+    data: [706, 700]
+  - idx: 8
+    op: 'move'
+    data: [687, 709]
+  - idx: 9
+    op: 'patrol'
+  - idx: 10
+    op: 'move'
+    data: [674, 716]
+  - idx: 11
+    op: 'patrol'
+  - idx: 12
+    op: 'slow_move'
+    data: [649, 741]
+  - idx: 13
+    op: 'slow_move'
+    data: [584, 735]
+  - idx: 14
+    op: 'patrol'
+  - idx: 15
+    op: 'move'
+    data: [558, 719]
+  - idx: 16
+    op: 'move'
+    data: [518, 731]
+  - idx: 17
+    op: 'move'
+    data: [485, 712]
+  - idx: 18
+    op: 'disposable'
+  - idx: 19
+    op: 'disposable'
+  - idx: 20
+    op: 'move'
+    data: [397, 682]
+  - idx: 21
+    op: 'patrol'
+  - idx: 22
+    op: 'move'
+    data: [376, 622]
+  - idx: 23
+    op: 'patrol'
+  - idx: 24
+    op: 'move'
+    data: [363, 621]
+  - idx: 25
+    op: 'disposable'
+  - idx: 26
+    op: 'move'
+    data: [413, 611]
+  - idx: 27
+    op: 'move'
+    data: [467, 665]
+  - idx: 28
+    op: 'move'
+    data: [497, 662]
+  - idx: 29
+    op: 'move'
+    data: [521, 628]
+  - idx: 30
+    op: 'patrol'
+  - idx: 31
+    op: 'move'
+    data: [520, 647]
+  - idx: 32
+    op: 'disposable'

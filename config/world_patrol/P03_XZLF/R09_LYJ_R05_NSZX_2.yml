@@ -1,0 +1,57 @@
+author: ['朗加', 'DoctorReid']
+planet: '仙舟「罗浮」'
+region: '鳞渊境'
+floor: 0
+tp: '孽兽之形·凝滞虚影'
+route:
+  - idx: 1
+    op: 'move'
+    data: [917, 210]
+  - idx: 2
+    op: 'move'
+    data: [916, 231]
+  - idx: 3
+    op: 'move'
+    data: [906, 233]
+  - idx: 4
+    op: 'disposable'
+  - idx: 5
+    op: 'move'
+    data: [921, 229]
+  - idx: 6
+    op: 'move'
+    data: [920, 351]
+  - idx: 7
+    op: 'patrol'
+  - idx: 8
+    op: 'move'
+    data: [906, 352]
+  - idx: 9
+    op: 'disposable'
+  - idx: 10
+    op: 'move'
+    data: [922, 349]
+  - idx: 11
+    op: 'move'
+    data: [920, 397]
+  - idx: 12
+    op: 'move'
+    data: [955, 399]
+  - idx: 13
+    op: 'move'
+    data: [981, 391]
+  - idx: 14
+    op: 'patrol'
+  - idx: 15
+    op: 'slow_move'
+    data: [1014, 391]
+  - idx: 16
+    op: 'patrol'
+  - idx: 17
+    op: 'move'
+    data: [987, 389]
+  - idx: 18
+    op: 'move'
+    data: [979, 372]
+  - idx: 19
+    op: 'disposable'
