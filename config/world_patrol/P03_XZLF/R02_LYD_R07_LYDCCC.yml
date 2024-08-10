@@ -1,0 +1,32 @@
+author: ['朗加', 'DoctorReid']
+planet: '仙舟「罗浮」'
+region: '流云渡'
+floor: 1
+tp: '流云渡乘槎处'
+route:
+  - idx: 1
+    op: 'move'
+    data: [505, 1390]
+  - idx: 2
+    op: 'move'
+    data: [506, 1310]
+  - idx: 3
+    op: 'patrol'
+  - idx: 4
+    op: 'slow_move'
+    data: [528, 1295]
+  - idx: 5
+    op: 'patrol'
+  - idx: 6
+    op: 'slow_move'
+    data: [536, 1226]
+  - idx: 7
+    op: 'patrol'
+  - idx: 8
+    op: 'move'
+    data: [526, 1270]
+  - idx: 9
+    op: 'move'
+    data: [506, 1282]
+  - idx: 10
+    op: 'disposable'

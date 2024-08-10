@@ -1,0 +1,102 @@
+author: ['朗加', 'DoctorReid']
+planet: '仙舟「罗浮」'
+region: '廻星港'
+floor: 2
+tp: '飞星小筑'
+route:
+  - idx: 1
+    op: 'move'
+    data: [834, 275]
+  - idx: 2
+    op: 'move'
+    data: [789, 276]
+  - idx: 3
+    op: 'move'
+    data: [736, 275]
+  - idx: 4
+    op: 'move'
+    data: [703, 283]
+  - idx: 5
+    op: 'move'
+    data: [672, 283]
+  - idx: 6
+    op: 'move'
+    data: [673, 301]
+  - idx: 7
+    op: 'move'
+    data: [681, 322]
+  - idx: 8
+    op: 'disposable'
+  - idx: 9
+    op: 'move'
+    data: [673, 301]
+  - idx: 10
+    op: 'move'
+    data: [710, 299]
+  - idx: 11
+    op: 'move'
+    data: [712, 319]
+  - idx: 12
+    op: 'patrol'
+  - idx: 13
+    op: 'move'
+    data: [739, 319]
+  - idx: 14
+    op: 'move'
+    data: [788, 321]
+  - idx: 15
+    op: 'move'
+    data: [846, 327]
+  - idx: 16
+    op: 'move'
+    data: [883, 316]
+  - idx: 17
+    op: 'disposable'
+  - idx: 18
+    op: 'move'
+    data: [846, 327]
+  - idx: 19
+    op: 'move'
+    data: [849, 374]
+  - idx: 20
+    op: 'move'
+    data: [836, 381]
+  - idx: 21
+    op: 'patrol'
+  - idx: 22
+    op: 'slow_move'
+    data: [745, 383]
+  - idx: 23
+    op: 'patrol'
+  - idx: 24
+    op: 'move'
+    data: [721, 365]
+  - idx: 25
+    op: 'move'
+    data: [704, 365]
+  - idx: 26
+    op: 'disposable'
+  - idx: 27
+    op: 'move'
+    data: [750, 366]
+  - idx: 28
+    op: 'move'
+    data: [900, 441]
+  - idx: 29
+    op: 'disposable'
+  - idx: 30
+    op: 'move'
+    data: [845, 439]
+  - idx: 31
+    op: 'patrol'
+  - idx: 32
+    op: 'move'
+    data: [802, 444]
+  - idx: 33
+    op: 'move'
+    data: [801, 475]
+  - idx: 34
+    op: 'move'
+    data: [850, 477]
+  - idx: 35
+    op: 'patrol'

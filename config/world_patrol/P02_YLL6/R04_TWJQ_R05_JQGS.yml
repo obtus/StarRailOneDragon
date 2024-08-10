@@ -1,0 +1,47 @@
+author: ['朗加', 'DoctorReid']
+planet: '雅利洛-VI'
+region: '铁卫禁区'
+floor: 0
+tp: '禁区岗哨'
+route:
+  - idx: 1
+    op: 'move'
+    data: [1113, 589]
+  - idx: 2
+    op: 'move'
+    data: [1088, 624]
+  - idx: 3
+    op: 'disposable'
+  - idx: 4
+    op: 'move'
+    data: [1091, 588]
+  - idx: 5
+    op: 'move'
+    data: [906, 590]
+  - idx: 6
+    op: 'disposable'
+  - idx: 7
+    op: 'move'
+    data: [869, 592]
+  - idx: 8
+    op: 'move'
+    data: [862, 547]
+  - idx: 9
+    op: 'move'
+    data: [840, 510]
+  - idx: 10
+    op: 'move'
+    data: [828, 512]
+  - idx: 11
+    op: 'disposable'
+  - idx: 12
+    op: 'move'
+    data: [848, 581]
+  - idx: 13
+    op: 'move'
+    data: [846, 622]
+  - idx: 14
+    op: 'slow_move'
+    data: [857, 643]
+  - idx: 15
+    op: 'patrol'

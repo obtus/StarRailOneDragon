@@ -1,0 +1,16 @@
+author: ['朗加', 'DoctorReid']
+planet: '仙舟「罗浮」'
+region: '丹鼎司'
+floor: 2
+tp: '天人之形·凝滞虚影'
+route:
+  - idx: 1
+    op: 'move'
+    data: [1160, 1108]
+  - idx: 2
+    op: 'disposable'
+  - idx: 3
+    op: 'move'
+    data: [1129, 1050]
+  - idx: 4
+    op: 'disposable'

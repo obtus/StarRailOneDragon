@@ -1,0 +1,45 @@
+author: ['朗加', 'DoctorReid']
+planet: '匹诺康尼'
+region: '筑梦边境'
+floor: 0
+tp: '回忆之蕾·拟造花萼（金）'
+route:
+  - idx: 1
+    op: 'move'
+    data: [277, 1353]
+  - idx: 2
+    op: 'move'
+    data: [252, 1322]
+  - idx: 3
+    op: 'disposable'
+  - idx: 4
+    op: 'move'
+    data: [301, 1364]
+  - idx: 5
+    op: 'patrol'
+  - idx: 6
+    op: 'move'
+    data: [310, 1370]
+  - idx: 7
+    op: 'patrol'
+  - idx: 8
+    op: 'move'
+    data: [315, 1396]
+  - idx: 9
+    op: 'move'
+    data: [315, 1455]
+  - idx: 10
+    op: 'move'
+    data: [364, 1462]
+  - idx: 11
+    op: 'patrol'
+  - idx: 12
+    op: 'move'
+    data: [335, 1460]
+  - idx: 13
+    op: 'patrol'
+  - idx: 14
+    op: 'move'
+    data: [318, 1473]
+  - idx: 15
+    op: 'disposable'

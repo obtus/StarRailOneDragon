@@ -1,0 +1,58 @@
+author: ['朗加', 'DoctorReid']
+planet: '匹诺康尼'
+region: '「白日梦」酒店-梦境'
+floor: 1
+tp: '监控室'
+route:
+  - idx: 1
+    op: 'move'
+    data: [431, 555]
+  - idx: 2
+    op: 'disposable'
+  - idx: 3
+    op: 'move'
+    data: [456, 587]
+  - idx: 4
+    op: 'move'
+    data: [452, 670]
+  - idx: 5
+    op: 'move'
+    data: [433, 683]
+  - idx: 6
+    op: 'disposable'
+  - idx: 7
+    op: 'move'
+    data: [313, 681]
+  - idx: 8
+    op: 'patrol'
+  - idx: 9
+    op: 'move'
+    data: [299, 662]
+  - idx: 10
+    op: 'patrol'
+  - idx: 11
+    op: 'slow_move'
+    data: [291, 697]
+  - idx: 12
+    op: 'patrol'
+  - idx: 13
+    op: 'move'
+    data: [295, 701]
+  - idx: 14
+    op: 'move'
+    data: [306, 703]
+  - idx: 15
+    op: 'disposable'
+  - idx: 16
+    op: 'move'
+    data: [297, 742]
+  - idx: 17
+    op: 'move'
+    data: [451, 747]
+  - idx: 18
+    op: 'disposable'
+  - idx: 19
+    op: 'move'
+    data: [443, 913]
+  - idx: 20
+    op: 'disposable'

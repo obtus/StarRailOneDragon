@@ -1,0 +1,17 @@
+author: ['朗加', 'DoctorReid']
+planet: '空间站黑塔'
+region: '基座舱段'
+floor: 0
+tp: '接待中心'
+route:
+  - idx: 1
+    op: 'move'
+    data: [513, 474]
+  - idx: 2
+    op: 'move'
+    data: [514, 429]
+  - idx: 3
+    op: 'move'
+    data: [523, 402]
+  - idx: 4
+    op: 'disposable'

@@ -1,0 +1,53 @@
+author: ['朗加', 'DoctorReid']
+planet: '雅利洛-VI'
+region: '残响回廊'
+floor: 0
+tp: '筑城领域'
+route:
+  - idx: 1
+    op: 'disposable'
+  - idx: 2
+    op: 'move'
+    data: [774, 406]
+  - idx: 3
+    op: 'move'
+    data: [803, 398]
+  - idx: 4
+    op: 'move'
+    data: [807, 310]
+  - idx: 5
+    op: 'disposable'
+  - idx: 6
+    op: 'move'
+    data: [809, 268]
+  - idx: 7
+    op: 'move'
+    data: [781, 232]
+  - idx: 8
+    op: 'patrol'
+  - idx: 9
+    op: 'slow_move'
+    data: [807, 234]
+  - idx: 10
+    op: 'patrol'
+  - idx: 11
+    op: 'slow_move'
+    data: [809, 258]
+  - idx: 12
+    op: 'patrol'
+  - idx: 13
+    op: 'slow_move'
+    data: [784, 258]
+  - idx: 14
+    op: 'patrol'
+  - idx: 15
+    op: 'move'
+    data: [779, 249]
+  - idx: 16
+    op: 'move'
+    data: [665, 250]
+  - idx: 17
+    op: 'move'
+    data: [669, 278]
+  - idx: 18
+    op: 'disposable'
