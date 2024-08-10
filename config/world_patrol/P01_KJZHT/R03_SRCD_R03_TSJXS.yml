@@ -1,0 +1,40 @@
+author: ['朗加', 'DoctorReid']
+planet: '空间站黑塔'
+region: '收容舱段'
+floor: 2
+tp: '特殊解析室'
+route:
+  - idx: 1
+    op: 'move'
+    data: [778, 438]
+  - idx: 2
+    op: 'disposable'
+  - idx: 3
+    op: 'move'
+    data: [751, 451]
+  - idx: 4
+    op: 'move'
+    data: [722, 438]
+  - idx: 5
+    op: 'move'
+    data: [733, 370]
+  - idx: 6
+    op: 'move'
+    data: [639, 372]
+  - idx: 7
+    op: 'move'
+    data: [614, 414]
+  - idx: 8
+    op: 'move'
+    data: [563, 412]
+  - idx: 9
+    op: 'move'
+    data: [543, 375]
+  - idx: 10
+    op: 'move'
+    data: [458, 373]
+  - idx: 11
+    op: 'move'
+    data: [441, 367]
+  - idx: 12
+    op: 'patrol'

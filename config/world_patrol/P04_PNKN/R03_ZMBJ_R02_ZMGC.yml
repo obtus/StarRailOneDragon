@@ -1,0 +1,62 @@
+author: ['朗加', 'DoctorReid']
+planet: '匹诺康尼'
+region: '筑梦边境'
+floor: 0
+tp: '筑梦广场'
+route:
+  - idx: 1
+    op: 'move'
+    data: [1280, 715]
+  - idx: 2
+    op: 'move'
+    data: [1223, 713]
+  - idx: 3
+    op: 'patrol'
+  - idx: 4
+    op: 'move'
+    data: [1280, 715]
+  - idx: 5
+    op: 'move'
+    data: [1277, 823]
+  - idx: 6
+    op: 'move'
+    data: [1216, 823]
+  - idx: 7
+    op: 'move'
+    data: [1210, 890]
+  - idx: 8
+    op: 'move'
+    data: [1213, 923]
+  - idx: 9
+    op: 'patrol'
+  - idx: 10
+    op: 'move'
+    data: [1175, 889]
+  - idx: 11
+    op: 'disposable'
+  - idx: 12
+    op: 'move'
+    data: [1214, 904]
+  - idx: 13
+    op: 'move'
+    data: [1212, 999]
+  - idx: 14
+    op: 'move'
+    data: [1216, 1026]
+  - idx: 15
+    op: 'patrol'
+  - idx: 16
+    op: 'slow_move'
+    data: [1167, 1029]
+  - idx: 17
+    op: 'patrol'
+  - idx: 18
+    op: 'move'
+    data: [1201, 1045]
+  - idx: 19
+    op: 'patrol'
+  - idx: 20
+    op: 'move'
+    data: [1151, 1045]
+  - idx: 21
+    op: 'disposable'

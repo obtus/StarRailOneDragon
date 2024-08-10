@@ -1,0 +1,24 @@
+author: ['朗加', 'DoctorReid']
+planet: '仙舟「罗浮」'
+region: '流云渡'
+floor: 1
+tp: '冰棱之形·凝滞虚影'
+route:
+  - idx: 1
+    op: 'slow_move'
+    data: [707, 1404]
+  - idx: 2
+    op: 'disposable'
+  - idx: 3
+    op: 'slow_move'
+    data: [695, 1403]
+  - idx: 4
+    op: 'disposable'
+  - idx: 5
+    op: 'move'
+    data: [709, 1351]
+  - idx: 6
+    op: 'move'
+    data: [754, 1340]
+  - idx: 7
+    op: 'disposable'

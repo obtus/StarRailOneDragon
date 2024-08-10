@@ -1,0 +1,64 @@
+author: ['DoctorReid', 'nyehueh', '朗加']
+planet: '空间站黑塔'
+region: '支援舱段'
+floor: 2
+tp: '电力室'
+route:
+  - idx: 1
+    op: 'move'
+    data: [163, 362]
+  - idx: 2
+    op: 'disposable'
+  - idx: 3
+    op: 'move'
+    data: [158, 419]
+  - idx: 4
+    op: 'disposable'
+  - idx: 5
+    op: 'move'
+    data: [184, 382]
+  - idx: 6
+    op: 'move'
+    data: [229, 382]
+  - idx: 7
+    op: 'patrol'
+  - idx: 8
+    op: 'move'
+    data: [204, 388]
+  - idx: 9
+    op: 'disposable'
+  - idx: 10
+    op: 'move'
+    data: [247, 382]
+  - idx: 11
+    op: 'move'
+    data: [265, 381]
+  - idx: 12
+    op: 'move'
+    data: [273, 314]
+  - idx: 13
+    op: 'patrol'
+  - idx: 14
+    op: 'slow_move'
+    data: [339, 315]
+  - idx: 15
+    op: 'patrol'
+  - idx: 16
+    op: 'move'
+    data: [436, 313]
+  - idx: 17
+    op: 'move'
+    data: [440, 234]
+  - idx: 18
+    op: 'move'
+    data: [406, 237]
+  - idx: 19
+    op: 'disposable'
+  - idx: 20
+    op: 'move'
+    data: [490, 232]
+  - idx: 21
+    op: 'move'
+    data: [563, 235]
+  - idx: 22
+    op: 'patrol'

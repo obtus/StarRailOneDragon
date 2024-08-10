@@ -1,0 +1,71 @@
+author: ['DoctorReid']
+planet: '匹诺康尼'
+region: '克劳克影视乐园'
+floor: 2
+tp: '存护之蕾·拟造花萼（赤）'
+route:
+  - idx: 1
+    op: 'move'
+    data: [879, 1255]
+  - idx: 2
+    op: 'disposable'
+  - idx: 3
+    op: 'move'
+    data: [862, 1306]
+  - idx: 4
+    op: 'move'
+    data: [830, 1336]
+  - idx: 5
+    op: 'move'
+    data: [837, 1360]
+  - idx: 6
+    op: 'disposable'
+  - idx: 7
+    op: 'move'
+    data: [829, 1333]
+  - idx: 8
+    op: 'move'
+    data: [761, 1331]
+  - idx: 9
+    op: 'patrol'
+  - idx: 10
+    op: 'patrol'
+  - idx: 11
+    op: 'move'
+    data: [773, 1348]
+  - idx: 12
+    op: 'patrol'
+  - idx: 13
+    op: 'move'
+    data: [791, 1366]
+  - idx: 14
+    op: 'disposable'
+  - idx: 15
+    op: 'move'
+    data: [785, 1343]
+  - idx: 16
+    op: 'move'
+    data: [674, 1354]
+  - idx: 17
+    op: 'move'
+    data: [672, 1396]
+  - idx: 18
+    op: 'move'
+    data: [570, 1417]
+  - idx: 19
+    op: 'move'
+    data: [534, 1378]
+  - idx: 20
+    op: 'disposable'
+  - idx: 21
+    op: 'move'
+    data: [438, 1419]
+  - idx: 22
+    op: 'patrol'
+  - idx: 23
+    op: 'patrol'
+  - idx: 24
+    op: 'move'
+    data: [412, 1364]
+  - idx: 25
+    op: 'disposable'

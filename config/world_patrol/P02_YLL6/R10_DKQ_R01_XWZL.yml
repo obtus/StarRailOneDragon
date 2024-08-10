@@ -1,0 +1,38 @@
+author: ['朗加', 'DoctorReid']
+planet: '雅利洛-VI'
+region: '大矿区'
+floor: 0
+tp: '虚无之蕾·拟造花萼（赤）'
+route:
+  - idx: 1
+    op: 'move'
+    data: [335, 217]
+  - idx: 2
+    op: 'move'
+    data: [322, 198]
+  - idx: 3
+    op: 'disposable'
+  - idx: 4
+    op: 'move'
+    data: [352, 207]
+  - idx: 5
+    op: 'move'
+    data: [375, 259]
+  - idx: 6
+    op: 'move'
+    data: [335, 298]
+  - idx: 7
+    op: 'disposable'
+  - idx: 8
+    op: 'move'
+    data: [251, 293]
+  - idx: 9
+    op: 'move'
+    data: [232, 387]
+  - idx: 10
+    op: 'disposable'
+  - idx: 11
+    op: 'move'
+    data: [341, 532]
+  - idx: 12
+    op: 'disposable'
