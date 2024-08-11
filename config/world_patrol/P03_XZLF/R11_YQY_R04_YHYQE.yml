@@ -46,10 +46,7 @@ route:
     data: '穿行'
   - idx: 16
     op: 'wait'
-    data: ['seconds', '1']
-  - idx: 17
-    op: 'wait'
-    data: ['in_world', '20']
+    data: ['seconds', '5']
   - idx: 18
     op: 'update_pos'
     data: [1427, 1115]

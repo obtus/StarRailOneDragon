@@ -71,7 +71,7 @@ class WorldPatrolWhiteListView(components.Card, SrBasicView):
         self.image_width = 650
         self.map_img = ft.Image(src="a.png", fit=ft.ImageFit.CONTAIN, visible=False)
 
-        self.display_route_list = ft.ListView(expand=1, spacing=10, auto_scroll=True)
+        self.display_route_list = ft.ListView(expand=1, spacing=10, auto_scroll=False)
 
         route_display_part = ft.Column(controls=[
             ft.Container(content=whitelist_id_row, padding=20),
