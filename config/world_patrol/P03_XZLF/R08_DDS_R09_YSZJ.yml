@@ -1,0 +1,39 @@
+author: ['DoctorReid']
+planet: '仙舟「罗浮」'
+region: '丹鼎司'
+floor: 2
+tp: '药使之径·侵蚀隧洞'
+route:
+  - idx: 1
+    op: 'move'
+    data: [670, 1459]
+  - idx: 2
+    op: 'move'
+    data: [693, 1442]
+  - idx: 3
+    op: 'disposable'
+  - idx: 4
+    op: 'move'
+    data: [676, 1408]
+  - idx: 5
+    op: 'patrol'
+  - idx: 6
+    op: 'patrol'
+  - idx: 7
+    op: 'slow_move'
+    data: [708, 1381]
+  - idx: 8
+    op: 'patrol'
+  - idx: 9
+    op: 'move'
+    data: [712, 1426]
+  - idx: 10
+    op: 'disposable'
+  - idx: 11
+    op: 'move'
+    data: [706, 1375]
+  - idx: 12
+    op: 'move'
+    data: [774, 1310]
+  - idx: 13
+    op: 'patrol'

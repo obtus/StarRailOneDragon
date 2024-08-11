@@ -1,0 +1,50 @@
+author: ['朗加', 'DoctorReid']
+planet: '雅利洛-VI'
+region: '铆钉镇'
+floor: 1
+tp: '孤儿院'
+route:
+  - idx: 1
+    op: 'move'
+    data: [586, 219]
+  - idx: 2
+    op: 'move'
+    data: [596, 195]
+  - idx: 3
+    op: 'move'
+    data: [632, 184]
+  - idx: 4
+    op: 'move'
+    data: [679, 192]
+  - idx: 5
+    op: 'patrol'
+  - idx: 6
+    op: 'move'
+    data: [677, 226]
+  - idx: 7
+    op: 'move'
+    data: [690, 264]
+  - idx: 8
+    op: 'move'
+    data: [677, 269]
+  - idx: 9
+    op: 'disposable'
+  - idx: 10
+    op: 'move'
+    data: [651, 317]
+  - idx: 11
+    op: 'disposable'
+  - idx: 12
+    op: 'move'
+    data: [689, 283]
+  - idx: 13
+    op: 'move'
+    data: [693, 312]
+  - idx: 14
+    op: 'move'
+    data: [698, 356]
+  - idx: 15
+    op: 'move'
+    data: [740, 364]
+  - idx: 16
+    op: 'disposable'
