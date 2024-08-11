@@ -17,7 +17,7 @@ route:
     data: '按下'
   - idx: 5
     op: 'wait'
-    data: ['seconds', '5']
+    data: ['seconds', '7']
   - idx: 6
     op: 'move'
     data: [1569, 1037]
@@ -53,7 +53,7 @@ route:
     data: '按下'
   - idx: 18
     op: 'wait'
-    data: ['seconds', '5']
+    data: ['seconds', '7']
   - idx: 19
     op: 'move'
     data: [1536, 1041]

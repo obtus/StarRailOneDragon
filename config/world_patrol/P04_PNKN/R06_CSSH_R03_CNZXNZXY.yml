@@ -1,0 +1,11 @@
+author: ['DoctorReid']
+planet: '匹诺康尼'
+region: '城市沙盒'
+floor: 0
+tp: '嗔怒之形·凝滞虚影'
+route:
+  - idx: 1
+    op: 'move'
+    data: [646, 686]
+  - idx: 2
+    op: 'disposable'

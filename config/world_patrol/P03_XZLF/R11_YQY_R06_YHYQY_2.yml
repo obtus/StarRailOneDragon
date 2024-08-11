@@ -19,7 +19,7 @@ route:
     data: '按下'
   - idx: 6
     op: 'wait'
-    data: ['seconds', '5']
+    data: ['seconds', '7']
   - idx: 7
     op: 'move'
     data: [1236, 1259]
