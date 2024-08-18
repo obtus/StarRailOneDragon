@@ -102,11 +102,14 @@ route:
     op: 'patrol'
   - idx: 37
     op: 'move'
-    data: [429, 1238]
+    data: [403, 1204]
   - idx: 38
-    op: 'patrol'
-  - idx: 39
     op: 'move'
     data: [434, 1191]
-  - idx: 40
+  - idx: 39
     op: 'disposable'
+  - idx: 40
+    op: 'move'
+    data: [429, 1238]
+  - idx: 41
+    op: 'patrol'

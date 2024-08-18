@@ -25,21 +25,3 @@ route:
     data: [791, 508]
   - idx: 8
     op: 'disposable'
-  - idx: 9
-    op: 'move'
-    data: [765, 502]
-  - idx: 10
-    op: 'move'
-    data: [760, 288]
-  - idx: 11
-    op: 'patrol'
-  - idx: 12
-    op: 'slow_move'
-    data: [770, 243]
-  - idx: 13
-    op: 'disposable'
-  - idx: 14
-    op: 'slow_move'
-    data: [760, 198]
-  - idx: 15
-    op: 'disposable'

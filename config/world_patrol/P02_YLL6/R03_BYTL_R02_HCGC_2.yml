@@ -31,14 +31,12 @@ route:
     op: 'move'
     data: [740, 766]
   - idx: 11
-    op: 'patrol'
-  - idx: 12
     op: 'slow_move'
     data: [745, 698]
-  - idx: 13
+  - idx: 12
     op: 'patrol'
-  - idx: 14
+  - idx: 13
     op: 'move'
     data: [731, 712]
-  - idx: 15
+  - idx: 14
     op: 'disposable'

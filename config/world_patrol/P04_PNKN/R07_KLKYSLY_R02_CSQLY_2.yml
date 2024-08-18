@@ -62,11 +62,11 @@ route:
     op: 'patrol'
   - idx: 22
     op: 'move'
-    data: [676, 302]
+    data: [672, 298]
   - idx: 23
     op: 'disposable'
   - idx: 24
-    op: 'move'
+    op: 'slow_move'
     data: [672, 287]
   - idx: 25
     op: 'move'

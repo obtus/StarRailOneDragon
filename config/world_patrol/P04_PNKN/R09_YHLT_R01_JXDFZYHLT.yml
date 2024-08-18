@@ -22,21 +22,3 @@ route:
     data: [721, 494]
   - idx: 7
     op: 'disposable'
-  - idx: 8
-    op: 'move'
-    data: [763, 495]
-  - idx: 9
-    op: 'move'
-    data: [771, 269]
-  - idx: 10
-    op: 'patrol'
-  - idx: 11
-    op: 'slow_move'
-    data: [755, 215]
-  - idx: 12
-    op: 'disposable'
-  - idx: 13
-    op: 'slow_move'
-    data: [771, 172]
-  - idx: 14
-    op: 'disposable'

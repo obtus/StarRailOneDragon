@@ -53,7 +53,7 @@ route:
   - idx: 17
     op: 'disposable'
   - idx: 18
-    op: 'move'
+    op: 'slow_move'
     data: [846, 327]
   - idx: 19
     op: 'move'
@@ -93,7 +93,7 @@ route:
     op: 'move'
     data: [802, 444]
   - idx: 33
-    op: 'move'
+    op: 'slow_move'
     data: [801, 475]
   - idx: 34
     op: 'move'

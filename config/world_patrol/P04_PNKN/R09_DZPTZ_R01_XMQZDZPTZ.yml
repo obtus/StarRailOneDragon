@@ -95,18 +95,18 @@ route:
     op: 'move'
     data: [669, 218]
   - idx: 35
-    op: 'move'
+    op: 'slow_move'
     data: [690, 193]
   - idx: 36
     op: 'disposable'
   - idx: 37
-    op: 'move'
+    op: 'slow_move'
     data: [669, 214]
   - idx: 38
     op: 'move'
     data: [758, 214]
   - idx: 39
-    op: 'move'
+    op: 'slow_move'
     data: [740, 194]
   - idx: 40
     op: 'disposable'
