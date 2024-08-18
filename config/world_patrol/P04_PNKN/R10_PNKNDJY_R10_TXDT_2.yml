@@ -56,70 +56,76 @@ route:
   - idx: 19
     op: 'disposable'
   - idx: 20
-    op: 'slow_move'
-    data: [1059, 630]
+    op: 'move'
+    data: [1046, 632]
   - idx: 21
     op: 'slow_move'
-    data: [1069, 630]
+    data: [1059, 630]
   - idx: 22
-    op: 'disposable'
+    op: 'slow_move'
+    data: [1069, 630]
   - idx: 23
+    op: 'disposable'
+  - idx: 24
     op: 'slow_move'
     data: [1081, 602]
-  - idx: 24
-    op: 'disposable'
   - idx: 25
-    op: 'move'
-    data: [1051, 554]
+    op: 'disposable'
   - idx: 26
     op: 'move'
-    data: [1063, 494]
+    data: [1051, 554]
   - idx: 27
-    op: 'patrol'
+    op: 'move'
+    data: [1063, 494]
   - idx: 28
+    op: 'patrol'
+  - idx: 29
     op: 'move'
     data: [1021, 487]
-  - idx: 29
-    op: 'patrol'
   - idx: 30
-    op: 'move'
-    data: [1063, 494]
+    op: 'patrol'
   - idx: 31
     op: 'move'
-    data: [1051, 437]
+    data: [1063, 494]
   - idx: 32
-    op: 'disposable'
+    op: 'move'
+    data: [1051, 437]
   - idx: 33
+    op: 'disposable'
+  - idx: 34
     op: 'move'
     data: [1151, 455]
-  - idx: 34
-    op: 'patrol'
   - idx: 35
+    op: 'patrol'
+  - idx: 36
     op: 'slow_move'
     data: [1126, 474]
-  - idx: 36
-    op: 'move'
-    data: [1138, 484]
   - idx: 37
-    op: 'disposable'
-  - idx: 38
     op: 'slow_move'
-    data: [1176, 430]
+    data: [1138, 484]
+  - idx: 38
+    op: 'disposable'
   - idx: 39
     op: 'move'
-    data: [1188, 444]
+    data: [1167, 443]
   - idx: 40
-    op: 'disposable'
+    op: 'slow_move'
+    data: [1176, 430]
   - idx: 41
-    op: 'move'
-    data: [1208, 386]
+    op: 'slow_move'
+    data: [1188, 444]
   - idx: 42
-    op: 'patrol'
+    op: 'disposable'
   - idx: 43
     op: 'move'
-    data: [1188, 389]
+    data: [1208, 386]
   - idx: 44
+    op: 'patrol'
+  - idx: 45
+    op: 'move'
+    data: [1188, 389]
+  - idx: 46
     op: 'move'
     data: [1053, 384]
-  - idx: 45
+  - idx: 47
     op: 'disposable'

@@ -11,11 +11,3 @@ route:
     data: [830, 362]
   - idx: 3
     op: 'disposable'
-  - idx: 4
-    op: 'move'
-    data: [815, 376]
-  - idx: 5
-    op: 'move'
-    data: [801, 440]
-  - idx: 6
-    op: 'disposable'
