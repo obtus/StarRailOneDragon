@@ -12,6 +12,7 @@ from sr.operation import Operation, OperationResult, OperationFail, StateOperati
     StateOperationNode, OperationOneRoundResult, StateOperationEdge
 from sr.operation.combine.transport import Transport
 from sr.operation.unit.catapult import Catapult
+from sr.operation.unit.direct_move import DirectMove
 from sr.operation.unit.interact import Interact
 from sr.operation.unit.move import MoveDirectly
 from sr.operation.unit.record_coordinate import RecordCoordinate
@@ -151,6 +152,8 @@ class WorldPatrolRunRoute(StateOperation):
             op = Catapult(self.ctx)
         elif route_item.op == operation_const.OP_WAIT:
             op = self.wait(route_item.data[0], float(route_item.data[1]))
+        elif route_item.op == operation_const.OP_DIRECT_MOVE:
+            op = DirectMove(self.ctx, route_item.data[0], float(route_item.data[1]))
         elif route_item.op == operation_const.OP_UPDATE_POS:
             next_pos = Point(route_item.data[0], route_item.data[1])
             self._update_pos_after_op(OperationResult(True, data=next_pos))

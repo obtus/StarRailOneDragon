@@ -138,19 +138,22 @@ class PcController(GameController):
         :param run: 是否启用疾跑
         :return:
         """
-        if direction not in ['w', 's', 'a', 'd']:
+        if direction not in ['w', 's', 'a', 'd', 'wd', 'wa' ,'sa', 'sd']:
             log.error('非法的方向移动 %s', direction)
             return False
         self.start_move_time = time.time()
         if press_time > 0:
-            pyautogui.keyDown(direction)
+            for c in direction:
+                pyautogui.keyDown(c)
             self.is_moving = True
             self.enter_running(run)
             time.sleep(press_time)
-            pyautogui.keyUp(direction)
+            for c in direction:
+                pyautogui.keyUp(c)
             self.stop_moving_forward()
         else:
-            pyautogui.press(direction)
+            for c in direction:
+                pyautogui.press(c)
         return True
 
     def get_move_time(self) -> float:

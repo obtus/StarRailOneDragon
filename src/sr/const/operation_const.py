@@ -8,6 +8,7 @@ OP_INTERACT = 'interact'
 OP_WAIT = 'wait'
 OP_UPDATE_POS = 'update_pos'
 OP_ENTER_SUB = 'enter_sub'
+OP_DIRECT_MOVE = 'direct_move'
 
 # 等待类型
 WAIT_TYPE_IN_WORLD = 'in_world'

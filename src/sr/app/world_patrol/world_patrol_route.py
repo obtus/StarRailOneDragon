@@ -261,6 +261,9 @@ class WorldPatrolRoute:
             elif route_item.op == operation_const.OP_WAIT:
                 cfg += "    op: '%s'\n" % route_item.op
                 cfg += "    data: ['%s', '%s']\n" % (route_item.data[0], route_item.data[1])
+            elif route_item.op == operation_const.OP_DIRECT_MOVE:
+                cfg += "    op: '%s'\n" % route_item.op
+                cfg += "    data: ['%s', '%s']\n" % (route_item.data[0], route_item.data[1])
             elif route_item.op == operation_const.OP_ENTER_SUB:
                 cfg += "    op: '%s'\n" % route_item.op
                 cfg += "    data: ['%s', '%s']\n" % (route_item.data[0], route_item.data[1])
@@ -368,6 +371,15 @@ class WorldPatrolRoute:
         :return:
         """
         to_add = WorldPatrolRouteOperation(op=operation_const.OP_WAIT, data=[wait_type, wait_timeout])
+        self.route_list.append(to_add)
+        self.init_idx()
+
+    def add_direct_move(self, direct: str, control_time: float):
+        """
+        增加等待指令
+        :return:
+        """
+        to_add = WorldPatrolRouteOperation(op=operation_const.OP_DIRECT_MOVE, data=[direct, control_time])
         self.route_list.append(to_add)
         self.init_idx()
 

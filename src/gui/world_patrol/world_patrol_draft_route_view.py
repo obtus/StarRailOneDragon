@@ -18,9 +18,9 @@ from gui.settings import gui_config
 from gui.settings.gui_config import ThemeColors
 from gui.sr_basic_view import SrBasicView
 from sr import cal_pos
+from sr.app.world_patrol.world_patrol_app import WorldPatrol
 from sr.app.world_patrol.world_patrol_route import WorldPatrolRouteId, WorldPatrolRoute, load_all_route_id, new_route_id
 from sr.app.world_patrol.world_patrol_whitelist_config import WorldPatrolWhitelist
-from sr.app.world_patrol.world_patrol_app import WorldPatrol
 from sr.const import operation_const
 from sr.const.map_const import Planet, get_planet_by_cn, PLANET_LIST, PLANET_2_REGION, get_region_by_cn, Region, \
     REGION_2_SP, TransportPoint, get_sub_region_by_cn
@@ -116,11 +116,21 @@ class WorldPatrolDraftRouteView(ft.Row, SrBasicView):
         )
         self.add_wait_btn = components.RectOutlinedButton(text='等待', disabled=True, on_click=self.add_wait)
         self.no_run_btn = components.RectOutlinedButton(text='禁疾跑', disabled=True, on_click=self.add_no_run)
+        self.direct_dropdown = ft.Dropdown(label='方向', width=100, options=[ft.dropdown.Option(text='↑', key='up'),
+                                                                             ft.dropdown.Option(text='↓', key='down'),
+                                                                             ft.dropdown.Option(text='←', key='left'),
+                                                                             ft.dropdown.Option(text='→', key='right'),
+                                                                             ft.dropdown.Option(text='↖', key='left_up'),
+                                                                             ft.dropdown.Option(text='↗', key='right_up'),
+                                                                             ft.dropdown.Option(text='↙', key='left_down'),
+                                                                             ft.dropdown.Option(text='↘', key='right_down')])
+        self.direct_time_text = ft.TextField(label='持续秒数', width=100,)
+        self.add_direct_btn = components.RectOutlinedButton(text='移动', disabled=True, on_click=self.add_direct_move)
 
         screen_row = ft.Row(
             spacing=10,
             controls=[self.screenshot_btn, self.cal_pos_btn,
-                      self.screen_cal_pos_btn, self.screen_patrol_btn, self.screen_disposable_btn, self.catapult_btn]
+                      self.screen_cal_pos_btn, self.screen_patrol_btn, self.screen_disposable_btn]
         )
 
         ctrl_row = ft.Row(
@@ -128,6 +138,10 @@ class WorldPatrolDraftRouteView(ft.Row, SrBasicView):
             controls=[self.patrol_btn, self.disposable_btn, self.interact_text, self.interact_btn,
                       self.wait_dropdown, self.wait_timeout_text, self.add_wait_btn, self.update_pos_btn,
                       self.no_run_btn]
+        )
+        ctrl_row_2 = ft.Row(
+            spacing=10,
+            controls= [self.catapult_btn,  self.direct_dropdown, self.direct_time_text, self.add_direct_btn]
         )
 
         self.large_map_width = 1000
@@ -142,6 +156,7 @@ class WorldPatrolDraftRouteView(ft.Row, SrBasicView):
                 ft.Container(content=load_existed_row, padding=3),
                 ft.Container(content=choose_row, padding=3),
                 ft.Container(content=ctrl_row, padding=3),
+                ft.Container(content=ctrl_row_2, padding=3),
                 ft.Container(content=screen_row, padding=3),
                 self.map_container
             ],
@@ -707,6 +722,13 @@ class WorldPatrolDraftRouteView(ft.Row, SrBasicView):
         self.chosen_route.add_wait(self.wait_dropdown.value, int(self.wait_timeout_text.value))
         self.draw_route_and_display()
 
+    def add_direct_move(self, e):
+        if self.direct_dropdown.value is None or self.direct_time_text.value is None:
+            log.error('需要先填入移动方向和持续时间', self.flet_page)
+            return
+        self.chosen_route.add_direct_move(self.direct_dropdown.value, float(self.direct_time_text.value))
+        self.draw_route_and_display()
+
     def on_update_pos(self, e):
         if self.chosen_route is None:
             log.error('未选择路线')
@@ -762,6 +784,7 @@ class WorldPatrolDraftRouteView(ft.Row, SrBasicView):
         self.add_wait_btn.disabled = self.chosen_sp is None
         self.no_run_btn.disabled = self.chosen_sp is None
         self.update_pos_btn.disabled = self.chosen_sp is None
+        self.add_direct_btn.disabled = self.chosen_sp is None
 
         self.screenshot_btn.disabled = self.chosen_route is None
         self.cal_pos_btn.disabled = self.chosen_route is None or self.mini_map_image is None
