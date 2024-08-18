@@ -45,38 +45,41 @@ route:
   - idx: 15
     op: 'disposable'
   - idx: 16
-    op: 'move'
+    op: 'slow_move'
     data: [499, 1022]
   - idx: 17
-    op: 'move'
+    op: 'slow_move'
     data: [423, 1022]
   - idx: 18
-    op: 'move'
+    op: 'slow_move'
     data: [408, 1005]
   - idx: 19
-    op: 'move'
-    data: [406, 951]
+    op: 'slow_move'
+    data: [408, 951]
   - idx: 20
-    op: 'move'
-    data: [405, 891]
+    op: 'slow_move'
+    data: [408, 926]
   - idx: 21
     op: 'move'
-    data: [315, 890]
+    data: [405, 891]
   - idx: 22
-    op: 'patrol'
+    op: 'move'
+    data: [315, 890]
   - idx: 23
+    op: 'patrol'
+  - idx: 24
     op: 'slow_move'
     data: [276, 890]
-  - idx: 24
-    op: 'patrol'
   - idx: 25
-    op: 'move'
-    data: [314, 892]
+    op: 'patrol'
   - idx: 26
     op: 'move'
-    data: [311, 909]
+    data: [314, 892]
   - idx: 27
     op: 'move'
-    data: [303, 912]
+    data: [311, 909]
   - idx: 28
+    op: 'move'
+    data: [303, 912]
+  - idx: 29
     op: 'disposable'

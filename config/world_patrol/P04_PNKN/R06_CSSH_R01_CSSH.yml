@@ -60,7 +60,7 @@ route:
   - idx: 21
     op: 'patrol'
   - idx: 22
-    op: 'move'
+    op: 'slow_move'
     data: [987, 338]
   - idx: 23
     op: 'patrol'

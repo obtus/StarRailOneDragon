@@ -12,38 +12,53 @@ route:
     data: '气泡弹珠机'
   - idx: 3
     op: 'wait'
-    data: ['seconds', '5']
+    data: ['seconds', '2']
   - idx: 4
     op: 'catapult'
   - idx: 5
+    op: 'wait'
+    data: ['seconds', '5']
+  - idx: 6
     op: 'update_pos'
     data: [669, 251]
-  - idx: 6
-    op: 'move'
-    data: [595, 251]
   - idx: 7
     op: 'move'
-    data: [558, 251]
+    data: [595, 251]
   - idx: 8
+    op: 'move'
+    data: [558, 251]
+  - idx: 9
     op: 'interact'
     data: '气泡弹珠机'
-  - idx: 9
-    op: 'catapult'
   - idx: 10
+    op: 'wait'
+    data: ['seconds', '2']
+  - idx: 11
+    op: 'catapult'
+  - idx: 12
+    op: 'wait'
+    data: ['seconds', '5']
+  - idx: 13
     op: 'update_pos'
     data: [524, 405]
-  - idx: 11
+  - idx: 14
     op: 'move'
     data: [517, 446]
-  - idx: 12
-    op: 'disposable'
-  - idx: 13
-    op: 'move'
-    data: [542, 481]
-  - idx: 14
-    op: 'patrol'
   - idx: 15
+    op: 'disposable'
+  - idx: 16
+    op: 'move'
+    data: [518, 475]
+  - idx: 17
+    op: 'move'
+    data: [517, 480]
+  - idx: 18
     op: 'move'
     data: [506, 494]
-  - idx: 16
+  - idx: 19
+    op: 'patrol'
+  - idx: 20
+    op: 'move'
+    data: [542, 481]
+  - idx: 21
     op: 'patrol'

@@ -35,17 +35,3 @@ route:
     data: [664, 1094]
   - idx: 11
     op: 'disposable'
-  - idx: 12
-    op: 'move'
-    data: [634, 1119]
-  - idx: 13
-    op: 'move'
-    data: [612, 1091]
-  - idx: 14
-    op: 'move'
-    data: [609, 922]
-  - idx: 15
-    op: 'slow_move'
-    data: [621, 927]
-  - idx: 16
-    op: 'disposable'

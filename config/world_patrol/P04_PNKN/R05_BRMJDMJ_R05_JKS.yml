@@ -43,16 +43,3 @@ route:
     data: [306, 703]
   - idx: 15
     op: 'disposable'
-  - idx: 16
-    op: 'move'
-    data: [297, 742]
-  - idx: 17
-    op: 'move'
-    data: [451, 747]
-  - idx: 18
-    op: 'disposable'
-  - idx: 19
-    op: 'move'
-    data: [443, 913]
-  - idx: 20
-    op: 'disposable'
