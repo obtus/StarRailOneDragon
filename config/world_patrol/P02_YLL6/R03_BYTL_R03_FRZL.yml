@@ -9,21 +9,24 @@ route:
     data: [658, 541]
   - idx: 2
     op: 'move'
-    data: [658, 635]
+    data: [658, 630]
   - idx: 3
     op: 'patrol'
   - idx: 4
     op: 'move'
-    data: [780, 642]
+    data: [658, 635]
   - idx: 5
-    op: 'disposable'
-  - idx: 6
     op: 'move'
-    data: [764, 592]
-  - idx: 7
+    data: [780, 642]
+  - idx: 6
     op: 'disposable'
+  - idx: 7
+    op: 'slow_move'
+    data: [764, 592]
   - idx: 8
+    op: 'disposable'
+  - idx: 9
     op: 'move'
     data: [821, 595]
-  - idx: 9
+  - idx: 10
     op: 'disposable'

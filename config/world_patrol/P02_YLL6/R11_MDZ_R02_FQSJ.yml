@@ -12,13 +12,13 @@ route:
   - idx: 3
     op: 'disposable'
   - idx: 4
-    op: 'move'
+    op: 'slow_move'
     data: [446, 375]
   - idx: 5
-    op: 'move'
+    op: 'slow_move'
     data: [446, 393]
   - idx: 6
-    op: 'move'
+    op: 'slow_move'
     data: [453, 399]
   - idx: 7
     op: 'disposable'

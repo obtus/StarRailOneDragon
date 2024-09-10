@@ -42,11 +42,3 @@ route:
     data: [531, 286]
   - idx: 14
     op: 'patrol'
-  - idx: 15
-    op: 'move'
-    data: [591, 287]
-  - idx: 16
-    op: 'move'
-    data: [611, 271]
-  - idx: 17
-    op: 'disposable'

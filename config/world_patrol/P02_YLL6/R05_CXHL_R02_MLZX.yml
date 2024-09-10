@@ -16,10 +16,10 @@ route:
     op: 'move'
     data: [481, 500]
   - idx: 5
-    op: 'move'
+    op: 'slow_move'
     data: [489, 501]
   - idx: 6
-    op: 'move'
+    op: 'slow_move'
     data: [486, 490]
   - idx: 7
     op: 'move'

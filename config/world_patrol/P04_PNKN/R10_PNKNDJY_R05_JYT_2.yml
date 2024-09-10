@@ -20,17 +20,3 @@ route:
     data: [1315, 647]
   - idx: 6
     op: 'disposable'
-  - idx: 7
-    op: 'move'
-    data: [1317, 633]
-  - idx: 8
-    op: 'move'
-    data: [1209, 602]
-  - idx: 9
-    op: 'wait'
-    data: ['seconds', '1']
-  - idx: 10
-    op: 'move'
-    data: [1169, 591]
-  - idx: 11
-    op: 'disposable'

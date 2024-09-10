@@ -27,7 +27,7 @@ route:
     op: 'move'
     data: [611, 598]
   - idx: 9
-    op: 'move'
-    data: [648, 590]
+    op: 'slow_move'
+    data: [648, 593]
   - idx: 10
     op: 'disposable'

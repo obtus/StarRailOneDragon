@@ -55,3 +55,8 @@ route:
     data: [979, 372]
   - idx: 19
     op: 'disposable'
+  - idx: 20
+    op: 'move'
+    data: [958, 407]
+  - idx: 21
+    op: 'disposable'

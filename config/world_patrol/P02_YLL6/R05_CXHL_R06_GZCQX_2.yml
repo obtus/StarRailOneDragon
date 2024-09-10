@@ -22,7 +22,7 @@ route:
     data: [380, 1323]
   - idx: 7
     op: 'move'
-    data: [355, 1322]
+    data: [353, 1330]
   - idx: 8
     op: 'disposable'
   - idx: 9

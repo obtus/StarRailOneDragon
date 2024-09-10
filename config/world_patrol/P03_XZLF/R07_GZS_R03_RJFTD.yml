@@ -17,7 +17,7 @@ route:
     op: 'move'
     data: [901, 532]
   - idx: 5
-    op: 'disposable'
+    op: 'patrol'
   - idx: 6
     op: 'move'
     data: [916, 513]

@@ -30,160 +30,172 @@ route:
     data: [1713, 1023]
   - idx: 9
     op: 'move'
-    data: [1827, 942]
+    data: [1714, 1036]
   - idx: 10
     op: 'patrol'
   - idx: 11
-    op: 'slow_move'
-    data: [1843, 972]
+    op: 'move'
+    data: [1719, 1059]
   - idx: 12
     op: 'patrol'
   - idx: 13
     op: 'move'
-    data: [1775, 972]
-  - idx: 14
-    op: 'move'
     data: [1763, 998]
-  - idx: 15
+  - idx: 14
     op: 'disposable'
-  - idx: 16
+  - idx: 15
     op: 'move'
     data: [1723, 949]
-  - idx: 17
+  - idx: 16
     op: 'disposable'
-  - idx: 18
+  - idx: 17
     op: 'move'
     data: [1728, 965]
-  - idx: 19
+  - idx: 18
     op: 'slow_move'
     data: [1712, 953]
-  - idx: 20
+  - idx: 19
     op: 'interact'
     data: '穿行'
-  - idx: 21
+  - idx: 20
     op: 'wait'
     data: ['seconds', '5']
-  - idx: 22
+  - idx: 21
     op: 'update_pos'
     data: [1629, 900]
-  - idx: 23
+  - idx: 22
     op: 'move'
     data: [1584, 911]
-  - idx: 24
+  - idx: 23
     op: 'disposable'
-  - idx: 25
+  - idx: 24
     op: 'move'
     data: [1603, 904]
-  - idx: 26
+  - idx: 25
     op: 'move'
     data: [1587, 885]
-  - idx: 27
+  - idx: 26
     op: 'patrol'
-  - idx: 28
+  - idx: 27
     op: 'move'
     data: [1577, 826]
-  - idx: 29
+  - idx: 28
     op: 'patrol'
-  - idx: 30
+  - idx: 29
     op: 'move'
     data: [1540, 828]
-  - idx: 31
+  - idx: 30
     op: 'disposable'
-  - idx: 32
+  - idx: 31
     op: 'move'
     data: [1566, 831]
-  - idx: 33
+  - idx: 32
     op: 'slow_move'
     data: [1528, 823]
-  - idx: 34
+  - idx: 33
     op: 'interact'
     data: '按下'
-  - idx: 35
+  - idx: 34
     op: 'wait'
     data: ['seconds', '7']
-  - idx: 36
+  - idx: 35
     op: 'slow_move'
     data: [1535, 843]
-  - idx: 37
+  - idx: 36
     op: 'move'
     data: [1417, 887]
-  - idx: 38
+  - idx: 37
     op: 'disposable'
-  - idx: 39
+  - idx: 38
     op: 'move'
     data: [1401, 854]
-  - idx: 40
+  - idx: 39
     op: 'move'
     data: [1349, 831]
-  - idx: 41
+  - idx: 40
     op: 'disposable'
-  - idx: 42
+  - idx: 41
     op: 'move'
     data: [1394, 854]
-  - idx: 43
-    op: 'move'
+  - idx: 42
+    op: 'slow_move'
     data: [1401, 887]
-  - idx: 44
-    op: 'move'
+  - idx: 43
+    op: 'slow_move'
     data: [1444, 892]
-  - idx: 45
+  - idx: 44
     op: 'interact'
     data: '按下'
-  - idx: 46
+  - idx: 45
     op: 'wait'
     data: ['seconds', '7']
-  - idx: 47
+  - idx: 46
     op: 'slow_move'
     data: [1439, 883]
-  - idx: 48
+  - idx: 47
     op: 'move'
     data: [1434, 871]
+  - idx: 48
+    op: 'move'
+    data: [1502, 854]
   - idx: 49
     op: 'move'
-    data: [1537, 838]
+    data: [1525, 822]
   - idx: 50
-    op: 'move'
-    data: [1533, 826]
-  - idx: 51
     op: 'disposable'
-  - idx: 52
+  - idx: 51
     op: 'move'
     data: [1574, 839]
-  - idx: 53
+  - idx: 52
     op: 'disposable'
-  - idx: 54
+  - idx: 53
     op: 'move'
     data: [1575, 887]
-  - idx: 55
+  - idx: 54
     op: 'patrol'
-  - idx: 56
+  - idx: 55
     op: 'move'
     data: [1526, 894]
-  - idx: 57
+  - idx: 56
     op: 'patrol'
-  - idx: 58
+  - idx: 57
     op: 'move'
     data: [1528, 904]
-  - idx: 59
+  - idx: 58
     op: 'move'
     data: [1584, 880]
-  - idx: 60
+  - idx: 59
     op: 'move'
     data: [1547, 765]
-  - idx: 61
+  - idx: 60
     op: 'patrol'
-  - idx: 62
+  - idx: 61
     op: 'move'
     data: [1497, 788]
-  - idx: 63
+  - idx: 62
     op: 'patrol'
-  - idx: 64
+  - idx: 63
     op: 'move'
     data: [1488, 810]
-  - idx: 65
+  - idx: 64
     op: 'patrol'
+  - idx: 65
+    op: 'move'
+    data: [1486, 800]
   - idx: 66
+    op: 'patrol'
+  - idx: 67
     op: 'move'
     data: [1509, 786]
-  - idx: 67
+  - idx: 68
     op: 'disposable'
+  - idx: 69
+    op: 'move'
+    data: [1447, 805]
+  - idx: 70
+    op: 'patrol'
+  - idx: 71
+    op: 'move'
+    data: [1394, 868]
+  - idx: 72
+    op: 'patrol'

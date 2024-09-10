@@ -5,46 +5,43 @@ floor: 1
 tp: '孤儿院'
 route:
   - idx: 1
-    op: 'move'
-    data: [586, 219]
+    op: 'slow_move'
+    data: [596, 195]
   - idx: 2
     op: 'move'
-    data: [596, 195]
+    data: [632, 184]
   - idx: 3
     op: 'move'
-    data: [632, 184]
-  - idx: 4
-    op: 'move'
     data: [679, 192]
-  - idx: 5
+  - idx: 4
     op: 'patrol'
-  - idx: 6
+  - idx: 5
     op: 'move'
     data: [677, 226]
-  - idx: 7
+  - idx: 6
     op: 'move'
     data: [690, 264]
-  - idx: 8
+  - idx: 7
     op: 'move'
     data: [677, 269]
-  - idx: 9
+  - idx: 8
     op: 'disposable'
-  - idx: 10
+  - idx: 9
     op: 'move'
     data: [651, 317]
-  - idx: 11
+  - idx: 10
     op: 'disposable'
-  - idx: 12
+  - idx: 11
     op: 'move'
     data: [689, 283]
-  - idx: 13
+  - idx: 12
     op: 'move'
     data: [693, 312]
-  - idx: 14
+  - idx: 13
     op: 'move'
     data: [698, 356]
-  - idx: 15
+  - idx: 14
     op: 'move'
     data: [740, 364]
-  - idx: 16
+  - idx: 15
     op: 'disposable'

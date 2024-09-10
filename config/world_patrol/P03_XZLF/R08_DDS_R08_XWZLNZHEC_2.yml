@@ -6,50 +6,61 @@ tp: '虚无之蕾·拟造花萼（赤）'
 route:
   - idx: 1
     op: 'move'
-    data: [645, 1145]
+    data: [632, 1128]
   - idx: 2
-    op: 'move'
-    data: [656, 1219]
+    op: 'disposable'
   - idx: 3
     op: 'move'
-    data: [690, 1215]
+    data: [630, 1147]
   - idx: 4
     op: 'move'
-    data: [721, 1174]
+    data: [653, 1151]
   - idx: 5
-    op: 'disposable'
+    op: 'move'
+    data: [656, 1219]
   - idx: 6
     op: 'move'
-    data: [739, 1171]
+    data: [690, 1215]
   - idx: 7
-    op: 'patrol'
+    op: 'move'
+    data: [721, 1174]
   - idx: 8
+    op: 'disposable'
+  - idx: 9
+    op: 'move'
+    data: [739, 1171]
+  - idx: 10
+    op: 'patrol'
+  - idx: 11
     op: 'slow_move'
     data: [748, 1090]
-  - idx: 9
+  - idx: 12
     op: 'patrol'
-  - idx: 10
+  - idx: 13
     op: 'move'
     data: [772, 1023]
-  - idx: 11
+  - idx: 14
     op: 'disposable'
-  - idx: 12
+  - idx: 15
     op: 'move'
     data: [789, 1083]
-  - idx: 13
+  - idx: 16
     op: 'patrol'
-  - idx: 14
+  - idx: 17
     op: 'slow_move'
     data: [780, 1165]
-  - idx: 15
+  - idx: 18
     op: 'patrol'
-  - idx: 16
+  - idx: 19
+    op: 'move'
+    data: [765, 1149]
+  - idx: 20
     op: 'move'
     data: [803, 1146]
-  - idx: 17
+  - idx: 21
     op: 'patrol'
-  - idx: 18
+  - idx: 22
     op: 'move'
     data: [790, 1199]
-  - idx: 19
+  - idx: 23
     op: 'disposable'

@@ -46,18 +46,21 @@ route:
   - idx: 16
     op: 'patrol'
   - idx: 17
-    op: 'slow_move'
-    data: [693, 665]
+    op: 'move'
+    data: [736, 629]
   - idx: 18
     op: 'slow_move'
-    data: [663, 663]
+    data: [693, 665]
   - idx: 19
     op: 'slow_move'
-    data: [626, 625]
+    data: [663, 663]
   - idx: 20
-    op: 'patrol'
+    op: 'slow_move'
+    data: [626, 625]
   - idx: 21
+    op: 'patrol'
+  - idx: 22
     op: 'move'
     data: [577, 623]
-  - idx: 22
+  - idx: 23
     op: 'disposable'

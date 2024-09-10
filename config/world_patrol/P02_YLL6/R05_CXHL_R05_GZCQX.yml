@@ -6,35 +6,44 @@ tp: '古战场前线'
 route:
   - idx: 1
     op: 'move'
-    data: [491, 1234]
+    data: [491, 1230]
   - idx: 2
     op: 'move'
-    data: [487, 1174]
+    data: [488, 1187]
   - idx: 3
-    op: 'move'
-    data: [418, 1178]
+    op: 'slow_move'
+    data: [487, 1174]
   - idx: 4
     op: 'move'
-    data: [419, 1192]
+    data: [418, 1178]
   - idx: 5
-    op: 'disposable'
-  - idx: 6
     op: 'move'
     data: [383, 1180]
-  - idx: 7
+  - idx: 6
     op: 'patrol'
-  - idx: 8
+  - idx: 7
     op: 'slow_move'
     data: [376, 1184]
-  - idx: 9
+  - idx: 8
     op: 'patrol'
+  - idx: 9
+    op: 'move'
+    data: [389, 1193]
   - idx: 10
     op: 'move'
-    data: [262, 1190]
+    data: [419, 1192]
   - idx: 11
     op: 'disposable'
   - idx: 12
     op: 'move'
-    data: [229, 1190]
+    data: [372, 1184]
   - idx: 13
+    op: 'move'
+    data: [262, 1190]
+  - idx: 14
+    op: 'disposable'
+  - idx: 15
+    op: 'move'
+    data: [229, 1190]
+  - idx: 16
     op: 'disposable'

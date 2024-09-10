@@ -19,10 +19,13 @@ route:
     op: 'move'
     data: [798, 441]
   - idx: 6
-    op: 'move'
+    op: 'slow_move'
     data: [778, 443]
   - idx: 7
+    op: 'slow_move'
+    data: [776, 456]
+  - idx: 8
     op: 'wait'
     data: ['seconds', '2']
-  - idx: 8
+  - idx: 9
     op: 'patrol'

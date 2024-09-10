@@ -18,29 +18,29 @@ route:
     op: 'slow_move'
     data: [399, 220]
   - idx: 6
-    op: 'move'
-    data: [432, 185]
+    op: 'slow_move'
+    data: [417, 203]
   - idx: 7
     op: 'move'
-    data: [490, 186]
+    data: [432, 185]
   - idx: 8
     op: 'move'
-    data: [520, 171]
+    data: [490, 186]
   - idx: 9
     op: 'move'
-    data: [542, 183]
+    data: [520, 171]
   - idx: 10
+    op: 'move'
+    data: [542, 183]
+  - idx: 11
     op: 'slow_move'
     data: [587, 184]
-  - idx: 11
+  - idx: 12
     op: 'interact'
     data: '入画'
-  - idx: 12
-    op: 'wait'
-    data: ['seconds', '3']
   - idx: 13
     op: 'wait'
-    data: ['in_world', '20']
+    data: ['seconds', '10']
   - idx: 14
     op: 'update_pos'
     data: [690, 239]
@@ -79,47 +79,55 @@ route:
     data: [761, 474]
   - idx: 27
     op: 'move'
-    data: [761, 430]
+    data: [794, 448]
   - idx: 28
-    op: 'move'
-    data: [835, 430]
+    op: 'disposable'
   - idx: 29
-    op: 'slow_move'
-    data: [871, 409]
-  - idx: 30
     op: 'move'
-    data: [907, 410]
+    data: [765, 452]
+  - idx: 30
+    op: 'slow_move'
+    data: [761, 430]
   - idx: 31
     op: 'move'
-    data: [930, 383]
+    data: [835, 430]
   - idx: 32
-    op: 'patrol'
+    op: 'slow_move'
+    data: [871, 409]
   - idx: 33
     op: 'move'
-    data: [873, 376]
+    data: [907, 410]
   - idx: 34
-    op: 'disposable'
-  - idx: 35
     op: 'move'
     data: [930, 383]
+  - idx: 35
+    op: 'patrol'
   - idx: 36
     op: 'move'
-    data: [931, 431]
+    data: [873, 376]
   - idx: 37
-    op: 'move'
-    data: [986, 432]
+    op: 'disposable'
   - idx: 38
     op: 'move'
-    data: [1010, 465]
+    data: [930, 383]
   - idx: 39
-    op: 'patrol'
+    op: 'slow_move'
+    data: [931, 431]
   - idx: 40
+    op: 'move'
+    data: [986, 432]
+  - idx: 41
+    op: 'move'
+    data: [1010, 465]
+  - idx: 42
+    op: 'patrol'
+  - idx: 43
     op: 'slow_move'
     data: [1010, 400]
-  - idx: 41
+  - idx: 44
     op: 'patrol'
-  - idx: 42
+  - idx: 45
     op: 'move'
     data: [1029, 376]
-  - idx: 43
+  - idx: 46
     op: 'patrol'
