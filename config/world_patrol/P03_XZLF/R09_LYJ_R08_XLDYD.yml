@@ -20,22 +20,3 @@ route:
     data: [1638, 362]
   - idx: 6
     op: 'patrol'
-  - idx: 7
-    op: 'move'
-    data: [1684, 369]
-  - idx: 8
-    op: 'move'
-    data: [1690, 398]
-  - idx: 9
-    op: 'move'
-    data: [1669, 410]
-  - idx: 10
-    op: 'disposable'
-  - idx: 11
-    op: 'move'
-    data: [1764, 432]
-  - idx: 12
-    op: 'move'
-    data: [1768, 465]
-  - idx: 13
-    op: 'disposable'

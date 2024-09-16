@@ -14,27 +14,11 @@ route:
     data: [393, 853]
   - idx: 4
     op: 'move'
-    data: [447, 898]
+    data: [523, 951]
   - idx: 5
     op: 'disposable'
   - idx: 6
     op: 'move'
-    data: [523, 951]
-  - idx: 7
-    op: 'disposable'
-  - idx: 8
-    op: 'move'
     data: [523, 903]
-  - idx: 9
-    op: 'disposable'
-  - idx: 10
-    op: 'move'
-    data: [556, 838]
-  - idx: 11
-    op: 'wait'
-    data: ['seconds', '1']
-  - idx: 12
-    op: 'move'
-    data: [575, 800]
-  - idx: 13
+  - idx: 7
     op: 'disposable'

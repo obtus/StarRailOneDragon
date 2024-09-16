@@ -833,7 +833,7 @@ P04_R10_SP01 = TransportPoint('TXDT', '调弦大厅', P04_R10, 'mm_tp_03', (796,
 P04_R10_SP02 = TransportPoint('JYT', '交谊厅', P04_R10, 'mm_tp_03', (1306, 790), tp_pos=(1282, 767))
 P04_R10_SP03 = TransportPoint('FYSL', '福音沙龙', P04_R10, 'mm_tp_03', (283, 792), tp_pos=(319, 782))
 P04_R10_SP04 = TransportPoint('SXCL', '上行长廊', P04_R10, 'mm_tp_03', (813, 1306), tp_pos=(796, 1308))
-P04_R10_SP05 = TransportPoint('', '梦境空间', P04_R10, 'mm_sp_05', (385, 749))
+P04_R10_SP05 = TransportPoint('MJKJ', '梦境空间', P04_R10, 'mm_sp_05', (385, 749))
 P04_R10_SP06 = TransportPoint('XXHNXD', '小小哈努行动', P04_R10, 'mm_sp_11', (1267, 882))
 P04_R10_SP07 = TransportPoint('FSFRDDS', '妃色夫人的「大树」', P04_R10, 'mm_sp_14', (322, 891))
 P04_R10_SP08 = TransportPoint('CMDZLLZYX', '尘梦的赞礼·历战余响', P04_R10, 'mm_boss_05', (793, 298), tp_pos=(796, 309))
@@ -905,7 +905,7 @@ REGION_2_SP = {
     P04_R09_SUB_04.pr_id: [P04_R09_SUB_04_SP01, P04_R09_SUB_04_SP02, P04_R09_SUB_04_SP03, P04_R09_SUB_04_SP04],
     P04_R09_SUB_05.pr_id: [P04_R09_SUB_05_SP01, P04_R09_SUB_05_SP02, P04_R09_SUB_05_SP03],
     P04_R09_SUB_06.pr_id: [P04_R09_SUB_06_SP01, P04_R09_SUB_06_SP02, P04_R09_SUB_06_SP03],
-    P04_R10.pr_id: [P04_R10_SP01, P04_R10_SP02, P04_R10_SP03, P04_R10_SP04, P04_R10_SP05, P04_R10_SP06, P04_R10_SP07,
+    P04_R10.pr_id: [P04_R10_SP01, P04_R10_SP02, P04_R10_SP03, P04_R10_SP04, P04_R10_SP06, P04_R10_SP07,
                     P04_R10_SP08, P04_R10_SP09, P04_R10_SP10, P04_R10_SP11],
     P04_R11_F1.pr_id: [P04_R11_SP01, P04_R11_SP02, P04_R11_SP03, P04_R11_SP04],
 }

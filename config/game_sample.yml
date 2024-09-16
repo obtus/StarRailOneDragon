@@ -4,7 +4,7 @@ mini_map:
   y: 151
 turn_dx: 0
 server_region: CN
-run_mode: 0
+run_mode: 1
 key_interact: 'f'
 key_technique: 'e'
 key_open_map: 'm'
@@ -13,4 +13,4 @@ lang: 'cn'
 game_path: ''
 game_account: ''
 game_account_password: ''
-use_quirky_snacks: false
+use_quirky_snacks: true

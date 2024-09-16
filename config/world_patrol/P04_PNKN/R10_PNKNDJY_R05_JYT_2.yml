@@ -9,14 +9,9 @@ route:
     data: [1302, 748]
   - idx: 2
     op: 'move'
-    data: [1331, 718]
-  - idx: 3
-    op: 'disposable'
-  - idx: 4
-    op: 'move'
     data: [1353, 649]
-  - idx: 5
+  - idx: 3
     op: 'move'
     data: [1315, 647]
-  - idx: 6
+  - idx: 4
     op: 'disposable'
